@@ -21,9 +21,11 @@ These are tools you can use to secure something.
 
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
 
-### Hardware enclaves
+To learn about later: secure enclaves 
 
 ### Economics
+
+- ["Economics" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch8-dec18.pdf)
 
 ### Tamper resistance
 
