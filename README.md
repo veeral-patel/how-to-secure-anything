@@ -158,8 +158,21 @@ There's no such thing as a system being secure, only being secure against a part
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 
-## Other resources
+## Side channels
 
-- [Engineering Trustworthy Systems](https://www.amazon.com/Engineering-Trustworthy-Systems-Cybersecurity-Design/dp/1260118177)
-- Chapters in Anderson's book, like those on telecom and emission security, which I haven't added here as I don't understand the
-domains well enough
+Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
+availability), it may leak information which makes these attacks easier.
+
+For example, take a login program that checks if the username is valid, returns
+a generic "login failed" error if it's not, then checks if the password is valid,
+and returns the same generic error if it's not.
+
+At a first glance, determining if a particular username is valid may seem
+impossible. After all, the error message is the same regardless of whether the
+username is invalid or the username is valid and the password is invalid.
+
+However, an attacker could examine the time it takes to get the error to
+determine if the username is valid or not.
+
+- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
+
