@@ -44,7 +44,6 @@ Biometrics are a mechanism for authentication, in my view. It does this by indic
 
 - ["Biometrics" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch17-dec20.pdf)
 
-
 ### Authorization
 
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
@@ -56,6 +55,10 @@ Think about the intel classification hierarchy: some documents are top secret, o
 #### Multi-lateral
 
 Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
+
+- ["Multilateral Security" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c09.pdf)
+
+- ["Inference Control" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 
 ### Sandboxing
 
