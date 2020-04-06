@@ -41,7 +41,12 @@ This one reason why bags of chips or gallons of milk, for example, are sealed.
 
 ### Authentication
 
-To learn about later: biometrics
+### Biometrics
+
+Biometrics are a mechanism for authentication, in my view. It does this by indicating who you are. (The other two mechanisms are what you know and what you have)
+
+- ["Biometrics" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch17-dec20.pdf)
+
 
 ### Authorization
 
