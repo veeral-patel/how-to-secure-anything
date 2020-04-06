@@ -82,7 +82,7 @@ The chapters in Anderson's book fall into two categories, in my view: mechanisms
 
 We've already learned about the first category; this section is about the second category.
 
-### Read actively!
+#### Read actively!
 
 It's a lot more educational (and fun!) to try to figure out how you'd secure a system yourself than it is to just look at the answer and move on.
 
