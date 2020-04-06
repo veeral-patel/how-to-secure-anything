@@ -1,4 +1,4 @@
-# Awesome Security Engineering
+# Learn Security Engineering
 
 Security engineering, to me, is the discipline of building secure systems. 
 Ultimately, I hope to learn how to systematically secure anything --
@@ -9,16 +9,12 @@ not be the learning path that works best for you.
 
 Also, this is a curated, not comprehensive, list of resources.
 
-## Learn the "levers" at my disposal
-
-These are tools you can use to secure something. 
+## Learn the fundamental tools for securing anything
 
 ### Cryptography
 
 - ["Cryptography Engineering" book](https://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications-ebook/dp/B004NSW9JU/ref=sr_1_1?crid=WBP1JC682B4V&dchild=1&keywords=cryptography+engineering&qid=1586149852&s=books&sprefix=cryptography+eng%2Cstripbooks%2C-1&sr=1-1)
-
 - ["Cryptography" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch5-dec18.pdf)
-
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
 
 To learn about later: secure enclaves 
@@ -43,14 +39,30 @@ This one reason why bags of chips or gallons of milk, for example, are sealed.
 
 - ["Security printing and seals" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
-### Access control
+### Authentication
 
-- ["Access control" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch6-dec18.pdf)
+To learn about later: biometrics
 
 ### Authorization
 
-### Biometrics
+Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
+
+#### Multi-level
+
+Think about the intel classification hierarchy: some documents are top secret, others are secret, others are confidential, and so on. This is a multi-level scheme.
+
+#### Multi-lateral
+
+Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
 
 ### Sandboxing
 
-Add more to this list!
+Sandboxes let us take a untrusted component of a system and apply a security policy to it.
+
+Say you're a king, ruling over some citizens and criminals. You may want to sandbox the criminals to prevent them from harming your citizens, by, say, putting them in jail. While they can still harm each other, you've contained the damage.
+
+- [A Theory and Tools for Applying Sandboxes Effectively](http://www.cs.cmu.edu/~mmaass/pdfs/dissertation.pdf)
+- [Chrome Sandbox Design Doc](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
+- [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
+- [gvisor](https://github.com/google/gvisor)
+- [sandy](https://github.com/hobochild/sandy)
