@@ -142,7 +142,13 @@ Find resources!
 
 ## Understand your adversaries
 
+There's no such thing as a system being secure, only being secure against a particular adversary.
+
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+
+## Assurance
+
+- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 
 ## Other resources
 
