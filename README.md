@@ -91,10 +91,19 @@ As you read, try answering these questions:
 - See if you can use any of the mechanisms from the section above
 - After you learn how the system is secured in real life, ask: did you derive any controls that exist? If you came up with controls that don't exist, why don't they exist today? What controls did you miss and why?
 
+
 ### Physical protection
 
 - ["Physical protection" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
 
+### Nuclear
+
+### Banking and bookkeeping
+
 ## Learn how to understand your adversaries
 
 - ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+
+## Other resources
+
+- [Engineering Trustworthy Systems](https://www.amazon.com/Engineering-Trustworthy-Systems-Cybersecurity-Design/dp/1260118177)
