@@ -88,7 +88,7 @@ As you read, try answering these questions:
 - Draw kill chains to map the attacks our adversaries use. Then, think of ways to disrupt each step in the kill chain
 - What defenses can I put in place for prevention? Detection? Response? 
 - See if you can apply any of the basic security design principles (least privilege, defense in depth, privilege separation, etc)
-- See if you can use any of the mechanisms from the secion above
+- See if you can use any of the mechanisms from the section above
 - After you learn how the system is secured in real life, ask: did you derive any controls that exist? If you came up with controls that don't exist, why don't they exist today? What controls did you miss and why?
 
 ### Physical protection
