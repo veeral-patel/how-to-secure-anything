@@ -4,10 +4,7 @@ Security engineering, to me, is the discipline of building secure systems.
 Ultimately, I hope to learn how to systematically secure anything --
 whether it's a computer network or medieval castle.
 
-This documents how I'm going about learning about security engineering. It may
-not be the learning path that works best for you.
-
-Also, this is a curated, not comprehensive, list of resources.
+I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
 
 ## Learn the fundamental tools for securing anything
 
@@ -72,10 +69,6 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
-## Understand your adversaries
-
-- ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
-
 ## Learn how some real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
@@ -83,3 +76,7 @@ The chapters in Anderson's book fall into two categories, in my view: mechanisms
 We've already learned about the first category; this section is about the second category.
 
 - ["Physical protection" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
+
+## Learn how to understand your adversaries
+
+- ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
