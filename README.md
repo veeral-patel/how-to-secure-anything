@@ -54,14 +54,6 @@ Biometrics are a mechanism for authentication, in my view. It does this by indic
 
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
 
-### Protocols
-
-Protocols aren't a tool for securing something. But all communication between two components of a system is done through
-a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
-
-- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-
-
 #### Multi-level
 
 Think about the intel classification hierarchy: some documents are top secret, others are secret, others are confidential, and so on. This is a multi-level scheme.
@@ -86,6 +78,15 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 - [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
+
+### Protocols
+
+Protocols aren't a tool for securing something. But all communication between two components of a system is done through
+a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
+
+- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
+
+
 
 ## Learn how some real world systems are secured
 
