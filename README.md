@@ -75,6 +75,24 @@ The chapters in Anderson's book fall into two categories, in my view: mechanisms
 
 We've already learned about the first category; this section is about the second category.
 
+### Read actively!
+
+It's a lot more educational (and fun!) to try to figure out how you'd secure a system yourself than it is to just look at the answer and move on.
+
+(You can't do this for systems you don't understand, of course, like nuclear power plants.)
+
+As you read, try answering these questions:
+
+- Who are our adversaries? What are their motives, capabilities, and TTPs?
+- Draw out attack trees for possible attacks against us. Are we secure against the weakest link?
+- Draw kill chains to map the attacks our adversaries use. Then, think of ways to disrupt each step in the kill chain
+- What defenses can I put in place for prevention? Detection? Response? 
+- See if you can apply any of the basic security design principles (least privilege, defense in depth, privilege separation, etc)
+- See if you can use any of the mechanisms from the secion above
+- After you learn how the system is secured in real life, ask: did you derive any controls that exist? If you came up with controls that don't exist, why don't they exist today? What controls did you miss and why?
+
+### Physical protection
+
 - ["Physical protection" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
 
 ## Learn how to understand your adversaries
