@@ -36,7 +36,9 @@ This one reason why bags of chips or gallons of milk, for example, are sealed.
 
 - ["Security printing and seals" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
-### Authentication
+### Access control
+
+- ["Access Control" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
 
 ### Biometrics
 
@@ -48,16 +50,18 @@ Biometrics are a mechanism for authentication, in my view. It does this by indic
 
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
 
+
 #### Multi-level
 
 Think about the intel classification hierarchy: some documents are top secret, others are secret, others are confidential, and so on. This is a multi-level scheme.
+
+- ["Multilevel Security" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c08.pdf)
 
 #### Multi-lateral
 
 Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
 
-- ["Multilateral Security" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c09.pdf)
-
+- ["Boundaries" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 - ["Inference Control" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 
 ### Sandboxing
@@ -117,6 +121,14 @@ As you read, try answering these questions:
 
 - ["Distributed systems" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch7-dec18.pdf)
 
+### Copyright and DRM
+
+- ["Copyright and DRM" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c22.pdf)
+
+### Elections
+
+Find resources!
+
 ## Learn how to understand your adversaries
 
 - ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
@@ -124,3 +136,5 @@ As you read, try answering these questions:
 ## Other resources
 
 - [Engineering Trustworthy Systems](https://www.amazon.com/Engineering-Trustworthy-Systems-Cybersecurity-Design/dp/1260118177)
+- Chapters in Anderson's book, like those on telecom and emission security, which I haven't added here as I don't understand the
+domains well enough
