@@ -136,6 +136,14 @@ As you read, try answering these questions:
 
 - ["Copyright and DRM" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c22.pdf)
 
+### Chromium
+
+- [Security Architecture of the Chromium Browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+
+### Apple
+
+- [Apple Platform Security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
+
 ### Elections
 
 Find resources!
