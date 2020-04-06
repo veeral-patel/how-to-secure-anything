@@ -71,3 +71,7 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 - [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
+
+## Understand your adversaries
+
+- ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
