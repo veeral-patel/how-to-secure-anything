@@ -33,6 +33,10 @@ To learn about later: secure enclaves
 
 ### Tamper detection
 
+If we can't prevent tampering, we can try to make it obvious when something has been tampered with.
+
+This one reason why bags of chips or gallons of milk, for example, are sealed.
+
 - ["Security printing and seals" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
 ### Access control
