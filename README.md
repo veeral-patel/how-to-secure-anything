@@ -75,3 +75,7 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 ## Understand your adversaries
 
 - ["Who is your opponent?" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+
+## Learn how some real world systems are secured
+
+- ["Physical protection" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
