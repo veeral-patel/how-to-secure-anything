@@ -78,4 +78,8 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 
 ## Learn how some real world systems are secured
 
+The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
+
+We've already learned about the first category; this section is about the second category.
+
 - ["Physical protection" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
