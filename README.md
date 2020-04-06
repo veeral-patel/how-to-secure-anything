@@ -100,6 +100,7 @@ As you read, try answering these questions:
 
 - ["Nuclear command and control" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch15-dec18.pdf)
 - [Nuclear Security Recommendations on Physical Protection of Nuclear Material and Nuclear Facilities](https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1481_web.pdf)
+- [Nuclear Security Series](https://www.iaea.org/publications/search/type/nuclear-security-series)
 
 ### Banking and bookkeeping
 
