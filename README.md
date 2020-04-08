@@ -6,6 +6,10 @@ whether it's a computer network or medieval castle.
 
 I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
 
+## Foundational papers
+
+- [Reflections on trusting trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
+
 ## Learn the theory
 
 - ["What is security engineering?" (from Anderson's book)](https://github.com/veeral-patel/learn-security-engineering)
