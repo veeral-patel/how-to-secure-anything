@@ -185,6 +185,9 @@ There's no such thing as a system being secure, only being secure against a part
 
 ## Assurance
 
+The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
+Assurance is how we prove that our system satisfies the properties we want it to.
+
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 
 ## Side channels
