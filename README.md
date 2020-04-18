@@ -30,7 +30,20 @@ The idea here is to make it economically, not technically, infeasible for the at
 
 Say a scammer manages to scam one of every hundred people out of $5. If we can add a $0.10 fee to every call, then he'd need to pay $10 in fees to earn $5.
 
+Another example would be not storing credit card data ourselves, and instead outsourcing this to a payment processor, so the reward of attacking us is less.
+
+If the attacker isn't motivated by money, this doesn't work.
+
 - ["Economics" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch8-dec18.pdf)
+- [Security Economics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/) - here's the [transcript](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/8PdnOZI7H5E.pdf)
+
+### Laws and regulations
+
+You could lobby the government to punish those who do whatever you'd like to defend against. Even if the government can't catch every perpetrator, this will
+deter many people. The CFAA and copyright protection laws are examples of this.
+
+- [Prosecuting cyber crimes (DOJ)](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/01/14/ccmanual.pdf)
+- [Text of the Computer Fraud and Abuse Act](https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119231899.app4)
 
 ### Tamper resistance
 
