@@ -8,7 +8,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 
 ## Learn the theory
 
-- ["What is security engineering?" (from Anderson's book)](https://github.com/veeral-patel/learn-security-engineering)
+- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf)
 
 ## Fundamental tools for securing anything
 
