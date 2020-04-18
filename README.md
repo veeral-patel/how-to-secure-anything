@@ -104,7 +104,16 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
-### Protocols
+### Obscurity
+
+Obscurity, not its own, does not count as security. However, it can be added on top of real security measures, to make attacks on you
+require more time and a higher skill level.
+
+- [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
+
+## Techniques
+
+### Protocol analysis
 
 Protocols aren't a tool for securing something. But all communication between two components of a system is done through
 a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
@@ -112,7 +121,7 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 
-### Trusted computing base
+### Trusted computing base (TCB) design
 
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf)
