@@ -173,10 +173,6 @@ As you read, try answering these questions:
 
 - [Apple Platform Security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
 
-### Elections
-
-Find resources!
-
 ## Understand your adversaries
 
 There's no such thing as a system being secure, only being secure against a particular adversary.
