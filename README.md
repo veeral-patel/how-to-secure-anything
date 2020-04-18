@@ -1,6 +1,6 @@
 # Learn Security Engineering
 
-Security engineering, to me, is the discipline of building secure systems. 
+Security engineering, to me, is the discipline of building secure systems.
 Ultimately, I hope to learn how to systematically secure anything --
 whether it's a computer network or medieval castle.
 
@@ -22,7 +22,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 - ["Cryptography" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch5-dec18.pdf)
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
 
-To learn about later: secure enclaves 
+To learn about later: secure enclaves
 
 ### Economics
 
@@ -66,6 +66,7 @@ This one reason why bags of chips or gallons of milk, for example, are sealed.
 ### Access control
 
 - ["Access Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
+- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 
 ### Biometrics
 
@@ -96,6 +97,7 @@ Sandboxes let us take a untrusted component of a system and apply a security pol
 
 Say you're a king, ruling over some citizens and criminals. You may want to sandbox the criminals to prevent them from harming your citizens, by, say, putting them in jail. While they can still harm each other, you've contained the damage.
 
+- [On Safes, Sandboxes, and Spies (CS 161 at UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec5.pdf)
 - [A Theory and Tools for Applying Sandboxes Effectively](http://www.cs.cmu.edu/~mmaass/pdfs/dissertation.pdf)
 - [Chrome Sandbox Design Doc](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
 - [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
@@ -109,8 +111,6 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
-
-
 
 ## Learn how some real world systems are secured
 
@@ -129,11 +129,10 @@ As you read, try answering these questions:
 - Who are our adversaries? What are their motives, capabilities, and TTPs?
 - Draw out attack trees for possible attacks against us. Are we secure against the weakest link?
 - Draw kill chains to map the attacks our adversaries use. Then, think of ways to disrupt each step in the kill chain
-- What defenses can I put in place for prevention? Detection? Response? 
+- What defenses can I put in place for prevention? Detection? Response?
 - See if you can apply any of the basic security design principles (least privilege, defense in depth, privilege separation, etc)
 - See if you can use any of the mechanisms from the section above
 - After you learn how the system is secured in real life, ask: did you derive any controls that exist? If you came up with controls that don't exist, why don't they exist today? What controls did you miss and why?
-
 
 ### Physical protection
 
@@ -201,3 +200,6 @@ determine if the username is valid or not.
 
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 
+## Trusted computing base
+
+- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
