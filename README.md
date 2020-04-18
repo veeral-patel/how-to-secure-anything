@@ -130,6 +130,24 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
 
+### Side channel identification
+
+Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
+availability), it may leak information which makes these attacks easier.
+
+For example, take a login program that checks if the username is valid, returns
+a generic "login failed" error if it's not, then checks if the password is valid,
+and returns the same generic error if it's not.
+
+At a first glance, determining if a particular username is valid may seem
+impossible. After all, the error message is the same regardless of whether the
+username is invalid or the username is valid and the password is invalid.
+
+However, an attacker could examine the time it takes to get the error to
+determine if the username is valid or not.
+
+- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
+
 ## Learn how some real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
@@ -198,21 +216,3 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
-
-## Side channels
-
-Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
-availability), it may leak information which makes these attacks easier.
-
-For example, take a login program that checks if the username is valid, returns
-a generic "login failed" error if it's not, then checks if the password is valid,
-and returns the same generic error if it's not.
-
-At a first glance, determining if a particular username is valid may seem
-impossible. After all, the error message is the same regardless of whether the
-username is invalid or the username is valid and the password is invalid.
-
-However, an attacker could examine the time it takes to get the error to
-determine if the username is valid or not.
-
-- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
