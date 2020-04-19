@@ -15,3 +15,5 @@ authorized(subject, object, action) = true iff subject is allowed to perform the
 - Discretionary access control = users can grant to files to other users, and remove access
 - Mandatory access control = authz rules are set and can't be changed by users
 - DAC = access control matrix is editable, MAC = it's un-editable
+
+(incomplete)
