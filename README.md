@@ -15,6 +15,9 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 
 There's no such thing as a system being secure, only being secure against a particular adversary.
 
+This is why it's important to understand who your adversaries are, as well as the motivation behind
+and capabilities of each adversary.
+
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 
 ## Design Techniques
