@@ -1,4 +1,4 @@
-# CH12: Deterrence and Adversarial Risk
+# CH16: Deterrence and Adversarial Risk
 
 from "Engineering Trustworthy Systems" by Saydjari
 
