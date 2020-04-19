@@ -6,11 +6,11 @@ whether it's a computer network or medieval castle.
 
 I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
 
-## Learn the theory
+## Fundamentals
 
 - ["What is security engineering?" (from Anderson's book)](https://github.com/veeral-patel/learn-security-engineering)
 
-## Fundamental tools for securing anything
+## Basic tools for securing anything
 
 In order to secure something, you need to know what tools are available to you. Here are some that which can be used in many different contexts.
 
