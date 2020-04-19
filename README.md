@@ -25,8 +25,7 @@ There's no such thing as a system being secure, only being secure against a part
 This is why it's important to understand who your adversaries are, as well as the motivation behind
 and capabilities of each adversary.
 
-Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may be a
-reliability issue, not a security issue -- but it's something to guard against, regardless.
+Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 
