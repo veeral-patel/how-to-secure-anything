@@ -52,7 +52,7 @@ The government is not the only third party who can deter attacks on you. Organiz
 
 Alternatively, you can try to retaliate against attacks yourself. Take, for example, media companies that sue people that pirate their movies.
 
-- [Deterrence and adversarial risk (from Saydjari's book)](saydjari-ch16.md)
+- [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari-ch16.md)
 
 ### Tamper resistance
 
