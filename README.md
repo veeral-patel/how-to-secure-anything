@@ -155,10 +155,6 @@ determine if the username is valid or not.
 
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 
-### Attack trees
-
-- [Toward A Secure System Engineering Methodology](https://www.schneier.com/academic/paperfiles/paper-secure-methodology.pdf)
-
 ## Learn how some real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
