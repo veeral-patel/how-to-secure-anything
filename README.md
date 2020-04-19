@@ -6,18 +6,64 @@ whether it's a computer network or medieval castle.
 
 I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
 
-## Fundamentals
+## What's the goal?
 
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
+
+## Understand your adversaries
+
+There's no such thing as a system being secure, only being secure against a particular adversary.
+
+- ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+
+## Design Techniques
+
+- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
+
+
+### Trusted computing base (TCB)
+
+- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
+- [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf)
+
+### Privilege separation
+
+- [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
+
+## Analysis Techniques
+
+### Protocol analysis
+
+Protocols aren't a tool for securing something. But all communication between two components of a system is done through
+a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
+
+- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
+- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+
+### Side channel identification
+
+Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
+availability), it may leak information which makes these attacks easier.
+
+For example, take a login program that checks if the username is valid, returns
+a generic "login failed" error if it's not, then checks if the password is valid,
+and returns the same generic error if it's not.
+
+At a first glance, determining if a particular username is valid may seem
+impossible. After all, the error message is the same regardless of whether the
+username is invalid or the username is valid and the password is invalid.
+
+However, an attacker could examine the time it takes to get the error to
+determine if the username is valid or not.
+
+- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 
 ## Basic tools for securing anything
 
 In order to secure something, you need to know what tools are available to you. Here are some that which can be used in many different contexts.
 
 A lot of tools are context-specific, however. Before I start trying to secure a building, for example, I'd spend the time to learn about all the tools I can use: walls, sensors, natural barriers, guards, CCTV cameras, etc
-
-- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
 
 ### Cryptography
 
@@ -116,46 +162,7 @@ require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
 
-## Design Techniques
-
-### Trusted computing base (TCB) design
-
-- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
-- [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf)
-
-### Privilege separation
-
-- [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
-
-## Analysis Techniques
-
-### Protocol analysis
-
-Protocols aren't a tool for securing something. But all communication between two components of a system is done through
-a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
-
-- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
-
-### Side channel identification
-
-Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
-availability), it may leak information which makes these attacks easier.
-
-For example, take a login program that checks if the username is valid, returns
-a generic "login failed" error if it's not, then checks if the password is valid,
-and returns the same generic error if it's not.
-
-At a first glance, determining if a particular username is valid may seem
-impossible. After all, the error message is the same regardless of whether the
-username is invalid or the username is valid and the password is invalid.
-
-However, an attacker could examine the time it takes to get the error to
-determine if the username is valid or not.
-
-- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
-
-## Learn how some real world systems are secured
+## Learn about how real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
 
@@ -211,12 +218,6 @@ As you read, try answering these questions:
 ### Apple
 
 - [Apple platform security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
-
-## Understand your adversaries
-
-There's no such thing as a system being secure, only being secure against a particular adversary.
-
-- ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 
 ## Assurance
 
