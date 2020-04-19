@@ -116,15 +116,7 @@ require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
 
-## Techniques
-
-### Protocol analysis
-
-Protocols aren't a tool for securing something. But all communication between two components of a system is done through
-a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
-
-- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+## Design Techniques
 
 ### Trusted computing base (TCB) design
 
@@ -134,6 +126,16 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 ### Privilege separation
 
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
+
+## Analysis Techniques
+
+### Protocol analysis
+
+Protocols aren't a tool for securing something. But all communication between two components of a system is done through
+a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
+
+- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
+- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 
 ### Side channel identification
 
