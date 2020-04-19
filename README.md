@@ -25,6 +25,9 @@ There's no such thing as a system being secure, only being secure against a part
 This is why it's important to understand who your adversaries are, as well as the motivation behind
 and capabilities of each adversary.
 
+Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may be a
+reliability issue, not a security issue -- but it's something to guard against, regardless.
+
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 
 ## Design techniques
@@ -52,6 +55,22 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 
 ## Analysis techniques
 
+### Prevent/detect/respond framework
+
+Write up!
+
+### Attack trees
+
+Write up!
+
+### Kill chains
+
+Write up!
+
+### Component analysis
+
+Write up!
+
 ### Protocol analysis
 
 Protocols aren't a tool for securing something. But all communication between two components of a system is done through
@@ -59,6 +78,18 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+
+### System analysis
+
+Write up!
+
+### Assumption analysis
+
+Write up!
+
+### Failure analysis
+
+Write up!
 
 ### Side channel identification
 
