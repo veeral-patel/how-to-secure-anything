@@ -1,6 +1,6 @@
 # Learn Security Engineering
 
-Security engineering, to me, is the discipline of building secure systems. 
+Security engineering, to me, is the discipline of building secure systems.
 Ultimately, I hope to learn how to systematically secure anything --
 whether it's a computer network or medieval castle.
 
@@ -8,7 +8,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 
 ## Fundamentals
 
-- ["What is security engineering?" (from Anderson's book)](https://github.com/veeral-patel/learn-security-engineering)
+- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf)
 
 ## Basic tools for securing anything
 
@@ -22,7 +22,7 @@ A lot of tools are context-specific, however. Before I start trying to secure a 
 - ["Cryptography" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch5-dec18.pdf)
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
 
-To learn about later: secure enclaves 
+To learn about later: secure enclaves
 
 ### Economics
 
@@ -59,13 +59,14 @@ Alternatively, you can try to retaliate against attacks yourself. Take, for exam
 
 If we can't prevent tampering, we can try to make it obvious when something has been tampered with.
 
-This one reason why bags of chips or gallons of milk, for example, are sealed.
+This is one reason why bags of chips or gallons of milk, for example, are sealed.
 
 - ["Security printing and seals" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
 ### Access control
 
 - ["Access Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
+- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 
 ### Biometrics
 
@@ -96,13 +97,23 @@ Sandboxes let us take a untrusted component of a system and apply a security pol
 
 Say you're a king, ruling over some citizens and criminals. You may want to sandbox the criminals to prevent them from harming your citizens, by, say, putting them in jail. While they can still harm each other, you've contained the damage.
 
+- [On Safes, Sandboxes, and Spies (CS 161 at UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec5.pdf)
 - [A Theory and Tools for Applying Sandboxes Effectively](http://www.cs.cmu.edu/~mmaass/pdfs/dissertation.pdf)
 - [Chrome Sandbox Design Doc](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
 - [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
-### Protocols
+### Obscurity
+
+Obscurity, not its own, does not count as security. However, it can be added on top of real security measures, to make attacks on you
+require more time and a higher skill level.
+
+- [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
+
+## Techniques
+
+### Protocol analysis
 
 Protocols aren't a tool for securing something. But all communication between two components of a system is done through
 a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
@@ -110,7 +121,36 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 
+### Trusted computing base (TCB) design
 
+- [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
+- [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf)
+
+### Privilege separation
+
+- [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
+
+### Side channel identification
+
+Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
+availability), it may leak information which makes these attacks easier.
+
+For example, take a login program that checks if the username is valid, returns
+a generic "login failed" error if it's not, then checks if the password is valid,
+and returns the same generic error if it's not.
+
+At a first glance, determining if a particular username is valid may seem
+impossible. After all, the error message is the same regardless of whether the
+username is invalid or the username is valid and the password is invalid.
+
+However, an attacker could examine the time it takes to get the error to
+determine if the username is valid or not.
+
+- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
+
+### Attack trees
+
+- [Toward A Secure System Engineering Methodology](https://www.schneier.com/academic/paperfiles/paper-secure-methodology.pdf)
 
 ## Learn how some real world systems are secured
 
@@ -129,11 +169,10 @@ As you read, try answering these questions:
 - Who are our adversaries? What are their motives, capabilities, and TTPs?
 - Draw out attack trees for possible attacks against us. Are we secure against the weakest link?
 - Draw kill chains to map the attacks our adversaries use. Then, think of ways to disrupt each step in the kill chain
-- What defenses can I put in place for prevention? Detection? Response? 
+- What defenses can I put in place for prevention? Detection? Response?
 - See if you can apply any of the basic security design principles (least privilege, defense in depth, privilege separation, etc)
 - See if you can use any of the mechanisms from the section above
 - After you learn how the system is secured in real life, ask: did you derive any controls that exist? If you came up with controls that don't exist, why don't they exist today? What controls did you miss and why?
-
 
 ### Physical protection
 
@@ -161,17 +200,14 @@ As you read, try answering these questions:
 
 - ["Copyright and DRM" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c22.pdf)
 
-### Chromium
+### Google
 
-- [Security Architecture of the Chromium Browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [BeyondCorp: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
 
 ### Apple
 
-- [Apple Platform Security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
-
-### Elections
-
-Find resources!
+- [Apple platform security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
 
 ## Understand your adversaries
 
@@ -181,23 +217,7 @@ There's no such thing as a system being secure, only being secure against a part
 
 ## Assurance
 
+The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
+Assurance is how we prove that our system satisfies the properties we want it to.
+
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
-
-## Side channels
-
-Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
-availability), it may leak information which makes these attacks easier.
-
-For example, take a login program that checks if the username is valid, returns
-a generic "login failed" error if it's not, then checks if the password is valid,
-and returns the same generic error if it's not.
-
-At a first glance, determining if a particular username is valid may seem
-impossible. After all, the error message is the same regardless of whether the
-username is invalid or the username is valid and the password is invalid.
-
-However, an attacker could examine the time it takes to get the error to
-determine if the username is valid or not.
-
-- ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
-
