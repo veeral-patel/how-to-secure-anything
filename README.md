@@ -8,6 +8,13 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 
 ## What's the goal?
 
+Security engineering isn't about adding a bunch of controls to something.
+
+It's about coming up with security properties you'd like a system to follow, choosing
+mechanisms that enforce these properties, and assuring yourself that your security properties hold.
+
+Start by coming up with your desired security properties. 
+
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
 
