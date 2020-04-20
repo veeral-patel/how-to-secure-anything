@@ -59,13 +59,13 @@ additional controls you can add and vulnerabilities you need to resolve.
 
 ### Prevent/detect/respond framework
 
-The way I see it, every security control falls into one of these categories:
+The way I see it, every defense falls into one of these categories:
 
 - Prevent: consists of deter, stop
 - Detect
 - Respond: consists of contain, investigate, remediate
 
-Take any attack, and try brainstorming defenses against it for each of the six categories.
+Take any attack. Then, for each of the six categories, brainstorm defenses that fall into that category.
 
 ### Attack trees
 
