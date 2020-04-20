@@ -55,11 +55,17 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 ## Analysis techniques
 
 Once you've come up with an initial design, the techniques below help you find
-additional controls you can add and vulnerabilities to resolve.
+additional controls you can add and vulnerabilities you need to resolve.
 
 ### Prevent/detect/respond framework
 
-Write up!
+The way I see it, every security control falls into one of these categories:
+
+- Prevent: consists of deter, stop
+- Detect
+- Respond: consists of contain, investigate, remediate
+
+Take any attack, and try brainstorming defenses against it for each of the six categories.
 
 ### Attack trees
 
@@ -80,10 +86,6 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
-
-### System analysis
-
-Write up!
 
 ### Assumption analysis
 
