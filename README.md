@@ -31,8 +31,6 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 
 ## Design techniques
 
-- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
-
 ### Minimize attack surface
 
 See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818):
@@ -75,9 +73,16 @@ Write up!
 
 Write up!
 
-### Component analysis
+### Control analysis
 
-Write up!
+Every security control must be impossible to bypass, tamperproof, and functionally correct. It must also fail closed.
+
+If this is not the case, then an attacker can violate a system's security properties by subverting its
+controls.
+
+Saydjari writes an entire chapter on this:
+
+- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
 
 ### Protocol analysis
 
