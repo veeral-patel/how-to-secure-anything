@@ -75,7 +75,8 @@ Write up!
 
 ### Control analysis
 
-Every security control must be impossible to bypass, tamperproof, and functionally correct. It must also fail closed.
+Every security control must be impossible to bypass, tamperproof, and functionally correct. It must
+also fail closed.
 
 If this is not the case, then an attacker can violate a system's security properties by subverting its
 controls.
