@@ -54,6 +54,9 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 
 ## Analysis techniques
 
+Once you've come up with an initial design, the techniques below help you find
+additional controls you can add and vulnerabilities to resolve.
+
 ### Prevent/detect/respond framework
 
 Write up!
