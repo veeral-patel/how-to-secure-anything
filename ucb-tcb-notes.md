@@ -36,3 +36,31 @@ Note that these are the same principles when evaluating a control!
 - Verifiable
 
 Keep the TCB small and simple!
+
+## Benefits of TCBs?
+
+- TCBs lets us separate a system into two parts: the part that is security-critical and everything else
+- As someone looking to secure a system, this means we can ignore the parts that don't matter to us!
+
+## Example: National Archives
+
+- Need to save a copy of every email ever sent by government officials
+- Want to ensure that an email, once sent, cannot be edited or deleted in the future
+
+### Approach 1: store emails on a special directory on officials' laptops
+
+- TCB: every copy of every email application on each laptop, and OSs, and sysadmins with root access to those laptps
+
+### Approach 2: print emails
+
+- TCB: printer, physical security of the room
+
+### Approach 3: computer with archiving service and a read only filesystem
+
+- TCB: computer, archiving service, OS, filesystem, privileged code, sysadmins of machine, physical security of the room this computer is in
+
+### Remember
+
+- Know what's in your TCB
+- Make your TCB as small, simple, unbypassable, tamper-resistant, and verifiable as you can
+- When designing your system, decompose it into components such that the TCB is as small as possible
