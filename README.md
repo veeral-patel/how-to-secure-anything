@@ -82,7 +82,7 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 
 ### Attack trees
 
-Write up!
+- [Attack trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
 ### Kill chains
 
