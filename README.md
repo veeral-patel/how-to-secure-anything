@@ -49,7 +49,7 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
 
-### Trusted computing base (TCB)
+### Minimize, simplify, verify your trusted computing base (TCB)
 
 When evaluating a design, it's useful to see how much of the system must be trusted in order for a security goal
 to be achieved. The smaller this trusted computing base is, the better.
@@ -57,7 +57,7 @@ to be achieved. The smaller this trusted computing base is, the better.
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
 
-### Separate and minimize privilege
+### Separate, minimize privilege
 
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
