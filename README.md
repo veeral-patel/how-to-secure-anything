@@ -55,12 +55,15 @@ When evaluating a design, it's useful to see how much of the system must be trus
 to be achieved. The smaller this trusted computing base is, the better.
 
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
-- [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf)
+- [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
 
 ### Privilege separation
 
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
+- [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
+- [Preventing privilege escalation (by Niels Provos)](http://www.citi.umich.edu/u/provos/papers/privsep.pdf)
+- [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 
 ### Security design principles
 
