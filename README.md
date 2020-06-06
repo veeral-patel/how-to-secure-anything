@@ -6,7 +6,7 @@ whether it's a computer network or medieval castle.
 
 I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
 
-## What's the goal?
+## What is security engineering?
 
 Security engineering isn't about adding a bunch of controls to something.
 
@@ -138,7 +138,7 @@ determine if the username is valid or not.
 
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 
-## Basic tools for securing anything
+## Popular mechanisms
 
 In order to secure something, you need to know what tools are available to you. Here are some that which can be used in many different contexts.
 
