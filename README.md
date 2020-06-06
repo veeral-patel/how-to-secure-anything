@@ -114,7 +114,11 @@ Write up!
 
 ### Failure analysis
 
-Write up!
+It may be worth examining how a system's security properties are affected when it,
+or a part of it, fails. I've never done this myself, so I have some reading to do.
+
+- [FMEA (from ASQ)](https://asq.org/quality-resources/fmea)
+- [There's several FMEA books](https://www.google.com/search?q=fmea+books)
 
 ### Side channel identification
 
