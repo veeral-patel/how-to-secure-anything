@@ -31,6 +31,9 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 
 ## Design techniques
 
+I think you can make a system fairly secure just by trying to design in security from
+the beginning. Here are some techniques for doing this.
+
 ### Minimize attack surface
 
 See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818):
