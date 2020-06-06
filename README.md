@@ -82,6 +82,13 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 
 ### Attack trees
 
+After building an attack tree, you can query it easily: "list all the attack paths costing
+less than $100k". (Remember: we don't seek absolute security, but rather security against
+a certain set of adversaries.)
+
+Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles/knowledge/principles/securing-the-weakest-link). You can query your attack tree for the lowest cost attack
+path and ensure that the cost isn't too low. 
+
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
 ### Kill chains
