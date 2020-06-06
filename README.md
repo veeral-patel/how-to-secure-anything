@@ -310,3 +310,8 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md)
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 - Engineering Trustworthy Systems
+
+## Future improvements to this repo
+
+- Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
+me make the steps more practical as well and fill in any gaps I'm missing.
