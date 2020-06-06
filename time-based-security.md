@@ -20,3 +20,8 @@ You won't miss out on much if you just read these notes instead of reading the w
 - Vaults are not 100% secure. They can be broken into
 - The purpose of a vault is not to secure something on its own
 - It's to prevent the robbers from stealing what's inside before the police come
+
+## CH9: The PDR security formula
+
+- Pt > Dt + Rt
+- The amount of time offered by the prevention controls must exceed the amount of time it takes to detect and respond to the attack
