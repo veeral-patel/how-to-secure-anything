@@ -15,7 +15,7 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 
 Start by coming up with your desired security properties. 
 
-- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf)
+- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson-ch1.md)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
 
 ## Understand your adversaries
