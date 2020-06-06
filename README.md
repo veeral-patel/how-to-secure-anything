@@ -289,3 +289,4 @@ Assurance is how we prove that our system satisfies the properties we want it to
 
 - [Secure by Design](https://www.amazon.com/Secure-Design-Daniel-Deogun/dp/1617294357/)
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
+- Engineering Trustworthy Systems
