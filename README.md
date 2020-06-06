@@ -28,8 +28,14 @@ and capabilities of each adversary.
 Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+- [Threat Modeling (Microsoft Professional)](https://www.amazon.com/Threat-Modeling-Microsoft-Professional-Swiderski/dp/0735619913)
+- [Threat Modeling: Risk Identification and Avoidance in Secure Design](https://www.amazon.com/dp/1492056553)
+- [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 
 ## Design techniques
+
+I think you can make a system fairly secure just by trying to design in security from
+the beginning. Here are some techniques for doing this.
 
 ### Minimize attack surface
 
@@ -40,6 +46,8 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 > The same goes for most of the stuff shrink-wrap tools look for in web logs. OSSEC isn't bad, but the things you're going to light up on with OSSEC out of the box all mean something went so wrong that you got owned up.
 
 > Same with URL regexes. You can set up log detection for people hitting your admin interfaces. But then you have to ask: why is your admin interface available on routable IPs to begin with?
+
+- [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
 
 ### Trusted computing base (TCB)
 
@@ -276,3 +284,8 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+
+## Other books
+
+- [Secure by Design](https://www.amazon.com/Secure-Design-Daniel-Deogun/dp/1617294357/)
+- [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
