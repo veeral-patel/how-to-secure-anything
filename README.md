@@ -86,6 +86,9 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 
 ### Kill chains
 
+By mapping out an adversary's kill chain, we can then identify controls to counteract
+each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/).
+
 - [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
 
 ### Control analysis
