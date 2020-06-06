@@ -64,6 +64,7 @@ to be achieved. The smaller this trusted computing base is, the better.
 - [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
 - [Preventing privilege escalation (by Niels Provos)](http://www.citi.umich.edu/u/provos/papers/privsep.pdf)
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
 
 ### Security design principles
 
