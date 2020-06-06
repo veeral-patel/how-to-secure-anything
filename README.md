@@ -53,6 +53,10 @@ to be achieved. The smaller this trusted computing base is, the better.
 
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/)
 
+### Security design principles
+
+- [Design Principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+
 ## Analysis techniques
 
 Once you've come up with an initial design, the techniques below help you find
@@ -64,9 +68,9 @@ The way I see it, every defense falls into one of these categories:
 
 - Prevent: consists of deter, stop
 - Detect
-- Respond: consists of contain, investigate, remediate
+- Respond: consists of delay, contain, investigate, remediate
 
-Take any attack. Then, for each of the six categories, brainstorm defenses that fall into that category.
+Take any attack. Then, for each of the seven categories, brainstorm defenses that fall into that category.
 
 ### Attack trees
 
