@@ -82,11 +82,11 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 
 ### Attack trees
 
-- [Attack trees](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
+- [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
 ### Kill chains
 
-Write up!
+- [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
 
 ### Control analysis
 
