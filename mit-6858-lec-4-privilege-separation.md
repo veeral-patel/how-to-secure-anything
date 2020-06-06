@@ -16,7 +16,7 @@ From MIT 6.858
 ## Background: protection in UNIX
 - _Principals_ are entities that want access to _objects_
 - In UNIX, typical principals are user IDs and group IDs (32 bit integers)
-- Evry process has a user ID (uid) and a list of group IDs (gid + grouplist)
+- Every process has a user ID (uid) and a list of group IDs (gid + grouplist)
 - Superuser principal (root) has a uid of 0
 - In what operations does UNIX enforce access control?
     - Files, directories
