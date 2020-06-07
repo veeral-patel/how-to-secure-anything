@@ -54,10 +54,16 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 When evaluating a design, it's useful to see how much of the system must be trusted in order for a security goal
 to be achieved. The smaller this trusted computing base is, the better.
 
+Also, once you identify the TCB for an existing system, you know that you only need to secure your TCB. You don't
+need to worry about securing components outside your TCB.
+
+You want to make your TCB as small, simple, unbypassable, tamper-resistant, and verifiable as you can, as I
+write about [here](https://github.com/veeral-patel/learn-security-engineering/blob/master/ucb-tcb-notes.md#remember).
+
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
 
-### Separate, minimize privilege
+### Separate and minimize privilege; sandbox if possible
 
 - See [these notes](https://github.com/veeral-patel/learn-security-engineering/blob/master/ucb-tcb-notes.md#separate--minimize-privilege)
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
