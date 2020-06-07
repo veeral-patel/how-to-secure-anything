@@ -72,8 +72,8 @@ Then, ask what's the least amount of privilege each component needs -- and then 
 with a [sandbox](https://github.com/veeral-patel/learn-security-engineering#sandboxing) (if applicable).
 
 Say one of our SRE SSH's into a production EC2 instance as `root` to check the instance's memory and CPU usage.
-Instead, we can assign the SRE a non-root account, we can whitelist the commands this account can run, we can even
-remove SSH access entirely and set up [Prometheus](https://prometheus.io/) for monitoring.
+Instead, we can assign the SRE a non-root account. Even better, we can whitelist the commands this account can run.
+Even better, we can even remove SSH access entirely and set up [Prometheus](https://prometheus.io/) for monitoring.
 
 - See [these notes](https://github.com/veeral-patel/learn-security-engineering/blob/master/ucb-tcb-notes.md#separate--minimize-privilege)
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
