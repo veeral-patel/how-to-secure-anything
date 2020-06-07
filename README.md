@@ -68,8 +68,8 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 When designing a system, a great way to mitigate the impact of a successful attack is to break the system
 down into components based upon their privilege level.
 
-Then, ask what's the least amount of privilege each component needs -- and then enforce the privileges
-with a [sandbox](https://github.com/veeral-patel/learn-security-engineering#sandboxing).
+Then, ask what's the least amount of privilege each component needs -- and then enforce the allowed privileges
+with a [sandbox](https://github.com/veeral-patel/learn-security-engineering#sandboxing) (if applicable).
 
 Say one of our SRE SSH's into a production EC2 instance as `root` to check the instance's memory and CPU usage.
 Instead, we can assign the SRE a non-root account, we can whitelist the commands this account can run, we can even
