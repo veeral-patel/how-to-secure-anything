@@ -317,11 +317,14 @@ Assurance is how we prove that our system satisfies the properties we want it to
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 
-## Other books
+## Uncategorized books
 
 - [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md)
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
+- Security Engineering (by Ross Anderson)
 - Engineering Trustworthy Systems
+- NIST 800-16 Vol I: System Security Engineering
+- NIST 800-16 Vol II: Developing Cyber Resilient Systems
 
 ## Future improvements to this repo
 
