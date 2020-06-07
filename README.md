@@ -140,10 +140,6 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 
-### Assumption analysis
-
-Write up!
-
 ### Failure analysis
 
 It may be worth examining how a system's security properties are affected when it,
