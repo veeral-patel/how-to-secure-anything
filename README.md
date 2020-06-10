@@ -325,6 +325,7 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- See the papers in [this folder](assurance)
 
 ## Uncategorized books
 
