@@ -287,6 +287,8 @@ We've already learned about the first category; this section is about the second
 ### Physical protection
 
 - ["Physical protection" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
+- [Design and evaluation of physical protection systems](https://www.amazon.com/Design-Evaluation-Physical-Protection-Systems/dp/075068352X)
+- [Physical security: 150 things you should know](https://www.amazon.com/Physical-Security-Things-Should-Know/dp/0128094877)
 
 ### Nuclear command and control
 
