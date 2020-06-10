@@ -13,7 +13,7 @@ Security engineering isn't about adding a bunch of controls to something.
 It's about coming up with security properties you'd like a system to follow, choosing
 mechanisms that enforce these properties, and assuring yourself that your security properties hold.
 
-Start by coming up with your desired security properties. 
+Start by coming up with your desired security properties.
 
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson-ch1.md)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
@@ -105,11 +105,11 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 ### Attack trees
 
 After building an attack tree, you can query it easily: "list all the attack paths costing
-less than $100k". (Remember: we don't seek absolute security, but rather security against
+less than \$100k". (Remember: we don't seek absolute security, but rather security against
 a certain set of adversaries.)
 
 Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles/knowledge/principles/securing-the-weakest-link). You can query your attack tree for the lowest cost attack
-path and ensure that the cost isn't too low. 
+path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
@@ -130,7 +130,7 @@ controls.
 
 Saydjari writes an entire chapter on this:
 
-- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
+- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md)
 
 ### Protocol analysis
 
@@ -138,7 +138,12 @@ Protocols aren't a tool for securing something. But all communication between tw
 a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+- [Secure transaction protocol analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+- [A logic of authentication](protocols/a_logic_of_authentication.pdf)
+- [Programming Satan's computer](protocols/programming_satans_computer.pdf)
+- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols)
+- [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
+- [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
 
 ### Failure analysis
 
@@ -329,4 +334,4 @@ Assurance is how we prove that our system satisfies the properties we want it to
 ## Future improvements to this repo
 
 - Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
-me make the steps more practical as well and fill in any gaps I'm missing.
+  me make the steps more practical as well and fill in any gaps I'm missing.
