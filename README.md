@@ -15,8 +15,8 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 
 Start by coming up with your desired security properties.
 
-- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson-ch1.md)
-- [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
+- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson/anderson-ch1.md)
+- [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 
 ## Understand your adversaries
 
@@ -132,7 +132,7 @@ controls.
 
 Saydjari writes an entire chapter on this:
 
-- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md)
+- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari/saydjari-ch20.md)
 
 ### Protocol analysis
 
@@ -215,7 +215,7 @@ The government is not the only third party who can deter attacks on you. Organiz
 
 Alternatively, you can try to retaliate against attacks yourself. Take, for example, media companies that sue people that pirate their movies.
 
-- [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari-ch16.md)
+- [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari/saydjari-ch16.md)
 
 ### Tamper resistance
 
