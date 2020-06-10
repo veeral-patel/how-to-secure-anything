@@ -143,6 +143,7 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
 - [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
 - [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
+- [Three systems for cryptographic protocol analysis](protocols/three_systems_for_cryptographic_protocol_analysis.pdf)
 
 ### Failure analysis
 
