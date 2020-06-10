@@ -62,6 +62,8 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
+- [TSAFE: Building a Trusted Computing Base forAir Traffic Control Software](tcbs/tsafe.pdf)
+- [Ten page intro to trusted computing](tcbs/ten_page_intro_to_trusted_computing.pdf)
 
 ### Separate and minimize privilege; sandbox if possible
 
