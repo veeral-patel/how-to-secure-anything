@@ -141,7 +141,7 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - [Secure transaction protocol analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 - [A logic of authentication](protocols/a_logic_of_authentication.pdf)
 - [Programming Satan's computer](protocols/programming_satans_computer.pdf)
-- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols)
+- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
 - [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
 - [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
 
