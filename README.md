@@ -48,6 +48,7 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 > Same with URL regexes. You can set up log detection for people hitting your admin interfaces. But then you have to ask: why is your admin interface available on routable IPs to begin with?
 
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
+- See the papers in [this folder](attack_surface)
 
 ### Minimize, simplify, verify your trusted computing base (TCB)
 
