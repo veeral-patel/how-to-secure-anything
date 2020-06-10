@@ -87,7 +87,8 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 
 ### Security design principles
 
-- [Design Principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
+- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 
 ## Analysis techniques
 
