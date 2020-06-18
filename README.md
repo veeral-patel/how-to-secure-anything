@@ -13,10 +13,10 @@ Security engineering isn't about adding a bunch of controls to something.
 It's about coming up with security properties you'd like a system to follow, choosing
 mechanisms that enforce these properties, and assuring yourself that your security properties hold.
 
-Start by coming up with your desired security properties. 
+Start by coming up with your desired security properties.
 
-- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson-ch1.md)
-- [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari-ch1.md)
+- ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson/anderson-ch1.md)
+- [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 
 ## Understand your adversaries
 
@@ -48,6 +48,7 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 > Same with URL regexes. You can set up log detection for people hitting your admin interfaces. But then you have to ask: why is your admin interface available on routable IPs to begin with?
 
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
+- See the papers in [this folder](attack_surface)
 
 ### Minimize, simplify, verify your trusted computing base (TCB)
 
@@ -62,6 +63,8 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
+- [TSAFE: Building a Trusted Computing Base forAir Traffic Control Software](tcbs/tsafe.pdf)
+- [Ten page intro to trusted computing](tcbs/ten_page_intro_to_trusted_computing.pdf)
 
 ### Separate and minimize privilege; sandbox if possible
 
@@ -75,7 +78,6 @@ Say one of our SRE SSH's into a production EC2 instance as `root` to check the i
 Instead, we can assign the SRE a non-root account. Even better, we can whitelist the commands this account can run.
 Even better, we can even remove SSH access entirely and set up [Prometheus](https://prometheus.io/) for monitoring.
 
-- See [these notes](https://github.com/veeral-patel/learn-security-engineering/blob/master/ucb-tcb-notes.md#separate--minimize-privilege)
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
 - [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
@@ -85,7 +87,8 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 
 ### Security design principles
 
-- [Design Principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
+- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 
 ## Analysis techniques
 
@@ -105,11 +108,11 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 ### Attack trees
 
 After building an attack tree, you can query it easily: "list all the attack paths costing
-less than $100k". (Remember: we don't seek absolute security, but rather security against
+less than \$100k". (Remember: we don't seek absolute security, but rather security against
 a certain set of adversaries.)
 
 Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles/knowledge/principles/securing-the-weakest-link). You can query your attack tree for the lowest cost attack
-path and ensure that the cost isn't too low. 
+path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
@@ -130,7 +133,7 @@ controls.
 
 Saydjari writes an entire chapter on this:
 
-- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari-ch20.md) 
+- [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari/saydjari-ch20.md)
 
 ### Protocol analysis
 
@@ -138,7 +141,13 @@ Protocols aren't a tool for securing something. But all communication between tw
 a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [Secure Transaction Protocol Analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+- [Secure transaction protocol analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
+- [A logic of authentication](protocols/a_logic_of_authentication.pdf)
+- [Programming Satan's computer](protocols/programming_satans_computer.pdf)
+- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
+- [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
+- [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
+- [Three systems for cryptographic protocol analysis](protocols/three_systems_for_cryptographic_protocol_analysis.pdf)
 
 ### Failure analysis
 
@@ -207,7 +216,7 @@ The government is not the only third party who can deter attacks on you. Organiz
 
 Alternatively, you can try to retaliate against attacks yourself. Take, for example, media companies that sue people that pirate their movies.
 
-- [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari-ch16.md)
+- [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari/saydjari-ch16.md)
 
 ### Tamper resistance
 
@@ -278,6 +287,10 @@ We've already learned about the first category; this section is about the second
 ### Physical protection
 
 - ["Physical protection" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
+- [Design and evaluation of physical protection systems](https://www.amazon.com/Design-Evaluation-Physical-Protection-Systems/dp/075068352X)
+- [Physical security: 150 things you should know](https://www.amazon.com/Physical-Security-Things-Should-Know/dp/0128094877)
+- [The complete guide to physical security](https://www.amazon.com/Complete-Guide-Physical-Security/dp/1420099639)
+- [Physical security systems handbook](https://www.amazon.com/Physical-Security-Systems-Handbook-Implementation/dp/075067850X)
 
 ### Nuclear command and control
 
@@ -316,6 +329,7 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- See the papers in [this folder](assurance)
 
 ## Uncategorized books
 
@@ -333,4 +347,4 @@ Assurance is how we prove that our system satisfies the properties we want it to
 ## Future improvements to this repo
 
 - Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
-me make the steps more practical as well and fill in any gaps I'm missing.
+  me make the steps more practical as well and fill in any gaps I'm missing.
