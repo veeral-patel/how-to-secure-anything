@@ -325,6 +325,10 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - Engineering Trustworthy Systems
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
+- "Cyber Security Engineering" (by Woody and Mead)
+- "Security in Computing" (by Pfleeger)
+- "The Craft of System Security" (by Smith and Marchesini)
+- "Engineering Information Security" (by Jacobs)
 
 ## Future improvements to this repo
 
