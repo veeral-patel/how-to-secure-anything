@@ -343,6 +343,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - "Security in Computing" (by Pfleeger)
 - "The Craft of System Security" (by Smith and Marchesini)
 - "Engineering Information Security" (by Jacobs)
+- "Computer Security: Art and Science" (by Bishop)
 
 ## Future improvements to this repo
 
