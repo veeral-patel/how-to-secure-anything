@@ -150,9 +150,11 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 ### Failure analysis
 
-It may be worth examining how a system's security properties are affected when it,
-or a part of it, fails. I've never done this myself, so I have some reading to do.
+We want our security controls to fail closed, not open. There's two ways to analyze the ways something
+might fail: failure tree analysis (FTA), which is top down, and failure modes and effects analysis (FMEA),
+which is bottom up.
 
+- [How to avoid failures](https://www.dsiintl.com/wp-content/uploads/2017/04/HOW-TO-AVOID-FAILURES-FMEA-andor-FTA.pdf)
 - [FMEA (from ASQ)](https://asq.org/quality-resources/fmea)
 - [There's several FMEA books](https://www.google.com/search?q=fmea+books)
 
