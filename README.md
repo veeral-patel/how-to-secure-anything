@@ -269,6 +269,8 @@ Say you're a king, ruling over some citizens and criminals. You may want to sand
 - [A Theory and Tools for Applying Sandboxes Effectively](http://www.cs.cmu.edu/~mmaass/pdfs/dissertation.pdf)
 - [Chrome Sandbox Design Doc](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
 - [Chrome Sandbox Design FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox_faq.md)
+- [Sandboxing Applications](sandboxing/sandboxing_applications.pdf)
+- [A Security Study of Chrome’s Process-based Sandboxing](sandboxing/ChromeDOP.pdf)
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
