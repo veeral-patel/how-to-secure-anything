@@ -385,6 +385,14 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - "Cyber Security Engineering" (by Woody and Mead)
 - "The Craft of System Security" (by Smith and Marchesini)
 
+#### System engineering
+
+- [The Art of Systems Engineering](https://www.amazon.com/Art-Systems-Architecting-Engineering/dp/1420079131)
+- [Engineering Systems: Meeting Human Needs in a Complex Technological World](https://www.amazon.com/Engineering-Systems-Meeting-Complex-Technological-ebook/dp/B006QIMTKO)
+- [The Engineering Design of Systems](https://www.amazon.com/Engineering-Design-Systems-Methods-Management-ebook/dp/B01BKJIDZ8)
+- [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
+- [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
+
 ## Future improvements to this repo
 
 - Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
