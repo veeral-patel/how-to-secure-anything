@@ -30,8 +30,6 @@ and capabilities of each adversary.
 Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
-- [Threat Modeling (Microsoft Professional)](https://www.amazon.com/Threat-Modeling-Microsoft-Professional-Swiderski/dp/0735619913)
-- [Threat Modeling: Risk Identification and Avoidance in Secure Design](https://www.amazon.com/dp/1492056553)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 
 ## Design techniques
