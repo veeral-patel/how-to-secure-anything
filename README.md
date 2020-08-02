@@ -383,6 +383,7 @@ We've already learned about the first category; this section is about the second
 - [Museum Property Security and Fire Protection (from Interior Dept. Museum Property Handbook)](https://www.doi.gov/sites/doi.gov/files/migrated/museum/policy/upload/mphi-11.pdf)
 - [Suggested Practices For Museum Security](http://www.securitycommittee.org/securitycommittee/Guidelines_and_Standards_files/SuggestedPracticesRev06.pdf)
 - [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
+- [Museum Security and Protection](https://www.amazon.com/Museum-Security-Protection-Institutions-Care-Preservation-Management-ebook/dp/B000OI0Z0I)
 
 ## Assurance
 
