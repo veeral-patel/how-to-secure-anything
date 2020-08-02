@@ -251,6 +251,7 @@ If we can't prevent tampering, we can try to make it obvious when something has 
 
 This is one reason why bags of chips or gallons of milk, for example, are sealed.
 
+- [Optimal Document Security](https://www.amazon.com/Optical-Document-Security-Rudolf-Renesse/dp/1580532586/)
 - ["Security printing and seals" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
 ### Access control
@@ -332,6 +333,7 @@ We've already learned about the first category; this section is about the second
 ### Banking and bookkeeping
 
 - ["Banking and bookkeeping" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c10.pdf)
+- [Security and Privacy Analysis of Automatic Meter Reading Systems](meters/security_and_privacy_analysis_of_automatic_meter_reading_systems.pdf)
 
 ### Distributed systems
 
