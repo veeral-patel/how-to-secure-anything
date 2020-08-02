@@ -389,6 +389,7 @@ We've already learned about the first category; this section is about the second
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
 Assurance is how we prove that our system satisfies the properties we want it to.
 
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 - See the papers in [this folder](assurance)
 
