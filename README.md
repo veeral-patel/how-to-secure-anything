@@ -36,6 +36,13 @@ We can then turn our policy into a more detailed model. A model is a set of rule
 - [Computer Security: Art and Science](https://www.amazon.com/Computer-Security-Art-Science-Set/dp/013428951X) covers this topic very well
 - [Flask security architecture](https://www.cs.cmu.edu/~dga/papers/flask-usenixsec99.pdf)
 
+Luckily, in information security, our policies often revolve around confidentiality, integrity, and availability and so there are popular existing security models for each of these policies.
+
+For confidentiality, for example, you can choose between:
+
+- [multilevel security](#multilevel), for which [Bell-Padula](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model) can be used
+- [multilateral security](#multilateral), for which compartmentation, BMA, [Chinese wall](https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/chinese-wall-sec-pol.pdf) can be used (according to Anderson's book)
+
 ## Understand your adversaries
 
 There's no such thing as a system being secure, only being secure against a particular adversary.
@@ -262,13 +269,13 @@ Biometrics are a mechanism for authentication, in my view. It does this by indic
 
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
 
-#### Multi-level
+#### Multilevel
 
 Think about the intel classification hierarchy: some documents are top secret, others are secret, others are confidential, and so on. This is a multi-level scheme.
 
 - ["Multilevel Security" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c08.pdf)
 
-#### Multi-lateral
+#### Multilateral
 
 Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
 
