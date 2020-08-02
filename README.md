@@ -10,15 +10,29 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
 
 Security engineering isn't about adding a bunch of controls to something.
 
-It's about coming up with security properties you'd like a system to follow, choosing
+It's about coming up with security properties you'd like a system to have, choosing
 mechanisms that enforce these properties, and assuring yourself that your security properties hold.
-
-Start by coming up with your desired security properties.
 
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson/anderson-ch1.md)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
 - [Flask security architecture](https://www.cs.cmu.edu/~dga/papers/flask-usenixsec99.pdf)
+
+## Security policies & models
+
+Policies are the high level properties we want our system to have. Policies are what we want to happen.
+
+If we're designing a prison, one of our policies might be:
+
+> No prisoner may escape the prison.
+
+We can then turn our policy into a more detailed model. A model is a set of rules, a specification, to achieve our policy.
+
+> Each individual in the prison facility must have a ID that identifies him/her as a "prisoner" or "not a prisoner"
+
+> A prisoner may have the written consent of the warden to leave.
+
+> A non-prisoner may leave at any time.
 
 ## Understand your adversaries
 
