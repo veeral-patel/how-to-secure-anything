@@ -345,6 +345,11 @@ We've already learned about the first category; this section is about the second
 - [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
 - [Original AppArmor paper](operating_systems/apparmor_original.pdf)
 
+### Prisons
+
+- [Jail Design Guide (National Institute of Corrections)](prisons/jail_design_guide.pdf)
+- [Prison Architecture](https://www.amazon.com/Prison-Architecture-Leslie-Fairweather-RIBA/dp/0750642122)
+
 ## Assurance
 
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
