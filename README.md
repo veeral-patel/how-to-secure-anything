@@ -329,6 +329,7 @@ We've already learned about the first category; this section is about the second
 ### Monitoring and metering
 
 - ["Monitoring and metering" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c12.pdf)
+- [Electronic Postage Systems: Technology, Security, Economics](https://www.amazon.com/Electronic-Postage-Systems-Technology-Information/dp/1489986677)
 
 ### Banking and bookkeeping
 
