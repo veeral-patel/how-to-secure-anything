@@ -81,7 +81,6 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
 - [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
-- [Preventing privilege escalation (by Niels Provos)](http://www.citi.umich.edu/u/provos/papers/privsep.pdf)
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
 
