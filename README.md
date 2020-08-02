@@ -341,14 +341,15 @@ Assurance is how we prove that our system satisfies the properties we want it to
 
 ### Recommended
 
+- Computer Security: Art and Science (by Bishop) - I'd read this first; it teaches security engineering in the right order: policies and models, then mechanisms, then assurance.
 - Security Engineering (by Ross Anderson)
-- Computer Security: Art and Science (by Bishop)
 - Engineering Trustworthy Systems (by Sami Saydjari)
+- "Security in Computing" (by Pfleeger) - I liked the chapter on trusted operating systems in particular.
 
 ### Not recommended
 
 - [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md). Wasn't information dense.
-- "Engineering Information Security" (by Jacobs) - Mostly contains general security content, not content on security engineering. I found the systems engineering chapter interesting.
+- "Engineering Information Security" (by Jacobs) - Mostly contains general security content, not content on security engineering. Only the systems engineering chapter felt new.
 
 ### Haven't read yet
 
@@ -356,7 +357,6 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 - "Cyber Security Engineering" (by Woody and Mead)
-- "Security in Computing" (by Pfleeger)
 - "The Craft of System Security" (by Smith and Marchesini)
 
 ## Future improvements to this repo
