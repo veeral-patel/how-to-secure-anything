@@ -16,7 +16,6 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson/anderson-ch1.md)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
-- [Flask security architecture](https://www.cs.cmu.edu/~dga/papers/flask-usenixsec99.pdf)
 
 ## Security policies & models
 
@@ -33,6 +32,9 @@ We can then turn our policy into a more detailed model. A model is a set of rule
 > A prisoner may have the written consent of the warden to leave.
 
 > A non-prisoner may leave at any time.
+
+- [Computer Security: Art and Science](https://www.amazon.com/Computer-Security-Art-Science-Set/dp/013428951X) covers this topic very well
+- [Flask security architecture](https://www.cs.cmu.edu/~dga/papers/flask-usenixsec99.pdf)
 
 ## Understand your adversaries
 
