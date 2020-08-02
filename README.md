@@ -407,13 +407,13 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md). Wasn't information dense.
 - "Engineering Information Security" (by Jacobs) - Mostly contains general security content, not content on security engineering. Only the systems engineering chapter felt new.
 - "The Craft of System Security" (by Smith and Marchesini) - Also mostly general security content
+- "Cyber Security Engineering" (by Woody and Mead) - Wasn't very information dense or well organized
 
 ### Haven't read yet
 
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
-- "Cyber Security Engineering" (by Woody and Mead)
 
 #### System engineering
 
