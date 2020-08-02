@@ -401,6 +401,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - Security Engineering (by Ross Anderson)
 - Engineering Trustworthy Systems (by Sami Saydjari)
 - "Security in Computing" (by Pfleeger) - I liked the chapter on trusted operating systems in particular.
+- [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 
 ### Not recommended
 
@@ -411,7 +412,6 @@ Assurance is how we prove that our system satisfies the properties we want it to
 
 ### Haven't read yet
 
-- [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 
