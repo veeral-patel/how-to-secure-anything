@@ -349,6 +349,7 @@ We've already learned about the first category; this section is about the second
 
 - [Jail Design Guide (National Institute of Corrections)](prisons/jail_design_guide.pdf)
 - [Prison Architecture](https://www.amazon.com/Prison-Architecture-Leslie-Fairweather-RIBA/dp/0750642122)
+- [A Practical Guide to Understanding and Evaluating Prison Systems](prisons/understanding_and_evaluating_prison_sysytems.pdf)
 
 ## Assurance
 
