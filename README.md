@@ -378,6 +378,12 @@ We've already learned about the first category; this section is about the second
 - [Handbook on Dynamic Security and Prison Intelligence](https://www.unodc.org/documents/justice-and-prison-reform/UNODC_Handbook_on_Dynamic_Security_and_Prison_Intelligence.pdf)
 - [Correctional Facility Design and Detailing](https://www.amazon.com/Correctional-Facility-Design-Detailing-Krasnow/dp/0070361738)
 
+### Museums
+
+- [Museum Property Security and Fire Protection (from Interior Dept. Museum Property Handbook)](https://www.doi.gov/sites/doi.gov/files/migrated/museum/policy/upload/mphi-11.pdf)
+- [Suggested Practices For Museum Security](http://www.securitycommittee.org/securitycommittee/Guidelines_and_Standards_files/SuggestedPracticesRev06.pdf)
+- [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
+
 ## Assurance
 
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
