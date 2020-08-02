@@ -290,6 +290,7 @@ We've already learned about the first category; this section is about the second
 
 ### Physical protection
 
+- [Introduction to physical security](https://www.cdse.edu/documents/student-guides/PY011-guide.pdf)
 - ["Physical protection" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
 - [Design and evaluation of physical protection systems](https://www.amazon.com/Design-Evaluation-Physical-Protection-Systems/dp/075068352X)
 - [Physical security: 150 things you should know](https://www.amazon.com/Physical-Security-Things-Should-Know/dp/0128094877)
@@ -350,6 +351,9 @@ We've already learned about the first category; this section is about the second
 - [Jail Design Guide (National Institute of Corrections)](prisons/jail_design_guide.pdf)
 - [Prison Architecture](https://www.amazon.com/Prison-Architecture-Leslie-Fairweather-RIBA/dp/0750642122)
 - [A Practical Guide to Understanding and Evaluating Prison Systems](prisons/understanding_and_evaluating_prison_sysytems.pdf)
+- [Technical Guidance for Prison Planning](https://content.unops.org/publications/Technical-guidance-Prison-Planning-2016_EN.pdf)
+- [Handbook on Dynamic Security and Prison Intelligence](https://www.unodc.org/documents/justice-and-prison-reform/UNODC_Handbook_on_Dynamic_Security_and_Prison_Intelligence.pdf)
+- [Correctional Facility Design and Detailing](https://www.amazon.com/Correctional-Facility-Design-Detailing-Krasnow/dp/0070361738)
 
 ## Assurance
 
