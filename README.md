@@ -163,7 +163,6 @@ Protocols aren't a tool for securing something. But all communication between tw
 a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [Secure transaction protocol analysis](https://www.amazon.com/Secure-Transaction-Protocol-Analysis-Applications/dp/3540850732)
 - [A logic of authentication](protocols/a_logic_of_authentication.pdf)
 - [Programming Satan's computer](protocols/programming_satans_computer.pdf)
 - [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
