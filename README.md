@@ -144,6 +144,8 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 
 Here are some useful techniques I've found for improving the security of a system.
 
+Also see if you any of the mechanisms in [popular mechanisms](#popular-mechanisms) would help.
+
 ### Minimize attack surface
 
 See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818):
@@ -537,6 +539,13 @@ We've already learned about the first category; this section is about the second
 ### Counterintelligence
 
 - [To Catch a Spy: The Art of Counterintelligence](https://www.amazon.com/Catch-Spy-Art-Counterintelligence/dp/1626166803)
+
+### Casinos
+
+- [Casino Security and Gaming Surveillance](https://www.amazon.com/Casino-Security-Gaming-Surveillance-Derk/dp/1420087827)
+- [Casino Surveillance and Security: 150 Things You Should Know](https://www.amazon.com/Casino-Surveillance-Security-Things-Should/dp/188705619X)
+- [Casino Surveillance: the Eye That Never Blinks](https://www.amazon.com/Casino-Surveillance-That-Never-Blinks/dp/0966600908)
+- [150 things You Should Know About Security](https://www.amazon.com/Things-Should-Know-about-Security/dp/0128094850) - see the casino chapter
 
 ## Books
 
