@@ -345,6 +345,8 @@ We've already learned about the first category; this section is about the second
 ### Copyright and DRM
 
 - ["Copyright and DRM" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c22.pdf)
+- [The Protection of Computer Software: Its Technology and Application](https://www.amazon.com/Protection-Computer-Software-Application-Informatics/dp/0521424623)
+- [European Scrambling Systems, Circuits, Tactics and Techniques](https://www.amazon.com/dp/1873556012/ref=cm_sw_em_r_mt_dp_cx1jFbVMZ87JY)
 
 ### Web browsers
 
