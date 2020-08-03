@@ -53,10 +53,9 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 
-## Design techniques
+## Improve defenses
 
-I think you can make a system fairly secure just by trying to design in security from
-the beginning. Here are some techniques for doing this.
+Here are some useful techniques I've found for improving the security of a system.
 
 ### Minimize attack surface
 
@@ -105,16 +104,6 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
 
-### Security design principles
-
-- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
-- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
-
-## Analysis techniques
-
-Once you've come up with an initial design, the techniques below help you find
-additional controls you can add and vulnerabilities you need to resolve.
-
 ### Prevent/detect/respond framework
 
 The way I see it, every defense falls into one of these categories:
@@ -124,6 +113,15 @@ The way I see it, every defense falls into one of these categories:
 - Respond: consists of delay, contain, investigate, remediate
 
 Take any attack. Then, for each of the seven categories, brainstorm defenses that fall into that category.
+
+### Security design principles
+
+- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
+- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+
+## Test defenses
+
+The techniques below help you find vulnerabilities in a proposed design for you to fix.
 
 ### Attack trees
 
@@ -212,7 +210,7 @@ which is bottom up.
 - [FMEA: From Theory to Execution](https://www.amazon.com/Failure-Mode-Effect-Analysis-Execution/dp/0873895983)
 - [The Basics of FMEA](https://www.amazon.com/Basics-FMEA-Raymond-J-Mikulak/dp/1563273772)
 
-### Side channel identification
+### Side channel analysis
 
 Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
 availability), it may leak information which makes these attacks easier.
