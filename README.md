@@ -15,6 +15,12 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
 
+## Capture quick wins
+
+Before anything else, I'd Google for the best practices for securing whatever you're trying to secure and implement all of them.
+
+Doing this will make you significantly more secure than the majority of people, who don't do this.
+
 ## Security policies & models
 
 Policies are the high level properties we want our system to have. Policies are what we want to happen.
