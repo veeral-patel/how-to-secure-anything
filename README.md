@@ -57,7 +57,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
   - [Operating systems](#operating-systems)
   - [Prisons](#prisons)
   - [Museums](#museums)
-    - [Counterintelligence](#counterintelligence)
+  - [Counterintelligence](#counterintelligence)
 - [Assurance](#assurance)
 - [Books](#books)
   - [Recommended (by me)](#recommended--by-me-)
@@ -500,7 +500,7 @@ We've already learned about the first category; this section is about the second
 - [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
 - [Museum Security and Protection](https://www.amazon.com/Museum-Security-Protection-Institutions-Care-Preservation-Management-ebook/dp/B000OI0Z0I)
 
-#### Counterintelligence
+### Counterintelligence
 
 - [To Catch a Spy: The Art of Counterintelligence](https://www.amazon.com/Catch-Spy-Art-Counterintelligence/dp/1626166803)
 
