@@ -149,8 +149,7 @@ each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/)
 
 Every security control must be on, impossible to bypass, tamperproof, and functionally correct. It must also fail closed.
 
-If this is not the case, then an attacker can violate a system's security properties by subverting its
-controls.
+If this is not the case, then an attacker can violate a system's security properties by subverting its controls.
 
 - Can the attacker turn off the control?
 - Can the attacker get you to turn off the control?
@@ -158,13 +157,26 @@ controls.
 - Does the control depend on something that the attacker can disable?
 - Are there any cases where the control doesn't work?
 
-#### Example: a burglar confronting a home security system which calls the police if someone walks across the lawn at night
+#### Example: a burglar confronting a home security system which calls the police if someone crosses the lawn at night
 
 - Can the attacker turn off the control? Probably not
 - Can the attacker get you to turn off the control? Yes, he could set off the alarm everyday until you turn it off
 - Can the attacker get around your control? Yes, he could land on the roof
 - Does the control depend on something that the attacker can disable? Yes, the attacker can cut the electric wire or the fiber cable used to call the police
 - Are there any cases where the control doesn't work? The attacker can buy the control and learn the alarm doesn't go off if he tip toes.
+
+#### Assumptions audit
+
+I like using a statement/conclusion format to draw out my assumptions.
+
+Statement: I have a home security system which calls the police if someone crosses the lawn.
+
+Conclusion: I won't get robbed.
+
+Assumptions:
+
+- For every single attacker that tries to cross my lawn, my home security system calls the police. (If the answer to any of the questions above is yes, this assumption is false.)
+- The police will arrive before any attacker is able to steal anything and stop the theft. (What if the attacker impersonates the homeowner and tells the police that my home security system is faulty; don't come if it calls you? What if the attacker makes hundreds of 911 calls while he is robbing the house? What if the police is blocked by a "car accident"? What if the attacker has arranged for a getaway helicopter?)
 
 Saydjari writes an entire chapter on this:
 
