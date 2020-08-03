@@ -1,9 +1,8 @@
-# Learn Security Engineering
+# How to Secure Anything
 
-Security engineering is the discipline of building systems that satisfy certain security guarantees.
-Ultimately, I hope to learn how to systematically secure anything -- whether it's a computer network or medieval castle.
+Security engineering is the discipline of building secure systems, or more specifically, systems that satisfy specific security guarantees.
 
-I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
+Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
 ## Table of contents
 
