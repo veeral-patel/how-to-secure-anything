@@ -404,6 +404,10 @@ We've already learned about the first category; this section is about the second
 - [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
 - [Museum Security and Protection](https://www.amazon.com/Museum-Security-Protection-Institutions-Care-Preservation-Management-ebook/dp/B000OI0Z0I)
 
+#### Counterintelligence
+
+- [To Catch a Spy: The Art of Counterintelligence](https://www.amazon.com/Catch-Spy-Art-Counterintelligence/dp/1626166803)
+
 ## Assurance
 
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
