@@ -289,9 +289,11 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 - ["Access Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
 
-### Biometrics
+### Authentication
 
-Biometrics are a mechanism for authentication, in my view. It does this by indicating who you are. (The other two mechanisms are what you know and what you have)
+The three ways to authenticate someone is based on you are (biometrics), what you know (password), what you have (Yubikey, phone).
+
+#### Biometrics
 
 - ["Biometrics" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch17-dec20.pdf)
 
