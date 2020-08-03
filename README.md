@@ -23,7 +23,7 @@ If you're in a corporate environment, set up SSO and 2FA. If you're securing a p
 
 Doing this will make you significantly more secure than the majority of people, who don't do this.
 
-## Security policies & models
+## Security policies
 
 Policies are the high level properties we want our system to have. Policies are what we want to happen.
 
@@ -31,7 +31,9 @@ If we're designing a prison, one of our policies might be:
 
 > No prisoner may escape the prison.
 
-We can then turn our policy into a more detailed model. A model is a set of rules, a specification, to achieve our policy.
+## Security models
+
+We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy.
 
 > Each individual in the prison facility must have a ID that identifies him/her as a "prisoner" or "not a prisoner"
 
