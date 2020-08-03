@@ -286,10 +286,14 @@ Think about the intel classification hierarchy: some documents are top secret, o
 Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
 
 - ["Boundaries" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
-- ["Inference Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 - [Security in clinical information systems](multilateral/security_in_clinical_info_systems.pdf)
 - [Implementing access control to protect the confidentiality of patient information in clinical information systems in the acute hospital](multilateral/implementing_access_control_to_protect_patient_data.pdf)
 - [Privacy in clinical information systems in secondary care](multilateral/privacy_in_clinical_info_systems.pdf)
+
+### Inference control
+
+- ["Inference Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
+- [Report on Statistical Disclosure Limitation Methodology](https://ecommons.cornell.edu/bitstream/handle/1813/22991/WP-22-OMB-totalreport.pdf)
 
 ### Sandboxing
 
