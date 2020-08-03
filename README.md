@@ -202,6 +202,11 @@ might fail: failure tree analysis (FTA), which is top down, and failure modes an
 which is bottom up.
 
 - [How to avoid failures](https://www.dsiintl.com/wp-content/uploads/2017/04/HOW-TO-AVOID-FAILURES-FMEA-andor-FTA.pdf)
+- [Hazard Analysis Techniques for System Safety](https://www.amazon.com/Hazard-Analysis-Techniques-System-Safety/dp/0471720194)
+
+#### Fault tree analysis
+
+[Intro to fault trees](https://www.weibull.com/basics/fault-tree/index.htm)
 
 #### FMEA
 
