@@ -3,8 +3,6 @@
 Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
-<<<<<<< HEAD
-=======
 
 > This repo is not done. It is actively being worked on, however.
 
@@ -149,9 +147,7 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 
 Here are some useful techniques I've found for improving the security of a system.
 
-# Also see if you any of the mechanisms in [popular mechanisms](#popular-mechanisms) would help.
-
-Here are some useful techniques I've found for improving the security of a system.
+Also see if you any of the mechanisms in [popular mechanisms](#popular-mechanisms) would help.
 
 ### Minimize attack surface
 
