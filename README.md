@@ -4,6 +4,8 @@ Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
+> This repo is not done. It is actively being worked on, however.
+
 ## What is security engineering?
 
 Security engineering isn't about adding a bunch of controls to something.
@@ -15,11 +17,20 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
 
-## The process
+## High level process
+
+Here's the process I like for securing things:
 
 ![](images/high_level_process.png)
 
-## Capture quick wins
+- We follow as many known best practices as we can
+- We write down our security policies, or high level security goals
+- We develop a security model, or a spec we follow to satisfy our policies
+- We reduce attack surface, follow security design principles, brainstorm ideas for and implement additonal security controls, and more -- to improve our security
+- We test our design by assessing our controls, assessing protocols, looking for side channels, and more
+- We write assurance cases to prove we satisfy our security policy.
+
+## Follow best practices
 
 Before anything else, I'd Google for the best practices for securing whatever you're trying to secure and implement all of them.
 
@@ -128,6 +139,13 @@ The way I see it, every defense falls into one of these categories:
 
 Take any attack. Then, for each of the seven categories, brainstorm defenses that fall into that category.
 
+### Kill chains
+
+By mapping out an adversary's kill chain, we can then identify controls to counteract
+each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/).
+
+- [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
+
 ### Security design principles
 
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
@@ -147,13 +165,6 @@ Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles
 path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
-
-### Kill chains
-
-By mapping out an adversary's kill chain, we can then identify controls to counteract
-each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/).
-
-- [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
 
 ### Control analysis
 
