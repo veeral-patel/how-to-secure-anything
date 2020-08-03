@@ -1,10 +1,70 @@
 # Learn Security Engineering
 
-Security engineering, to me, is the discipline of building secure systems.
-Ultimately, I hope to learn how to systematically secure anything --
-whether it's a computer network or medieval castle.
+Security engineering is the discipline of building systems that satisfy certain security guarantees.
+Ultimately, I hope to learn how to systematically secure anything -- whether it's a computer network or medieval castle.
 
 I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
+
+## Table of contents
+
+- [What is security engineering?](#what-is-security-engineering-)
+- [Security policies & models](#security-policies---models)
+- [Understand your adversaries](#understand-your-adversaries)
+- [Design techniques](#design-techniques)
+  - [Minimize attack surface](#minimize-attack-surface)
+  - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
+  - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege--sandbox-if-possible)
+  - [Security design principles](#security-design-principles)
+- [Analysis techniques](#analysis-techniques)
+  - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
+  - [Attack trees](#attack-trees)
+  - [Kill chains](#kill-chains)
+  - [Control analysis](#control-analysis)
+    - [Example: a burglar confronting a home security system which calls the police if someone crosses the lawn at night](#example--a-burglar-confronting-a-home-security-system-which-calls-the-police-if-someone-crosses-the-lawn-at-night)
+    - [Assumptions audit](#assumptions-audit)
+  - [Protocol analysis](#protocol-analysis)
+  - [Failure analysis](#failure-analysis)
+    - [Fault tree analysis](#fault-tree-analysis)
+    - [FMEA](#fmea)
+  - [Side channel identification](#side-channel-identification)
+- [Popular mechanisms](#popular-mechanisms)
+  - [Cryptography](#cryptography)
+  - [Economics](#economics)
+  - [Laws and regulations (deterrence by the government)](#laws-and-regulations--deterrence-by-the-government-)
+  - [Retaliation (deterrence by you or third parties)](#retaliation--deterrence-by-you-or-third-parties-)
+  - [Tamper resistance](#tamper-resistance)
+  - [Tamper detection](#tamper-detection)
+  - [Access control](#access-control)
+  - [Authentication](#authentication)
+    - [Biometrics](#biometrics)
+  - [Authorization](#authorization)
+    - [Multilevel](#multilevel)
+    - [Multilateral](#multilateral)
+  - [Inference control](#inference-control)
+  - [Sandboxing](#sandboxing)
+  - [Obscurity](#obscurity)
+- [Learn about how real world systems are secured](#learn-about-how-real-world-systems-are-secured)
+  - [Physical protection](#physical-protection)
+  - [Nuclear command and control](#nuclear-command-and-control)
+  - [Monitoring and metering](#monitoring-and-metering)
+  - [Banking and bookkeeping](#banking-and-bookkeeping)
+  - [Distributed systems](#distributed-systems)
+  - [Copyright and DRM](#copyright-and-drm)
+  - [Web browsers](#web-browsers)
+  - [BeyondCorp & zero trust](#beyondcorp---zero-trust)
+  - [Apple](#apple)
+  - [Cloud providers](#cloud-providers)
+  - [Operating systems](#operating-systems)
+  - [Prisons](#prisons)
+  - [Museums](#museums)
+    - [Counterintelligence](#counterintelligence)
+- [Assurance](#assurance)
+- [Books](#books)
+  - [Recommended (by me)](#recommended--by-me-)
+  - [Not recommended](#not-recommended)
+  - [Haven't read yet](#haven-t-read-yet)
+    - [System engineering](#system-engineering)
+- [Future improvements to this repo](#future-improvements-to-this-repo)
 
 ## What is security engineering?
 
