@@ -1,24 +1,28 @@
-# Learn Security Engineering
+# How to Secure Anything
 
-Security engineering is the discipline of building systems that satisfy certain security guarantees.
-Ultimately, I hope to learn how to systematically secure anything -- whether it's a computer network or medieval castle.
+Security engineering is the discipline of building secure systems.
 
-I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.uk/~rja14/book.html), and eventually I realized it wasn't structured correctly for me. This learning path is, and hopefully it is for you, too.
+Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
+
+> This repo is not done. It is actively being worked on, however.
 
 ## Table of contents
 
 - [What is security engineering?](#what-is-security-engineering-)
-- [Security policies & models](#security-policies---models)
+- [High level process](#high-level-process)
+- [Follow best practices](#follow-best-practices)
+- [Security policies](#security-policies)
+- [Security models](#security-models)
 - [Understand your adversaries](#understand-your-adversaries)
-- [Design techniques](#design-techniques)
+- [Improve defenses](#improve-defenses)
   - [Minimize attack surface](#minimize-attack-surface)
   - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
   - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege--sandbox-if-possible)
-  - [Security design principles](#security-design-principles)
-- [Analysis techniques](#analysis-techniques)
   - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
-  - [Attack trees](#attack-trees)
   - [Kill chains](#kill-chains)
+  - [Security design principles](#security-design-principles)
+- [Find vulnerabilities](#find-vulnerabilities)
+  - [Attack trees](#attack-trees)
   - [Control analysis](#control-analysis)
     - [Example: a burglar confronting a home security system which calls the police if someone crosses the lawn at night](#example--a-burglar-confronting-a-home-security-system-which-calls-the-police-if-someone-crosses-the-lawn-at-night)
     - [Assumptions audit](#assumptions-audit)
@@ -26,7 +30,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
   - [Failure analysis](#failure-analysis)
     - [Fault tree analysis](#fault-tree-analysis)
     - [FMEA](#fmea)
-  - [Side channel identification](#side-channel-identification)
+  - [Side channel analysis](#side-channel-analysis)
 - [Popular mechanisms](#popular-mechanisms)
   - [Cryptography](#cryptography)
   - [Economics](#economics)
@@ -43,6 +47,7 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
   - [Inference control](#inference-control)
   - [Sandboxing](#sandboxing)
   - [Obscurity](#obscurity)
+- [Assurance](#assurance)
 - [Learn about how real world systems are secured](#learn-about-how-real-world-systems-are-secured)
   - [Physical protection](#physical-protection)
   - [Nuclear command and control](#nuclear-command-and-control)
@@ -58,13 +63,12 @@ I tried for several years to read [Ross Anderson's book](https://www.cl.cam.ac.u
   - [Prisons](#prisons)
   - [Museums](#museums)
   - [Counterintelligence](#counterintelligence)
-- [Assurance](#assurance)
 - [Books](#books)
   - [Recommended (by me)](#recommended--by-me-)
   - [Not recommended](#not-recommended)
   - [Haven't read yet](#haven-t-read-yet)
     - [System engineering](#system-engineering)
-- [Future improvements to this repo](#future-improvements-to-this-repo)
+- [In the future](#in-the-future)
 
 ## What is security engineering?
 
@@ -77,7 +81,28 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
 
-## Security policies & models
+## High level process
+
+Here's the process I like for securing things:
+
+![](images/high_level_process.png)
+
+- We follow as many known best practices as we can
+- We write down our security policies, or high level security goals
+- We develop a security model, or a spec we follow to satisfy our policies
+- We reduce attack surface, follow security design principles, brainstorm ideas for and implement additonal security controls, and more -- to improve our security
+- We test our design by assessing our controls, assessing protocols, looking for side channels, and more
+- We write assurance cases to prove we satisfy our security policy.
+
+## Follow best practices
+
+Before anything else, I'd Google for the best practices for securing whatever you're trying to secure and implement all of them.
+
+If you're in a corporate environment, set up SSO and 2FA. If you're securing a physical facility, see if there's a well-regarded physical security standard you can comply with.
+
+Doing this will make you significantly more secure than the majority of people, who don't do this.
+
+## Security policies
 
 Policies are the high level properties we want our system to have. Policies are what we want to happen.
 
@@ -85,7 +110,9 @@ If we're designing a prison, one of our policies might be:
 
 > No prisoner may escape the prison.
 
-We can then turn our policy into a more detailed model. A model is a set of rules, a specification, to achieve our policy.
+## Security models
+
+We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy.
 
 > Each individual in the prison facility must have a ID that identifies him/her as a "prisoner" or "not a prisoner"
 
@@ -115,10 +142,9 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 
-## Design techniques
+## Improve defenses
 
-I think you can make a system fairly secure just by trying to design in security from
-the beginning. Here are some techniques for doing this.
+Here are some useful techniques I've found for improving the security of a system.
 
 ### Minimize attack surface
 
@@ -167,16 +193,6 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
 
-### Security design principles
-
-- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
-- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
-
-## Analysis techniques
-
-Once you've come up with an initial design, the techniques below help you find
-additional controls you can add and vulnerabilities you need to resolve.
-
 ### Prevent/detect/respond framework
 
 The way I see it, every defense falls into one of these categories:
@@ -186,6 +202,22 @@ The way I see it, every defense falls into one of these categories:
 - Respond: consists of delay, contain, investigate, remediate
 
 Take any attack. Then, for each of the seven categories, brainstorm defenses that fall into that category.
+
+### Kill chains
+
+By mapping out an adversary's kill chain, we can then identify controls to counteract
+each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/).
+
+- [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
+
+### Security design principles
+
+- [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
+- [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+
+## Find vulnerabilities
+
+The techniques below help you find vulnerabilities in a proposed design for you to fix.
 
 ### Attack trees
 
@@ -197,13 +229,6 @@ Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles
 path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
-
-### Kill chains
-
-By mapping out an adversary's kill chain, we can then identify controls to counteract
-each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/).
-
-- [Kill chains (Wikipedia)](https://en.wikipedia.org/wiki/Kill_chain)
 
 ### Control analysis
 
@@ -274,7 +299,7 @@ which is bottom up.
 - [FMEA: From Theory to Execution](https://www.amazon.com/Failure-Mode-Effect-Analysis-Execution/dp/0873895983)
 - [The Basics of FMEA](https://www.amazon.com/Basics-FMEA-Raymond-J-Mikulak/dp/1563273772)
 
-### Side channel identification
+### Side channel analysis
 
 Even if something isn't vulnerable to attacks (on confidentiality, integrity, or
 availability), it may leak information which makes these attacks easier.
@@ -414,6 +439,17 @@ require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
 
+## Assurance
+
+The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
+Assurance is how we prove that our system satisfies the properties we want it to.
+
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
+- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
+- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- See the papers in [this folder](assurance)
+
 ## Learn about how real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
@@ -504,17 +540,6 @@ We've already learned about the first category; this section is about the second
 
 - [To Catch a Spy: The Art of Counterintelligence](https://www.amazon.com/Catch-Spy-Art-Counterintelligence/dp/1626166803)
 
-## Assurance
-
-The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
-Assurance is how we prove that our system satisfies the properties we want it to.
-
-- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
-- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
-- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
-- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
-- See the papers in [this folder](assurance)
-
 ## Books
 
 ### Recommended (by me)
@@ -547,7 +572,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
 - [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
 
-## Future improvements to this repo
+## In the future
 
-- Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
-  me make the steps more practical as well and fill in any gaps I'm missing.
+- Write up case studies on how I'd use my process to secure different things
+- Create practical, step by step checklists for doing each of the parts of my process
