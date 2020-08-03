@@ -19,6 +19,8 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 
 Before anything else, I'd Google for the best practices for securing whatever you're trying to secure and implement all of them.
 
+If you're in a corporate environment, set up SSO and 2FA. If you're securing a physical facility, see if there's a well-regarded physical security standard you can comply with.
+
 Doing this will make you significantly more secure than the majority of people, who don't do this.
 
 ## Security policies & models
