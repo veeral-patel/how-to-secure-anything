@@ -206,7 +206,7 @@ which is bottom up.
 
 #### Fault tree analysis
 
-[Intro to fault trees](https://www.weibull.com/basics/fault-tree/index.htm)
+- [Intro to fault trees](https://www.weibull.com/basics/fault-tree/index.htm)
 
 #### FMEA
 
