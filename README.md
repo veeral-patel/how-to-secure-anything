@@ -202,6 +202,9 @@ might fail: failure tree analysis (FTA), which is top down, and failure modes an
 which is bottom up.
 
 - [How to avoid failures](https://www.dsiintl.com/wp-content/uploads/2017/04/HOW-TO-AVOID-FAILURES-FMEA-andor-FTA.pdf)
+
+#### FMEA
+
 - [FMEA Procedure](https://asq.org/quality-resources/fmea)
 - [FMEA: From Theory to Execution](https://www.amazon.com/Failure-Mode-Effect-Analysis-Execution/dp/0873895983)
 - [The Basics of FMEA](https://www.amazon.com/Basics-FMEA-Raymond-J-Mikulak/dp/1563273772)
