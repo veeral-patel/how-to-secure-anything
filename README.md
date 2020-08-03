@@ -245,6 +245,7 @@ Alternatively, you can try to retaliate against attacks yourself. Take, for exam
 
 - ["Physical tamper resistance" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch18-dec18.pdf)
 - [Cryptographic processors – a survey](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-641.pdf)
+- [Smartcard Handbook](https://www.amazon.com/Smart-Card-Handbook-Wolfgang-Rankl/dp/0470743670)
 - [Tamper Resistance - a Cautionary Note](https://www.cl.cam.ac.uk/~rja14/tamper.html)
 - [Low Cost Attacks on Tamper Resistant Devices](http://web.cse.msstate.edu/~ramkumar/tamper2.pdf)
 - [Design Principles for Tamper-Resistant Smartcard Processors](https://www.cl.cam.ac.uk/~mgk25/sc99-tamper.pdf)
