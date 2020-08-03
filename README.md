@@ -1,69 +1,8 @@
 # How to Secure Anything
 
-Security engineering is the discipline of building secure systems, or more specifically, systems that satisfy specific security guarantees.
+Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
-
-## Table of contents
-
-- [What is security engineering?](#what-is-security-engineering-)
-- [Security policies & models](#security-policies---models)
-- [Understand your adversaries](#understand-your-adversaries)
-- [Design techniques](#design-techniques)
-  - [Minimize attack surface](#minimize-attack-surface)
-  - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
-  - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege--sandbox-if-possible)
-  - [Security design principles](#security-design-principles)
-- [Analysis techniques](#analysis-techniques)
-  - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
-  - [Attack trees](#attack-trees)
-  - [Kill chains](#kill-chains)
-  - [Control analysis](#control-analysis)
-    - [Example: a burglar confronting a home security system which calls the police if someone crosses the lawn at night](#example--a-burglar-confronting-a-home-security-system-which-calls-the-police-if-someone-crosses-the-lawn-at-night)
-    - [Assumptions audit](#assumptions-audit)
-  - [Protocol analysis](#protocol-analysis)
-  - [Failure analysis](#failure-analysis)
-    - [Fault tree analysis](#fault-tree-analysis)
-    - [FMEA](#fmea)
-  - [Side channel identification](#side-channel-identification)
-- [Popular mechanisms](#popular-mechanisms)
-  - [Cryptography](#cryptography)
-  - [Economics](#economics)
-  - [Laws and regulations (deterrence by the government)](#laws-and-regulations--deterrence-by-the-government-)
-  - [Retaliation (deterrence by you or third parties)](#retaliation--deterrence-by-you-or-third-parties-)
-  - [Tamper resistance](#tamper-resistance)
-  - [Tamper detection](#tamper-detection)
-  - [Access control](#access-control)
-  - [Authentication](#authentication)
-    - [Biometrics](#biometrics)
-  - [Authorization](#authorization)
-    - [Multilevel](#multilevel)
-    - [Multilateral](#multilateral)
-  - [Inference control](#inference-control)
-  - [Sandboxing](#sandboxing)
-  - [Obscurity](#obscurity)
-- [Learn about how real world systems are secured](#learn-about-how-real-world-systems-are-secured)
-  - [Physical protection](#physical-protection)
-  - [Nuclear command and control](#nuclear-command-and-control)
-  - [Monitoring and metering](#monitoring-and-metering)
-  - [Banking and bookkeeping](#banking-and-bookkeeping)
-  - [Distributed systems](#distributed-systems)
-  - [Copyright and DRM](#copyright-and-drm)
-  - [Web browsers](#web-browsers)
-  - [BeyondCorp & zero trust](#beyondcorp---zero-trust)
-  - [Apple](#apple)
-  - [Cloud providers](#cloud-providers)
-  - [Operating systems](#operating-systems)
-  - [Prisons](#prisons)
-  - [Museums](#museums)
-  - [Counterintelligence](#counterintelligence)
-- [Assurance](#assurance)
-- [Books](#books)
-  - [Recommended (by me)](#recommended--by-me-)
-  - [Not recommended](#not-recommended)
-  - [Haven't read yet](#haven-t-read-yet)
-    - [System engineering](#system-engineering)
-- [Future improvements to this repo](#future-improvements-to-this-repo)
 
 ## What is security engineering?
 
@@ -413,6 +352,17 @@ require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
 
+## Assurance
+
+The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
+Assurance is how we prove that our system satisfies the properties we want it to.
+
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
+- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
+- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- See the papers in [this folder](assurance)
+
 ## Learn about how real world systems are secured
 
 The chapters in Anderson's book fall into two categories, in my view: mechanisms for securing systems and examples of how some real world systems are secured.
@@ -503,17 +453,6 @@ We've already learned about the first category; this section is about the second
 
 - [To Catch a Spy: The Art of Counterintelligence](https://www.amazon.com/Catch-Spy-Art-Counterintelligence/dp/1626166803)
 
-## Assurance
-
-The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
-Assurance is how we prove that our system satisfies the properties we want it to.
-
-- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
-- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
-- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
-- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
-- See the papers in [this folder](assurance)
-
 ## Books
 
 ### Recommended (by me)
@@ -546,7 +485,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
 - [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
 
-## Future improvements to this repo
+## In the future
 
-- Include a set of case studies where I write up how I'd secure something, following the steps above. This will help
-  me make the steps more practical as well and fill in any gaps I'm missing.
+- Write up case studies on how I'd use my process to secure different things
+- Create practical, step by step checklists for doing each of the parts of my process
