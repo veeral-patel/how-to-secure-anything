@@ -279,6 +279,7 @@ Without authorization, anyone who authenticates to our system would have full ac
 Think about the intel classification hierarchy: some documents are top secret, others are secret, others are confidential, and so on. This is a multi-level scheme.
 
 - ["Multilevel Security" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c08.pdf)
+- [An analysis of the systemic security weaknesses of the U.S. Navy fleet broadcasting system, 1967-1974, as exploited by CWO John Walker](multilevel/walker_spy_ring.pdf)
 
 #### Multilateral
 
