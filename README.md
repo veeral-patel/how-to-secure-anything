@@ -129,7 +129,7 @@ Take any attack. Then, for each of the seven categories, brainstorm defenses tha
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
 - [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 
-## Test defenses
+## Find vulnerabilities
 
 The techniques below help you find vulnerabilities in a proposed design for you to fix.
 
