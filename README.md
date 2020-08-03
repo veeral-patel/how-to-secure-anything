@@ -147,11 +147,24 @@ each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/)
 
 ### Control analysis
 
-Every security control must be impossible to bypass, tamperproof, and functionally correct. It must
-also fail closed.
+Every security control must be on, impossible to bypass, tamperproof, and functionally correct. It must also fail closed.
 
 If this is not the case, then an attacker can violate a system's security properties by subverting its
 controls.
+
+- Can the attacker turn off the control?
+- Can the attacker get you to turn off the control?
+- Can the attacker get around your control?
+- Does the control depend on something that the attacker can disable?
+- Are there any cases where the control doesn't work?
+
+#### Example: a burglar confronting a home security system which calls the police if someone walks across the lawn at night
+
+- Can the attacker turn off the control? Probably not
+- Can the attacker get you to turn off the control? Yes, he could set off the alarm everyday until you turn it off
+- Can the attacker get around your control? Yes, he could land on the roof
+- Does the control depend on something that the attacker can disable? Yes, the attacker can cut the electric wire or the fiber cable used to call the police
+- Are there any cases where the control doesn't work? The attacker can buy the control and learn the alarm doesn't go off if he tip toes.
 
 Saydjari writes an entire chapter on this:
 
