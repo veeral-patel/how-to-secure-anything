@@ -4,8 +4,6 @@ Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
-> This repo is not done. It is actively being worked on, however.
-
 ## Table of contents
 
 - [What is security engineering?](#what-is-security-engineering-)
