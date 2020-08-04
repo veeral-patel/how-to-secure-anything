@@ -257,6 +257,20 @@ path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
+### Attack graphs
+
+Read [this post by John Lambert first](https://github.com/JohnLaTwC/Shared/blob/master/Defenders%20think%20in%20lists.%20Attackers%20think%20in%20graphs.%20As%20long%20as%20this%20is%20true%2C%20attackers%20win.md). It's about how attackers think in graphs, while defenders think in lists, so attackers win.
+
+I've copied the list of links below from John's post above.
+
+- Heat-ray: Combating Identity Snowball Attacks Using Machine Learning, Combinatorial Optimization and Attack Graph by J. Dunagan, D. Simon, and A. Zheng, http://alicezheng.org/papers/sosp2009-heatray-10pt.pdf
+- Two Formal Analyses of Attack Graphs by S. Jha, O. Sheyner and J. Wing, http://www.cs.cmu.edu/~scenariograph/jha-wing.pdf
+- Using Model Checking to Analyze Network Vulnerabilities by P. Ammann and R. Ritchey, http://cyberunited.com/wp-content/uploads/2013/03/Using-Model-Checking-to-Analyze-Network-Vulnerabilities.pdf
+- A Graph-Based System for Network-Vulnerability Analysis by C. Phillips and L. Swiler, http://web2.utc.edu/~djy471/CPSC4660/graph-vulnerability.pdf
+- Automated Generation and Analysis of Attack Graphs by J. Haines, S. Jha, R. Lippman, O. Sheyner, J. Wing, https://www.cs.cmu.edu/~scenariograph/sheyner-wing02.pdf
+- Modern Intrusion Practices by Gerardo Richarte, https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-richarte.pdf
+- Attack Planning in the Real World by Jorge Lucangeli Obes, Gerardo Richarte, Carlos Sarraute, http://arxiv.org/pdf/1306.4044.pdf
+
 ### On, un-bypassable, tamperproof, functionally correct, fail closed
 
 If a security control does not have the qualities above, then an attacker can violate a system's security properties by subverting its controls.
