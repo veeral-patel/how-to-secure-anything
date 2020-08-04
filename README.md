@@ -138,10 +138,9 @@ There's no such thing as a system being secure, only being secure against a part
 This is why it's important to understand who your adversaries are, as well as the motivation behind
 and capabilities of each adversary.
 
-Two points:
+Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
 
-- Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
-- Study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
+Also, study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
