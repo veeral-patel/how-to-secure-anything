@@ -416,14 +416,23 @@ Even if an analyst has a secret clearance, you may not want him to be able to an
 
 ### Inference control
 
+While an individual, anonymized database may not be enough to de-anonymize people, a combination of anonymized databases may make this possible. Inference control aims to prevent this.
+
+I haven't seen this concept outside of computer security, yet.
+
 - ["Inference Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 - [Report on Statistical Disclosure Limitation Methodology](https://ecommons.cornell.edu/bitstream/handle/1813/22991/WP-22-OMB-totalreport.pdf)
 
 ### Sandboxing
 
-Sandboxes let us take a untrusted component of a system and apply a security policy to it.
+Privilege separation is dividing a system into different components, based on what permission
+level each component should have.
 
-Say you're a king, ruling over some citizens and criminals. You may want to sandbox the criminals to prevent them from harming your citizens, by, say, putting them in jail. While they can still harm each other, you've contained the damage.
+Least privilege is then making the permission level for each component as small as possible.
+
+The way you enforce this minimal permission level is via a sandbox.
+
+I haven't seen this concept outside of computer security, yet.
 
 - [On Safes, Sandboxes, and Spies (CS 161 at UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec5.pdf)
 - [A Theory and Tools for Applying Sandboxes Effectively](http://www.cs.cmu.edu/~mmaass/pdfs/dissertation.pdf)
