@@ -10,7 +10,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 
 - [What is security engineering?](#what-is-security-engineering-)
 - [High level process](#high-level-process)
-- [Follow best practices](#follow-best-practices)
+- [Follow known best practices](#follow-best-practices)
 - [Security policies](#security-policies)
 - [Security models](#security-models)
 - [Understand your adversaries](#understand-your-adversaries)
@@ -88,14 +88,14 @@ Here's the process I like for securing things:
 
 ![](images/high_level_process.png)
 
-- We follow as many known best practices as we can
+- We follow as many known best practices as we can. If humans already know how to secure something well, why try to derive the answer ourselves?
 - We write down our security policies, or high level security goals
 - We develop a security model, or a spec we follow to satisfy our policies
 - We reduce attack surface, follow security design principles, brainstorm ideas for and implement additonal security controls, and more -- to improve our security
 - We test our design by assessing our controls, assessing protocols, looking for side channels, and more
 - We write assurance cases to prove we satisfy our security policy.
 
-## Follow best practices
+## Follow known best practices
 
 Before anything else, I'd Google for the best practices for securing whatever you're trying to secure and implement all of them.
 
@@ -407,7 +407,7 @@ Think about the intel classification hierarchy: some documents are top secret, o
 
 #### Multilateral
 
-Even if an analyst has a secret clearance, you may not want him to be able to any access documents from other departments. This is a multi-lateral scheme.
+Even if an analyst has a secret clearance, you may not want him to be able to access any documents from other departments. This is a multi-lateral scheme.
 
 - ["Boundaries" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch10-dec18.pdf)
 - [Security in clinical information systems](multilateral/security_in_clinical_info_systems.pdf)
