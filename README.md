@@ -11,9 +11,9 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [What is security engineering?](#what-is-security-engineering-)
 - [High level process](#high-level-process)
 - [Follow known best practices](#follow-known-best-practices)
+- [Understand your adversaries](#understand-your-adversaries)
 - [Security policies](#security-policies)
 - [Security models](#security-models)
-- [Understand your adversaries](#understand-your-adversaries)
 - [Improve defenses](#improve-defenses)
   - [Minimize attack surface](#minimize-attack-surface)
   - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
@@ -113,6 +113,20 @@ I'd study how people have defended what you're defending now in the past. Also, 
 
 Doing this will make you significantly more secure than the majority of people, who don't do this.
 
+## Understand your adversaries
+
+There's no such thing as a system being secure, only being secure against a particular adversary.
+
+This is why it's important to understand who your adversaries are, as well as the motivation behind
+and capabilities of each adversary.
+
+Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
+
+Also, study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
+
+- ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+- [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
+
 ## Security policies
 
 Policies are the high level properties we want our system to have. Policies are what we want to happen.
@@ -151,20 +165,6 @@ For confidentiality, for example, you can choose between:
 
 - [multilevel security](#multilevel), for which [Bell-Padula](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model) can be used
 - [multilateral security](#multilateral), for which compartmentation, BMA, [Chinese wall](https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/chinese-wall-sec-pol.pdf) can be used (according to Anderson's book)
-
-## Understand your adversaries
-
-There's no such thing as a system being secure, only being secure against a particular adversary.
-
-This is why it's important to understand who your adversaries are, as well as the motivation behind
-and capabilities of each adversary.
-
-Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
-
-Also, study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
-
-- ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
-- [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 
 ## Improve defenses
 
