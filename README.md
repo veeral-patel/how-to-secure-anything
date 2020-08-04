@@ -554,7 +554,11 @@ We've already learned about the first category; this section is about the second
 
 ## Books
 
+I've tried to reference specific chapters of books in my sections above. I haven't done this for all the books I've read, however, so I thought I'd add a section listing all the books I've found on this topic here.
+
 ### Recommended (by me)
+
+"Recommended" is just my subjective opinion. YMMV!
 
 - Computer Security: Art and Science (by Bishop) - I'd read this first; it teaches security engineering in the right order: policies and models, then mechanisms, then assurance.
 - Security Engineering (by Ross Anderson)
@@ -563,6 +567,8 @@ We've already learned about the first category; this section is about the second
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 
 ### Not recommended
+
+Again, "not recommended" is just my subjective opinion. YMMV!
 
 - [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md). Wasn't information dense.
 - "Engineering Information Security" (by Jacobs) - Mostly contains general security content, not content on security engineering. Only the systems engineering chapter felt new.
