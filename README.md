@@ -101,19 +101,32 @@ Before anything else, I'd Google for the best practices for securing whatever yo
 
 If you're in a corporate environment, set up SSO and 2FA. If you're securing a physical facility, see if there's a well-regarded physical security standard you can comply with.
 
+I'd study how people have defended what you're defending now in the past. Also, I'd talk to the people who are the very best at defending what I'm defending now, and learn what they do that most people don't do.
+
 Doing this will make you significantly more secure than the majority of people, who don't do this.
 
 ## Security policies
 
 Policies are the high level properties we want our system to have. Policies are what we want to happen.
 
-If we're designing a prison, one of our policies might be:
+Let's say we're designing a prison.
+
+I'd start with a strong policy:
 
 > No prisoner may escape the prison.
 
+Of course, time, money, and manpower are all limited. The goal isn't to eliminate risk entirely,
+but bring it down to an acceptable level.
+
+As I go through the next couple steps and learn what controls I need and how costly they'll be, I might refine my security policy to something like this:
+
+> No more than 10 out of 10,000 (0.1%) prisoners may escape our prison in any given time period.
+
+[Looking at benchmarks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.2782&rep=rep1&type=pdf) may help us come up with this number.
+
 ## Security models
 
-We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy.
+We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy. Our policy is our "what", the model is our "how".
 
 > Each individual in the prison facility must have a ID that identifies him/her as a "prisoner" or "not a prisoner"
 
