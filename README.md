@@ -279,7 +279,10 @@ Conclusion: I won't get robbed.
 Assumptions:
 
 - For every single attacker that tries to cross my lawn, my home security system calls the police. (If the answer to any of the questions above is yes, this assumption is false.)
-- The police will arrive before any attacker is able to steal anything and stop the theft. (What if the attacker impersonates the homeowner and tells the police that my home security system is faulty; don't come if it calls you? What if the attacker makes hundreds of 911 calls while he is robbing the house? What if the police is blocked by a "car accident"? What if the attacker has arranged for a getaway helicopter?)
+- The police will arrive before any attacker is able to steal anything and stop the theft.
+  - What if the attacker impersonates the homeowner and tells the police that my home security system is faulty; don't come if it calls you?
+  - What if the attacker makes hundreds of 911 calls while he is robbing the house?
+  - What if the police is blocked by a "car accident"? What if the attacker has arranged for a getaway helicopter?
 
 Saydjari writes an entire chapter on this:
 
