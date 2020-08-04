@@ -246,18 +246,17 @@ each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/)
 
 The techniques below help you find vulnerabilities in a proposed design for you to fix.
 
-### Attack trees
+### Developing an attacker mindset
 
-After building an attack tree, you can query it easily: "list all the attack paths costing
-less than \$100k". (Remember: we don't seek absolute security, but rather security against
-a certain set of adversaries.)
+> Theories of security derive from theories of insecurity. - Unknown
 
-Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles/knowledge/principles/securing-the-weakest-link). You can query your attack tree for the lowest cost attack
-path and ensure that the cost isn't too low.
+> If you're a great attacker you can be "logically" a great defender. However, a great defender cannot be a great attacker, nor would I say they could be a "great" defender. - [Caleb Sima](https://twitter.com/csima), VP of Security at Databricks
 
-- [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
+More important than the attacks in subsequent sections is being able to think creatively, like an attacker. I do believe this skill is essential if you want in order to assess the security of your designs effectively.
 
-### Attack graphs
+This section describes some techniques for developing this skill that I've gathered.
+
+#### Think in graphs
 
 Read [this post by John Lambert first](https://github.com/JohnLaTwC/Shared/blob/master/Defenders%20think%20in%20lists.%20Attackers%20think%20in%20graphs.%20As%20long%20as%20this%20is%20true%2C%20attackers%20win.md). It's about how attackers think in graphs, while defenders think in lists, so attackers win.
 
@@ -270,6 +269,17 @@ I've copied the list of links below from John's post above.
 - Automated Generation and Analysis of Attack Graphs by J. Haines, S. Jha, R. Lippman, O. Sheyner, J. Wing, https://www.cs.cmu.edu/~scenariograph/sheyner-wing02.pdf
 - Modern Intrusion Practices by Gerardo Richarte, https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-richarte.pdf
 - Attack Planning in the Real World by Jorge Lucangeli Obes, Gerardo Richarte, Carlos Sarraute, http://arxiv.org/pdf/1306.4044.pdf
+
+### Attack trees
+
+After building an attack tree, you can query it easily: "list all the attack paths costing
+less than \$100k". (Remember: we don't seek absolute security, but rather security against
+a certain set of adversaries.)
+
+Also, remember the [weakest link principle](https://www.us-cert.gov/bsi/articles/knowledge/principles/securing-the-weakest-link). You can query your attack tree for the lowest cost attack
+path and ensure that the cost isn't too low.
+
+- [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
 ### On, un-bypassable, tamperproof, functionally correct, fail closed
 
