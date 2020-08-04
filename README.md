@@ -654,3 +654,4 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 
 - Write up case studies on how I'd use my process to secure different things
 - Create practical, step by step checklists for doing each of the parts of my process
+- Have interviews with people who design security for museums, banks, prisons, casinos, etc
