@@ -10,7 +10,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 
 - [What is security engineering?](#what-is-security-engineering-)
 - [High level process](#high-level-process)
-- [Follow known best practices](#follow-best-practices)
+- [Follow known best practices](#follow-known-best-practices)
 - [Security policies](#security-policies)
 - [Security models](#security-models)
 - [Understand your adversaries](#understand-your-adversaries)
@@ -31,6 +31,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
     - [Fault tree analysis](#fault-tree-analysis)
     - [FMEA](#fmea)
   - [Side channel analysis](#side-channel-analysis)
+- [Assurance](#assurance)
 - [Popular mechanisms](#popular-mechanisms)
   - [Cryptography](#cryptography)
   - [Economics](#economics)
@@ -47,12 +48,13 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
   - [Inference control](#inference-control)
   - [Sandboxing](#sandboxing)
   - [Obscurity](#obscurity)
-- [Assurance](#assurance)
 - [Learn about how real world systems are secured](#learn-about-how-real-world-systems-are-secured)
   - [Physical protection](#physical-protection)
   - [Nuclear command and control](#nuclear-command-and-control)
   - [Monitoring and metering](#monitoring-and-metering)
   - [Banking and bookkeeping](#banking-and-bookkeeping)
+    - [Defending](#defending)
+    - [Attacking](#attacking)
   - [Distributed systems](#distributed-systems)
   - [Copyright and DRM](#copyright-and-drm)
   - [Web browsers](#web-browsers)
@@ -62,14 +64,20 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
   - [Operating systems](#operating-systems)
   - [Prisons](#prisons)
   - [Museums](#museums)
+    - [Defending](#defending-1)
+    - [Attacking](#attacking-1)
   - [Counterintelligence](#counterintelligence)
   - [Casinos](#casinos)
+    - [Defending](#defending-2)
+    - [Attacking](#attacking-2)
 - [Books](#books)
   - [Recommended (by me)](#recommended--by-me-)
   - [Not recommended](#not-recommended)
   - [Haven't read yet](#haven-t-read-yet)
     - [System engineering](#system-engineering)
 - [In the future](#in-the-future)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## What is security engineering?
 
