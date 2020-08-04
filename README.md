@@ -563,10 +563,18 @@ We've already learned about the first category; this section is about the second
 
 ### Museums
 
+#### Defending
+
 - [Museum Property Security and Fire Protection (from Interior Dept. Museum Property Handbook)](https://www.doi.gov/sites/doi.gov/files/migrated/museum/policy/upload/mphi-11.pdf)
 - [Suggested Practices For Museum Security](http://www.securitycommittee.org/securitycommittee/Guidelines_and_Standards_files/SuggestedPracticesRev06.pdf)
 - [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
 - [Museum Security and Protection](https://www.amazon.com/Museum-Security-Protection-Institutions-Care-Preservation-Management-ebook/dp/B000OI0Z0I)
+
+#### Attacking
+
+- [Stealing the Show: A History of Art and Crime in Six Thefts](https://www.amazon.com/Stealing-Show-John-Barelli/dp/1493038230)
+- [Stealing Rembrandts: The Untold Stories of Notorious Art Heists](https://www.amazon.com/Stealing-Rembrandts-Untold-Stories-Notorious/dp/0230339905)
+- [Nazi Gold: The Sensational Story of the World's Greatest Robbery – and the Greatest Criminal Cover-Up](https://www.amazon.com/Nazi-Gold-Sensational-Greatest-Criminal-ebook/dp/B006WA8VH6)
 
 ### Counterintelligence
 
@@ -574,10 +582,17 @@ We've already learned about the first category; this section is about the second
 
 ### Casinos
 
+#### Defending
+
 - [Casino Security and Gaming Surveillance](https://www.amazon.com/Casino-Security-Gaming-Surveillance-Derk/dp/1420087827)
 - [Casino Surveillance and Security: 150 Things You Should Know](https://www.amazon.com/Casino-Surveillance-Security-Things-Should/dp/188705619X)
 - [Casino Surveillance: the Eye That Never Blinks](https://www.amazon.com/Casino-Surveillance-That-Never-Blinks/dp/0966600908)
 - [150 things You Should Know About Security](https://www.amazon.com/Things-Should-Know-about-Security/dp/0128094850) - see the casino chapter
+
+#### Attacking
+
+- [Great Gambling Scams: True Stories of the World's Most Amazing Hustlers](https://www.amazon.com/Great-Gambling-Scams-Stories-Hustlers/dp/1844543862)
+- [Loaded Dice: True Story of a Casino Cheat](https://www.amazon.com/Loaded-Dice-Story-Casino-Cheat/dp/0491033656)
 
 ## Books
 
