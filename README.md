@@ -495,7 +495,9 @@ The chapters in Anderson's book fall into two categories, in my view: mechanisms
 
 We've already learned about the first category; this section is about the second category.
 
-### Physical protection
+### Physical facilities
+
+#### Defending
 
 - [Introduction to physical security](https://www.cdse.edu/documents/student-guides/PY011-guide.pdf)
 - ["Physical protection" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c11.pdf)
@@ -503,6 +505,12 @@ We've already learned about the first category; this section is about the second
 - [Physical security: 150 things you should know](https://www.amazon.com/Physical-Security-Things-Should-Know/dp/0128094877)
 - [The complete guide to physical security](https://www.amazon.com/Complete-Guide-Physical-Security/dp/1420099639)
 - [Physical security systems handbook](https://www.amazon.com/Physical-Security-Systems-Handbook-Implementation/dp/075067850X)
+
+#### Attacking
+
+- [A Burglar's Guide to the City](https://www.amazon.com/Burglars-Guide-City-Geoff-Manaugh/dp/0374117268/)
+- [The Feather Thief: Beauty, Obsession, and the Natural History Heist of the Century](https://www.amazon.com/Feather-Thief-Obsession-Natural-History/dp/110198161X)
+- [The Man Who Robbed the Pierre](https://www.amazon.com/Man-Who-Robbed-Pierre-Comfort/dp/0689119186)
 
 ### Nuclear command and control
 
@@ -593,6 +601,7 @@ We've already learned about the first category; this section is about the second
 - [Stealing the Show: A History of Art and Crime in Six Thefts](https://www.amazon.com/Stealing-Show-John-Barelli/dp/1493038230)
 - [Stealing Rembrandts: The Untold Stories of Notorious Art Heists](https://www.amazon.com/Stealing-Rembrandts-Untold-Stories-Notorious/dp/0230339905)
 - [Nazi Gold: The Sensational Story of the World's Greatest Robbery – and the Greatest Criminal Cover-Up](https://www.amazon.com/Nazi-Gold-Sensational-Greatest-Criminal-ebook/dp/B006WA8VH6)
+- [Master Thieves: The Boston Gangsters Who Pulled Off the World's Greatest Art Heist](https://www.amazon.com/Master-Thieves-Boston-Gangsters-Greatest/dp/1610396324)
 
 ### Counterintelligence
 
