@@ -4,7 +4,7 @@ Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
-> This repo is not done. It is actively being worked on, however.
+> Please contribute! Create a pull request or just [create a issue](https://github.com/veeral-patel/how-to-secure-anything/issues/new) for content you'd like to add: I'll add it for you!
 
 ## Table of contents
 
