@@ -138,7 +138,10 @@ There's no such thing as a system being secure, only being secure against a part
 This is why it's important to understand who your adversaries are, as well as the motivation behind
 and capabilities of each adversary.
 
-Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
+Two points:
+
+- Consider non-human threats, too. If you're asked to secure a painting in a museum, a fire may technically not be a security issue -- but it's something to guard against, regardless.
+- Study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
@@ -320,6 +323,17 @@ determine if the username is valid or not.
 
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 
+## Assurance
+
+The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
+Assurance is how we prove that our system satisfies the properties we want it to.
+
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
+- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
+- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- See the papers in [this folder](assurance)
+
 ## Popular mechanisms
 
 In order to secure something, you need to know what tools are available to you. Here are some that which can be used in many different contexts.
@@ -450,17 +464,6 @@ Obscurity, not its own, does not count as security. However, it can be added on 
 require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
-
-## Assurance
-
-The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
-Assurance is how we prove that our system satisfies the properties we want it to.
-
-- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
-- [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
-- [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
-- [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
-- See the papers in [this folder](assurance)
 
 ## Learn about how real world systems are secured
 
