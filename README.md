@@ -506,14 +506,23 @@ We've already learned about the first category; this section is about the second
 - ["Monitoring and metering" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c12.pdf)
 - [Electronic Postage Systems: Technology, Security, Economics](https://www.amazon.com/Electronic-Postage-Systems-Technology-Information/dp/1489986677)
 - [Reliability of Electronic Payment Systems](meters/reliability_of_electronic_payment_systems.pdf)
+- [Security and Privacy Analysis of Automatic Meter Reading Systems](meters/security_and_privacy_analysis_of_automatic_meter_reading_systems.pdf)
 - [On the Security of Digital Tachographs](https://www.cl.cam.ac.uk/~rja14/Papers/tacho.pdf)
 
 ### Banking and bookkeeping
 
+#### Defending
+
 - ["Banking and bookkeeping" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c10.pdf)
 - [The Bank Employee's Fraud and Security Handbook: Everything You Need to Know to Detect and Prevent Loss](https://www.amazon.com/Bank-Employees-Fraud-Security-Handbook/dp/1557383480)
-- [Security and Privacy Analysis of Automatic Meter Reading Systems](meters/security_and_privacy_analysis_of_automatic_meter_reading_systems.pdf)
 - [How Coinbase Builds Secure Infrastructure To Store Bitcoin In The Cloud](https://blog.coinbase.com/how-coinbase-builds-secure-infrastructure-to-store-bitcoin-in-the-cloud-30a6504e40ba)
+
+#### Attacking
+
+- [Where the Money Is: True Tales from the Bank Robbery Capital of the World](https://www.amazon.com/Where-Money-Tales-Robbery-Capital/dp/039332575X)
+- [Norco '80: The True Story of the Most Spectacular Bank Robbery in American History](https://www.amazon.com/Norco-80-Spectacular-Robbery-American-ebook/dp/B07GS7J2Z3)
+- [Pizza Bomber: The Untold Story of America's Most Shocking Bank Robbery](https://www.amazon.com/Pizza-Bomber-Americas-Shocking-Robbery/dp/0425250555)
+- [The Great Heist - The Story of the Biggest Bank Robbery in History: And Why All the Money Was Returned](https://www.amazon.com/Great-Heist-Biggest-Robbery-Returned/dp/1493532693)
 
 ### Distributed systems
 
