@@ -452,6 +452,13 @@ Even if an analyst has a secret clearance, you may not want him to be able to ac
 - [Implementing access control to protect the confidentiality of patient information in clinical information systems in the acute hospital](multilateral/implementing_access_control_to_protect_patient_data.pdf)
 - [Privacy in clinical information systems in secondary care](multilateral/privacy_in_clinical_info_systems.pdf)
 
+#### Two-man rule
+
+The idea is simple: to authorize certain actions, more than one person must consent.
+This helps protect against malicious insiders.
+
+- [Wikipedia article](https://en.wikipedia.org/wiki/Two-man_rule)
+
 ### Inference control
 
 While an individual, anonymized database may not be enough to de-anonymize people, a combination of anonymized databases may make this possible. Inference control aims to prevent this.
