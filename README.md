@@ -257,29 +257,30 @@ path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
-### Control analysis
+### On, un-bypassable, tamperproof, functionally correct, fail closed
 
-Every security control must be on, impossible to bypass, tamperproof, and functionally correct. It must also fail closed.
-
-If this is not the case, then an attacker can violate a system's security properties by subverting its controls.
+If a security control does not have the qualities above, then an attacker can violate a system's security properties by subverting its controls.
 
 - Can the attacker turn off the control?
 - Can the attacker get you to turn off the control?
 - Can the attacker get around your control?
 - Does the control depend on something that the attacker can disable?
 - Are there any cases where the control doesn't work?
+- Does the control fail open or closed? If it fails open, can the attacker make the control fail?
 
-#### Example: a burglar confronting a home security system which calls the police if someone crosses the lawn at night
+#### Example: a burglar
 
-- Can the attacker turn off the control? Probably not
-- Can the attacker get you to turn off the control? Yes, he could set off the alarm everyday until you turn it off
-- Can the attacker get around your control? Yes, he could land on the roof
-- Does the control depend on something that the attacker can disable? Yes, the attacker can cut the electric wire or the fiber cable used to call the police
-- Are there any cases where the control doesn't work? The attacker can buy the control and learn the alarm doesn't go off if he tip toes.
+Take a burglar confronting a home security system which calls the police if someone crosses the lawn at night
 
-#### Assumptions audit
+- Can the burglar turn off the control? Probably not
+- Can the burglar get you to turn off the control? Yes, he could set off the alarm everyday until you turn it off
+- Can the burglar get around your control? Yes, he could land on the roof
+- Does the control depend on something that the burglar can disable? Yes, the burglar can cut the electric wire or the fiber cable used to call the police
+- Are there any cases where the control doesn't work? The burglar can buy the control and learn the alarm doesn't go off if he tip toes.
 
-I like using a statement/conclusion format to draw out my assumptions.
+### Assumptions analysis
+
+I like using a statement/conclusion format to draw out my assumptions about my controls.
 
 Statement: I have a home security system which calls the police if someone crosses the lawn.
 
@@ -296,19 +297,6 @@ Assumptions:
 Saydjari writes an entire chapter on this:
 
 - [Architecting cybersecurity (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch20.xhtml) - [my notes](saydjari/saydjari-ch20.md)
-
-### Protocol analysis
-
-Protocols aren't a tool for securing something. But all communication between two components of a system is done through
-a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
-
-- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
-- [A logic of authentication](protocols/a_logic_of_authentication.pdf)
-- [Programming Satan's computer](protocols/programming_satans_computer.pdf)
-- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
-- [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
-- [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
-- [Three systems for cryptographic protocol analysis](protocols/three_systems_for_cryptographic_protocol_analysis.pdf)
 
 ### Failure analysis
 
@@ -328,6 +316,19 @@ which is bottom up.
 - [FMEA Procedure](https://asq.org/quality-resources/fmea)
 - [FMEA: From Theory to Execution](https://www.amazon.com/Failure-Mode-Effect-Analysis-Execution/dp/0873895983)
 - [The Basics of FMEA](https://www.amazon.com/Basics-FMEA-Raymond-J-Mikulak/dp/1563273772)
+
+### Protocol analysis
+
+Protocols aren't a tool for securing something. But all communication between two components of a system is done through
+a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
+
+- ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
+- [A logic of authentication](protocols/a_logic_of_authentication.pdf)
+- [Programming Satan's computer](protocols/programming_satans_computer.pdf)
+- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
+- [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
+- [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
+- [Three systems for cryptographic protocol analysis](protocols/three_systems_for_cryptographic_protocol_analysis.pdf)
 
 ### Side channel analysis
 
