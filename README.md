@@ -97,6 +97,7 @@ Here's the process I like for securing things:
 ![](images/high_level_process.png)
 
 - We follow as many known best practices as we can. If humans already know how to secure something well, why try to derive the answer ourselves?
+- Learn about the adversaries you want to defend against
 - We write down our security policies, or high level security goals
 - We develop a security model, or a spec we follow to satisfy our policies
 - We reduce attack surface, follow security design principles, brainstorm ideas for and implement additonal security controls, and more -- to improve our security
