@@ -154,6 +154,12 @@ As I go through the next couple steps and learn what controls I need and how cos
 
 [Looking at benchmarks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.849.2782&rep=rep1&type=pdf) may help us come up with this number.
 
+Any system has additional requirements in addition to its security requirements. These two sets of requirements may conflict, so you may need to relax your security requirements.
+
+Going back to the example above, our policy is that only a tiny percentage of prisoners may leave the prison without permission. But what if there's a fire?
+
+If you've achieved this low escape rate by building a fully autonomous fortress with no fire detection or human override, the results may be suboptimal.
+
 ## Security models
 
 We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy. Our policy is our "what", the model is our "how".
