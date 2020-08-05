@@ -556,6 +556,14 @@ I haven't seen this concept outside of computer security, yet.
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
+### Logging/auditing
+
+To me, logging is the act of collecting event data, and auditing is looking for malicious activity in those events. The terms are used interchangeably, however.
+
+Logging is useful for deterrence (insiders especially are less likely to do bad things if they're being recorded), detection, and investigation. It can provide non-repudiation, or the inability of an attacker to deny their malicious activity.
+
+It's practiced in many fields from information security (think SIEMs) to healthcare (tracking who accesses someone's medical records).
+
 ### Obscurity
 
 Obscurity, not its own, does not count as security. However, it can be added on top of real security measures, to make attacks on you
