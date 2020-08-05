@@ -296,13 +296,13 @@ Read [this post by John Lambert first](https://github.com/JohnLaTwC/Shared/blob/
 
 I've copied the list of links below from John's post above.
 
-- Heat-ray: Combating Identity Snowball Attacks Using Machine Learning, Combinatorial Optimization and Attack Graph by J. Dunagan, D. Simon, and A. Zheng, http://alicezheng.org/papers/sosp2009-heatray-10pt.pdf
-- Two Formal Analyses of Attack Graphs by S. Jha, O. Sheyner and J. Wing, http://www.cs.cmu.edu/~scenariograph/jha-wing.pdf
-- Using Model Checking to Analyze Network Vulnerabilities by P. Ammann and R. Ritchey, http://cyberunited.com/wp-content/uploads/2013/03/Using-Model-Checking-to-Analyze-Network-Vulnerabilities.pdf
-- A Graph-Based System for Network-Vulnerability Analysis by C. Phillips and L. Swiler, http://web2.utc.edu/~djy471/CPSC4660/graph-vulnerability.pdf
-- Automated Generation and Analysis of Attack Graphs by J. Haines, S. Jha, R. Lippman, O. Sheyner, J. Wing, https://www.cs.cmu.edu/~scenariograph/sheyner-wing02.pdf
-- Modern Intrusion Practices by Gerardo Richarte, https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-richarte.pdf
-- Attack Planning in the Real World by Jorge Lucangeli Obes, Gerardo Richarte, Carlos Sarraute, http://arxiv.org/pdf/1306.4044.pdf
+- [Heat-ray: Combating Identity Snowball Attacks Using Machine Learning, Combinatorial Optimization and Attack Graph](http://alicezheng.org/papers/sosp2009-heatray-10pt.pdf)
+- [Two Formal Analyses of Attack Graphs](http://www.cs.cmu.edu/~scenariograph/jha-wing.pdf)
+- [Using Model Checking to Analyze Network Vulnerabilities](http://cyberunited.com/wp-content/uploads/2013/03/Using-Model-Checking-to-Analyze-Network-Vulnerabilities.pdf)
+- [A Graph-Based System for Network-Vulnerability Analysis](http://web2.utc.edu/~djy471/CPSC4660/graph-vulnerability.pdf)
+- [Automated Generation and Analysis of Attack Graphs](https://www.cs.cmu.edu/~scenariograph/sheyner-wing02.pdf)
+- [Modern Intrusion Practices](https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-richarte.pdf)
+- [Attack Planning in the Real World](http://arxiv.org/pdf/1306.4044.pdf)
 
 ### Attack trees
 
