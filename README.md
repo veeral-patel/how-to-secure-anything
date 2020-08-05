@@ -265,7 +265,7 @@ I would go down this list and see if there's any principles which you can apply 
 - Least common mechanism - limit unnecessary sharing
 - Open design - your design should be secure without obscurity. obscurity is discussed [later in the repo](#obscurity)
 - Complete mediation - applies to reference monitors, which many controls are. The idea is to perform a check on every request. If you cache results, then a request that should be rejected after things changed might be allowed. [See this link](https://us-cert.cisa.gov/bsi/articles/knowledge/principles/complete-mediation)
-- Work factor - find ways to make the attacker need to do significantly more work to break csomething than it takes you, the defender. bcrypt is an example
+- Work factor - find ways to make the attacker need to do several times more work to break something than it takes you, the defender. [Here's a paper](https://www.nspw.org/papers/2000/nspw2000-schudel.pdf) on dynamic network reconfiguration being used to increase recon work for attackers
 - Security is economics - discussed [later in the repo](#economics)
 - Human factors matter - if a control relies on a human to do something, make sure your control is usable or the person just won't do it
 - Know your threat model & update it - keep your threat model up to date with threats, and your defenses too
