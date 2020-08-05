@@ -98,6 +98,7 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
 - [Human Adversaries – Why Information Security Is Unlike Engineering](https://www.scriptjunkie.us/2016/01/human-adversaries-why-information-security-is-unlike-engineering/)
 - Natural Advantages of Defense: What Military History Can Teach Network Security - [Part 1](https://www.schneier.com/crypto-gram/archives/2001/0415.html#1), [Part 2](https://www.schneier.com/crypto-gram/archives/2001/0515.html#1)
+- [Availability and Security: Choose One](https://www.cs.auckland.ac.nz/~pgut001/pubs/availability.pdf)
 
 ## High level process
 
@@ -136,6 +137,8 @@ Also, study the history of attacks. If I was designing a prison, I'd learn about
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
+- [Awesome Threat Modeling](https://github.com/hysnsec/awesome-threat-modelling)
+- [Some thoughts on threat modeling](https://www.cs.auckland.ac.nz/~pgut001/pubs/threat_modelling.pdf)
 
 ## Security policies
 
