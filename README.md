@@ -270,8 +270,11 @@ I would go down this list and see if there's any principles which you can apply 
 - Human factors matter - if a control relies on a human to do something, make sure your control is usable or the person just won't do it
 - Know your threat model & update it - keep your threat model up to date with threats, and your defenses too
 
+Sources
+
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
 - [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
+- [Principles for building secure systems](https://inst.eecs.berkeley.edu/~cs161/sp19/notes/Principles.1.19.pdf)
 
 ## Find vulnerabilities
 
