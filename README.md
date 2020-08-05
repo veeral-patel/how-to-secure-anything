@@ -677,6 +677,7 @@ We've already learned about the first category; this section is about the second
 - [Suggested Practices For Museum Security](http://www.securitycommittee.org/securitycommittee/Guidelines_and_Standards_files/SuggestedPracticesRev06.pdf)
 - [Museum Collections Security](https://www.nps.gov/museum/publications/MHI/Chapter%209.pdf)
 - [Museum Security and Protection](https://www.amazon.com/Museum-Security-Protection-Institutions-Care-Preservation-Management-ebook/dp/B000OI0Z0I)
+- [Why Corporate Security Should Be Like Museums](https://randymarchany.blogspot.com/2018/04/why-corporate-security-should-be-like.html?m=1)
 
 #### Attacking
 
@@ -747,6 +748,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 
 ### Haven't read yet
 
+- [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
 - [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
