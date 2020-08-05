@@ -739,6 +739,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 
 ### Haven't read yet
 
+- [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 - [Learning from the enemy: the GUNMAN project (NSA)](https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/cryptologic-histories/Learning_from_the_Enemy.pdf)
