@@ -488,7 +488,7 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 The three ways to authenticate someone are:
 
 - what you know (eg, PIN, password, picture passwords)
-- what you have (eg, Yubikey, smartphone)
+- what you have (eg, Yubikey, smartphone, smartcard, token hardware)
 - what you are (eg, a fingerprint)
 
 While not a standalone factor, you can consider the environment, too, such as where the user
