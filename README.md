@@ -444,19 +444,19 @@ If the attacker isn't motivated by money, this doesn't work.
 - ["Economics" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch8-dec18.pdf)
 - [Security Economics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/) - here's the [transcript](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/8PdnOZI7H5E.pdf)
 
-### Laws and regulations (deterrence by the government)
+### Laws and regulations
 
-Deterrence has three parts: certainty, severity, and swiftness. In other words, to deter attackers most effectively, someone should be able to catch most
-or all of them -- and do this quickly -- and then sufficiently punish them once you do catch them.
+To deter attackers, you should be able to catch most
+or all of them, and quickly, and then sufficiently punish them once you do catch them.
 
 This someone could be the government, via laws and regulations against whatever you're trying to defend against. The government may not catch everyone,
 but these laws and regulations will deter most people. Copyright protection, anti-shoplifting, and anti-trespassing laws all are examples of this.
 
-### Retaliation (deterrence by you or third parties)
+### Retaliation
 
 The government is not the only third party who can deter attacks on you. Organizations, like NATO, can as well.
 
-Alternatively, you can try to retaliate against attacks yourself. Take, for example, media companies that sue people that pirate their movies.
+Alternatively, you can try to retaliate against attacks yourself. Take, for example, media companies that sue people that pirate their movies. This is deterrence by you or third parties.
 
 - [Deterrence and adversarial risk (from Saydjari's book)](https://learning.oreilly.com/library/view/Engineering+Trustworthy+Systems:+Get+Cybersecurity+Design+Right+the+First+Time/9781260118186/ch16.xhtml#ch16lev1) - [my notes](saydjari/saydjari-ch16.md)
 
