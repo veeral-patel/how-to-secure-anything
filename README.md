@@ -764,6 +764,18 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 - [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
 - [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
 
+## Content wanted
+
+If you know of any good books, talks, papers, or other resources on the topics below, please submit a pull request, or even easier, just [create an issue](https://github.com/veeral-patel/how-to-secure-anything/issues/new) and I'll add the resources to the repo for you.
+
+- How is online gambling kept secure?
+- How are casino slot machines kept secure both from insiders (see Ocean's 13!) and outsiders?
+- How are facilities containing hazardous biological, chemical material secured?
+- What about nuclear facilities?
+- What security requirements does the DOD have for in its JEDI Cloud?
+- How do chip fabs and bio facilities prevent contamination?
+- Are there any things we can apply from safety engineering to security engineering?
+
 ## In the future
 
 - Write up case studies on how I'd use my process to secure different things
