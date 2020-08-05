@@ -252,6 +252,24 @@ each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/)
 
 ### Security design principles
 
+I would go down this list and see if there's any principles which you can apply to your system.
+
+- Secure the weakest link
+- Defense in depth
+- Fail securely
+- Secure by default
+- Secure by design
+- Least privilege - discussed earlier in the repo
+- Separation of privilege - discussed earlier in the repo
+- Economy of mechanism - controls should be as simple as possible
+- Least common mechanism - limit unnecessary sharing
+- Open design - your design should be secure without obscurity. obscurity is discussed [later in the repo](#obscurity)
+- Complete mediation - applies to reference monitors, which many controls are. The idea is to perform a check on every request. If you cache results, then a request that should be rejected after things changed might be allowed. [See this link](https://us-cert.cisa.gov/bsi/articles/knowledge/principles/complete-mediation)
+- Work factor - find ways to make the attacker need to do significantly more work to break csomething than it takes you, the defender. bcrypt is an example
+- Security is economics - discussed [later in the repo](#economics)
+- Human factors matter - if a control relies on a human to do something, make sure your control is usable or the person just won't do it
+- Know your threat model & update it - keep your threat model up to date with threats, and your defenses too
+
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
 - [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 
