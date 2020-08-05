@@ -249,6 +249,31 @@ each step in the kill chain. Check out [MITRE ATT&CK](https://attack.mitre.org/)
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
 - [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 
+- Secure the weakest link
+- Defense in depth
+- Fail securely
+- Secure by default
+- Secure by design
+- Least privilege
+- Separation of privilege
+- Economy of mechanism
+- Least common mechanism
+- Reluctance to trust
+- Open design
+- Complete mediation
+- Psychological acceptability
+- Complete mediation
+- Work factor
+- Compromise recording
+- Security is economics
+- Separation of responsibility
+- Human factors matter
+- Know your threat model & update it
+- Detect if you can't prevent
+- Conservative design
+- Kerchoff's principle
+- Proactively study attacks
+
 ## Find vulnerabilities
 
 The techniques below help you find vulnerabilities in a proposed design for you to fix.
