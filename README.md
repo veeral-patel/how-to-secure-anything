@@ -331,10 +331,10 @@ If a security control does not have the qualities above, then an attacker can vi
 Take a burglar confronting a home security system which calls the police if someone crosses the lawn at night
 
 - Can the burglar turn off the control? Probably not
-- Can the burglar get you to turn off the control? Yes, he could set off the alarm everyday until you turn it off
-- Can the burglar get around your control? Yes, he could land on the roof
+- Can the burglar get you to turn off the control? Yes, they could set off the alarm everyday until you turn it off
+- Can the burglar get around your control? Yes, they could land on the roof
 - Does the control depend on something that the burglar can disable? Yes, the burglar can cut the electric wire or the fiber cable used to call the police
-- Are there any cases where the control doesn't work? The burglar can buy the control and learn the alarm doesn't go off if he tip toes.
+- Are there any cases where the control doesn't work? The burglar can buy the control and learn the alarm doesn't go off if they tip toes.
 
 ### Assumptions analysis
 
@@ -349,7 +349,7 @@ Assumptions:
 - For every single attacker that tries to cross my lawn, my home security system calls the police. (If the answer to any of the questions above is yes, this assumption is false.)
 - The police will arrive before any attacker is able to steal anything and stop the theft.
   - What if the attacker impersonates the homeowner and tells the police that my home security system is faulty; don't come if it calls you?
-  - What if the attacker makes hundreds of 911 calls while he is robbing the house?
+  - What if the attacker makes hundreds of 911 calls while they are robbing the house?
   - What if the police is blocked by a "car accident"? What if the attacker has arranged for a getaway helicopter?
 
 Saydjari writes an entire chapter on this:
@@ -435,7 +435,7 @@ To learn about later: secure enclaves
 
 The idea here is to make it economically, not technically, infeasible for the attacker to attack us. He can still attack us, but his expected effort will exceed his expected gain.
 
-Say a scammer manages to scam one of every hundred people out of $5. If we can add a $0.10 fee to every call, then he'd need to pay $10 in fees to earn $5.
+Say a scammer manages to scam one of every hundred people out of $5. If we can add a $0.10 fee to every call, then they'd need to pay $10 in fees to earn $5.
 
 Another example would be not storing credit card data ourselves, and instead outsourcing this to a payment processor, so the reward of attacking us is less.
 
