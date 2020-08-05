@@ -639,6 +639,16 @@ We've already learned about the first category; this section is about the second
 
 ### BeyondCorp & zero trust
 
+> Most companies need to be able to answer the question, "is this client one of ours," when protecting sensitive resources.
+
+> Most companies will instead answer the question, "is the client on our network," and pretend that it was the same question. The fact that it clearly is not has some very obvious security implications and attack vectors that we've been living with for decades.
+
+> Beyondcorp tries to more directly answer the original question about device identity rather than subbing in the network question in its place.
+
+> The fact that this approach is novel says a lot about the maturity of our industry.
+
+-- tyler_larson, [a Hacker News comment](https://news.ycombinator.com/item?id=16204208), 01/22/2018
+
 - [BeyondCorp I: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
 - [BeyondCorp II: Design to deployment at Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44860.pdf)
 - [BeyondCorp III: The access proxy](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45728.pdf)
