@@ -723,6 +723,7 @@ I've tried to reference specific chapters of books in my sections above. I haven
 - Engineering Trustworthy Systems (by Sami Saydjari)
 - "Security in Computing" (by Pfleeger) - I liked the chapter on trusted operating systems in particular.
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
+- [Engineering Security](https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)
 
 ### Not recommended
 
