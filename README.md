@@ -556,7 +556,7 @@ I haven't seen this concept outside of computer security, yet.
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
-### Logging/auditing
+### Logging & auditing
 
 To me, logging is the act of collecting event data, and auditing is looking for malicious activity in those events. The terms are used interchangeably, however.
 
