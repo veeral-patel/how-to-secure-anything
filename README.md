@@ -485,7 +485,14 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 
 ### Authentication
 
-The three ways to authenticate someone is based on you are (biometrics), what you know (password), what you have (Yubikey, phone).
+The three ways to authenticate someone are:
+
+- what you know (eg, PIN, password, picture passwords)
+- what you have (eg, Yubikey, smartphone)
+- what you are (eg, a fingerprint)
+
+While not a standalone factor, you can consider the environment, too, such as where the user
+is or what time it is.
 
 #### Biometrics
 
