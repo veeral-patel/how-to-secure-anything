@@ -491,8 +491,7 @@ The three ways to authenticate someone are:
 - what you have (eg, Yubikey, smartphone, smartcard, token hardware)
 - what you are (eg, a fingerprint)
 
-While not a standalone factor, you can consider the environment, too, such as where the user
-is or what time it is.
+While not a standalone factor, you can consider the environment, too, such as where the user is or what time it is.
 
 #### Biometrics
 
@@ -629,6 +628,17 @@ We've already learned about the first category; this section is about the second
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 
 ### BeyondCorp & zero trust
+
+![](images/beyondcorp_architecture.png)
+
+[Google's BeyondCorp](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf) removes the concept of firewalls and VPNs altogether. Instead, every request to access internal services must be authenticated, authorized, and encrypted, and that's all -- regardless from what network the request originates from.
+
+For a request to be authenticated, it must be from:
+
+- an authenticated user (checked using SSO + hardware security key)
+- who's on a corporate device (a device in Google's Device Inventory Database, identified with a certificate stored in the device's TPM or in certificate store).
+
+BeyondCorp's Trust Inference dynamically determines how much trust to assign a user or a device. The user accessing services from a strange location would decrease trust. A less secure device would decrease trust.
 
 - [BeyondCorp I: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
 - [BeyondCorp II: Design to deployment at Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44860.pdf)
