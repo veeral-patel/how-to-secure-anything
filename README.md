@@ -748,6 +748,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 
 ### Haven't read yet
 
+- [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
 - [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 - NIST 800-16 Vol I: System Security Engineering
