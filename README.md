@@ -96,6 +96,8 @@ mechanisms that enforce these properties, and assuring yourself that your securi
 - ["What is security engineering?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch1-dec18.pdf) - [my notes](anderson/anderson-ch1.md)
 - [What's the problem? (from Saydjari's book)](https://www.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch1.xhtml) - [my notes](saydjari/saydjari-ch1.md)
 - [Computer security in the real world](what_is_it/computer_security_in_the_real_world.pdf)
+- [Human Adversaries – Why Information Security Is Unlike Engineering](https://www.scriptjunkie.us/2016/01/human-adversaries-why-information-security-is-unlike-engineering/)
+- Natural Advantages of Defense: What Military History Can Teach Network Security - [Part 1](https://www.schneier.com/crypto-gram/archives/2001/0415.html#1), [Part 2](https://www.schneier.com/crypto-gram/archives/2001/0515.html#1)
 
 ## High level process
 
@@ -227,6 +229,7 @@ Say one of our SRE SSH's into a production EC2 instance as `root` to check the i
 Instead, we can assign the SRE a non-root account. Even better, we can whitelist the commands this account can run.
 Even better, we can even remove SSH access entirely and set up [Prometheus](https://prometheus.io/) for monitoring.
 
+- [Ways to minimize privileges](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/minimize-privileges.html)
 - [Lecture 4: Privilege Separation (6.858 from MIT)](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-4-privilege-separation/) - [my notes](mit-6858-lec-4-privilege-separation.md)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
 - [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
@@ -257,18 +260,20 @@ I would go down this list and see if there's any principles which you can apply 
 - Secure the weakest link
 - Defense in depth
 - Fail securely
-- Secure by default
+- Secure by default - more on this [here](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/safe-configure.html)
 - Secure by design
 - Least privilege - discussed earlier in the repo
 - Separation of privilege - discussed earlier in the repo
 - Economy of mechanism - controls should be as simple as possible
-- Least common mechanism - limit unnecessary sharing
+- Least common mechanism - limit unnecessary sharing. see [this](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/minimize-data-access.html)
 - Open design - your design should be secure without obscurity. obscurity is discussed [later in the repo](#obscurity)
 - Complete mediation - applies to reference monitors, which many controls are. The idea is to perform a check on every request. If you cache results, then a request that should be rejected after things changed might be allowed. [See this link](https://us-cert.cisa.gov/bsi/articles/knowledge/principles/complete-mediation)
 - Work factor - find ways to make the attacker need to do several times more work to break something than it takes you, the defender. [Here's a paper](https://www.nspw.org/papers/2000/nspw2000-schudel.pdf) on dynamic network reconfiguration being used to increase recon work for attackers
 - Security is economics - discussed [later in the repo](#economics)
 - Human factors matter - if a control relies on a human to do something, make sure your control is usable or the person just won't do it
 - Know your threat model & update it - keep your threat model up to date with threats, and your defenses too
+- Trust only trustworthy channels - see [this article](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/trustworthy-channels.html)
+- Set up a trusted path - see [this article](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/trusted-path.html)
 
 Sources
 
