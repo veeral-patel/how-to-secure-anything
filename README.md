@@ -685,7 +685,8 @@ For an attacker to gain access to a service under BeyondCorp, they'd need to:
 #### Before/after
 
 Before: the attacker has to execute one digital attack (gain VPN access) to gain access to services.
-If VPN requires 2FA, but it's not done with a hardware security key, the attacker can phish the employee into giving up his 2FA code or accepting the Duo push.
+
+Even if VPN requires 2FA, but it's not done with a hardware security key, the attacker can phish the employee into giving up his 2FA code or accepting the Duo push.
 
 After: the attacker has to execute two digital attacks (obtain SSO password, obtain device password) and two physical attacks, which might be done at once (device, hardware security key).
 
