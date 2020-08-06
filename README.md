@@ -690,6 +690,8 @@ Even if VPN requires 2FA, but it's not done with a hardware security key, the at
 
 After: the attacker has to execute two digital attacks (obtain SSO password, obtain device password) and two physical attacks, which might be done at once (device, hardware security key).
 
+Learning lesson: shift digital attacks to physical attacks wherever possible (and safe). Google does this using hardware security keys and only letting managed laptops access services.
+
 #### Further reading
 
 - [BeyondCorp I: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
