@@ -493,7 +493,13 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 
 ### Authentication
 
-The three ways to authenticate someone is based on you are (biometrics), what you know (password), what you have (Yubikey, phone).
+The three ways to authenticate someone are:
+
+- what you know (eg, PIN, password, picture passwords)
+- what you have (eg, Yubikey, smartphone, smartcard, token hardware)
+- what you are (eg, a fingerprint)
+
+While not a standalone factor, you can consider the environment, too, such as where the user is or what time it is.
 
 #### Biometrics
 
@@ -648,12 +654,77 @@ We've already learned about the first category; this section is about the second
 > The fact that this approach is novel says a lot about the maturity of our industry.
 
 -- tyler_larson, [a Hacker News comment](https://news.ycombinator.com/item?id=16204208), 01/22/2018
+![](images/beyondcorp_architecture.png)
+
+#### Summary
+
+[Google's BeyondCorp](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf) removes the concept of firewalls and VPNs altogether.
+
+Instead, every request to access internal services must be authenticated, authorized, and encrypted, and that's all -- regardless from what network the request originates from.
+
+#### Authentication
+
+For a request to be authenticated, it must be from:
+
+- an authenticated user
+- who's on a corporate device (a device in Google's Device Inventory Database, identified with a certificate stored in the device's TPM or in certificate store).
+
+#### Key components
+
+All of Google's services are put behind an access proxy, which "enforces encryption between the client and the application". The user's device must present a valid certificate, and the user must log on via SSO + hardware security key, to pass the access proxy.
+
+BeyondCorp's Trust Inference dynamically determines how much trust to assign a user or a device. The user accessing services from a strange location would decrease trust. A less secure device would decrease trust.
+
+BeyondCorp's Access Control Engine ingests device inventory data, user data, this trust score, and decides whether to allow access to the requested service or not. The Access Control Engine can also "enforce location-based access control" and can restrict access to services based on user role + device type.
+
+#### End to end flow
+
+Quoting from the paper linked above:
+
+1. The request is directed to the access proxy. The laptop provides its device certificate.
+2. The access proxy does not recognize the user and redirects to the SSO system.
+3. The engineer provides his or her primary and second-factor authentication credentials, is authenticated by the SSO system, is issued a token, and is redirected back to the access proxy.
+4. The access proxy now has the device certificate, which identifies the device, and the SSO token, which identifies the user.
+5. The Access Control Engine performs the specific authorization
+   check configured for codereview.corp.google.com. This authorization check is made on every request:
+   a. The user is confirmed to be in the engineering group.
+   b. The user is confirmed to possess a sufficient trust level.
+   c. The device is confirmed to be a managed device in good
+   standing.
+   d. The device is confirmed to possess a sufficient trust level.
+   e. If all these checks pass, the request is passed to an appropriate back end to be serviced.
+   f. If any of the above checks fails, the request is denied.
+
+#### Prereqs for compromising a service
+
+For an attacker to gain access to a service under BeyondCorp, they'd need to:
+
+1. choose an employee who can access this service
+2. obtain that employee's SSO credentials
+3. obtain an employee's hardware security key
+4. obtain an employee's (any employee's?) managed device which can access this service
+5. obtain the password to this managed device
+6. bypass any location based access control
+7. do all of this before either the user's or device's access is cut off (as every request is checked)
+
+#### Before/after
+
+Before: the attacker has to execute one digital attack (gain VPN access) to gain access to services.
+
+Even if VPN requires 2FA, but it's not done with a hardware security key, the attacker can phish the employee into giving up his 2FA code or accepting the Duo push.
+
+After: the attacker has to execute two digital attacks (obtain SSO password, obtain device password) and two physical attacks, which might be done at once (device, hardware security key).
+
+Learning lesson: shift digital attacks to physical attacks wherever possible (and safe). Google does this using hardware security keys and only letting managed laptops access services.
+
+#### Further reading
 
 - [BeyondCorp I: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
 - [BeyondCorp II: Design to deployment at Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44860.pdf)
 - [BeyondCorp III: The access proxy](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45728.pdf)
 - [Migrating to BeyondCorp](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/f29b3e764b1122d508b7b53544a3bbadd6cd1101.pdf)
 - [BeyondCorp: The user experience](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/c8da594124dab1f91e6750995e2b7805403b19f1.pdf)
+- [Maintaining a healthy fleet](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b9b4a09a913e410b7c45f3fbacec4d350e38146f.pdf)
 - [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/Zero-Trust-Networks-Building-Untrusted/dp/1491962194)
 
 ### Apple
@@ -765,6 +836,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 - [Learning from the enemy: the GUNMAN project (NSA)](https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/cryptologic-histories/Learning_from_the_Enemy.pdf)
 - [The spy in Moscow station](https://www.amazon.com/Spy-Moscow-Station-Counterspys-Deadly/dp/1250301165)
+- [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 
 #### System engineering
 
