@@ -806,6 +806,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 - [Learning from the enemy: the GUNMAN project (NSA)](https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/cryptologic-histories/Learning_from_the_Enemy.pdf)
 - [The spy in Moscow station](https://www.amazon.com/Spy-Moscow-Station-Counterspys-Deadly/dp/1250301165)
+- [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 
 #### System engineering
 
