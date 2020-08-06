@@ -656,13 +656,9 @@ BeyondCorp's Access Control Engine ingests device inventory data, user data, thi
 
 Quoting from the paper linked above:
 
-1. The request is directed to the access proxy. The laptop provides
-   its device certificate.
-2. The access proxy does not recognize the user and redirects to
-   the SSO system.
-3. The engineer provides his or her primary and second-factor
-   authentication credentials, is authenticated by the SSO system,
-   is issued a token, and is redirected back to the access proxy.
+1. The request is directed to the access proxy. The laptop provides its device certificate.
+2. The access proxy does not recognize the user and redirects to the SSO system.
+3. The engineer provides his or her primary and second-factor authentication credentials, is authenticated by the SSO system, is issued a token, and is redirected back to the access proxy.
 4. The access proxy now has the device certificate, which identifies the device, and the SSO token, which identifies the user.
 5. The Access Control Engine performs the specific authorization
    check configured for codereview.corp.google.com. This authorization check is made on every request:
@@ -674,11 +670,30 @@ Quoting from the paper linked above:
    e. If all these checks pass, the request is passed to an appropriate back end to be serviced.
    f. If any of the above checks fails, the request is denied.
 
+#### Observations
+
+For an attacker to gain access to a service, they'd need to:
+
+1. choose an employee who can access this service
+2. obtain that employee's SSO credentials
+3. obtain an employee's hardware security key
+4. obtain an employee's (any employee's?) managed device which can access this service
+5. obtain the password to this managed device
+6. bypass any location based access control
+7. do all of this before either the user's or device's access is cut off (as every request is checked)
+
+Before: the attacker has to execute one digital attack (gain VPN access) to gain access to services.
+
+After: the attacker has to execute two digital attacks (obtain SSO password, obtain device password) and two physical attacks, which might be done at once (device, hardware security key).
+
+#### Further reading
+
 - [BeyondCorp I: A new approach to enterprise security](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf)
 - [BeyondCorp II: Design to deployment at Google](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44860.pdf)
 - [BeyondCorp III: The access proxy](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45728.pdf)
 - [Migrating to BeyondCorp](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/f29b3e764b1122d508b7b53544a3bbadd6cd1101.pdf)
 - [BeyondCorp: The user experience](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/c8da594124dab1f91e6750995e2b7805403b19f1.pdf)
+- [Maintaining a healthy fleet](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/b9b4a09a913e410b7c45f3fbacec4d350e38146f.pdf)
 - [Zero Trust Networks: Building Secure Systems in Untrusted Networks](https://www.amazon.com/Zero-Trust-Networks-Building-Untrusted/dp/1491962194)
 
 ### Apple
