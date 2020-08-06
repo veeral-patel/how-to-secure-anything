@@ -670,9 +670,9 @@ Quoting from the paper linked above:
    e. If all these checks pass, the request is passed to an appropriate back end to be serviced.
    f. If any of the above checks fails, the request is denied.
 
-#### Observations
+#### Prereqs for compromising a service
 
-For an attacker to gain access to a service, they'd need to:
+For an attacker to gain access to a service under BeyondCorp, they'd need to:
 
 1. choose an employee who can access this service
 2. obtain that employee's SSO credentials
@@ -682,7 +682,10 @@ For an attacker to gain access to a service, they'd need to:
 6. bypass any location based access control
 7. do all of this before either the user's or device's access is cut off (as every request is checked)
 
+#### Before/after
+
 Before: the attacker has to execute one digital attack (gain VPN access) to gain access to services.
+If VPN requires 2FA, but it's not done with a hardware security key, the attacker can phish the employee into giving up his 2FA code or accepting the Duo push.
 
 After: the attacker has to execute two digital attacks (obtain SSO password, obtain device password) and two physical attacks, which might be done at once (device, hardware security key).
 
