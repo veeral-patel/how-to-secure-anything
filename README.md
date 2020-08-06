@@ -654,6 +654,9 @@ We've already learned about the first category; this section is about the second
 > The fact that this approach is novel says a lot about the maturity of our industry.
 
 -- tyler_larson, [a Hacker News comment](https://news.ycombinator.com/item?id=16204208), 01/22/2018
+
+#### Architecture
+
 ![](images/beyondcorp_architecture.png)
 
 #### Summary
