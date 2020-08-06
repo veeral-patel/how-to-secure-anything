@@ -674,11 +674,16 @@ For a request to be authenticated, it must be from:
 
 #### Key components
 
-All of Google's services are put behind an access proxy, which "enforces encryption between the client and the application". The user's device must present a valid certificate, and the user must log on via SSO + hardware security key, to pass the access proxy.
+- All of Google's services are put behind an access proxy, which "enforces encryption between the client and the application"
 
-BeyondCorp's Trust Inference dynamically determines how much trust to assign a user or a device. The user accessing services from a strange location would decrease trust. A less secure device would decrease trust.
+  - The user's device must present a valid certificate, and the user must log on via SSO + hardware security key, to pass the access proxy.
 
-BeyondCorp's Access Control Engine ingests device inventory data, user data, this trust score, and decides whether to allow access to the requested service or not. The Access Control Engine can also "enforce location-based access control" and can restrict access to services based on user role + device type.
+- BeyondCorp's Trust Inference dynamically determines how much trust to assign a user or a device
+
+  - The user accessing services from a strange location would decrease trust. A less secure device would decrease trust.
+
+- BeyondCorp's Access Control Engine ingests device inventory data, user data, this trust score, and decides whether to allow access to the requested service or not.
+  - The Access Control Engine can also "enforce location-based access control" and can restrict access to services based on user role + device type.
 
 #### End to end flow
 
@@ -690,12 +695,11 @@ Quoting from the paper linked above:
 4. The access proxy now has the device certificate, which identifies the device, and the SSO token, which identifies the user.
 5. The Access Control Engine performs the specific authorization
    check configured for codereview.corp.google.com. This authorization check is made on every request:
-   a. The user is confirmed to be in the engineering group.
-   b. The user is confirmed to possess a sufficient trust level.
-   c. The device is confirmed to be a managed device in good
-   standing.
-   d. The device is confirmed to possess a sufficient trust level.
-   e. If all these checks pass, the request is passed to an appropriate back end to be serviced.
+   a. The user is confirmed to be in the engineering group.  
+   b. The user is confirmed to possess a sufficient trust level.  
+   c. The device is confirmed to be a managed device in good standing.  
+   d. The device is confirmed to possess a sufficient trust level.  
+   e. If all these checks pass, the request is passed to an appropriate back end to be serviced.  
    f. If any of the above checks fails, the request is denied.
 
 #### Prereqs for compromising a service
