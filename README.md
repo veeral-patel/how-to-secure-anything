@@ -423,6 +423,8 @@ However, an attacker could examine the time it takes to get the error to
 determine if the username is valid or not.
 
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
+- [Covert vs overt vs side channels](https://security.stackexchange.com/questions/113332/covert-overt-and-side-channels) - See this [Stack Overflow answer](https://stackoverflow.com/questions/4083860/in-computer-security-what-are-covert-and-side-channels) too
+- [A Guide to Understanding Covert Channel Analysis of Trusted Systems](https://fas.org/irp/nsa/rainbow/tg030.htm#2.0)
 
 ## Assurance
 
