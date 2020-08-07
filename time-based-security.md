@@ -2,10 +2,6 @@
 
 A book by Winn Schwartau
 
-## Disclaimer
-
-This book introduces an interesting idea but it uses 200 pages to describe an idea that could be described in one blog post. You may be disappointed by it.
-
 ## CH5: A brief history of security models
 
 - The "Orange Book" introduces the reference monitor, or something that either accepts or denies every access request
