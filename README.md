@@ -16,8 +16,8 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [Security models](#security-models)
 - [Improve defenses](#improve-defenses)
   - [Minimize attack surface](#minimize-attack-surface)
-  - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
-  - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege--sandbox-if-possible)
+  - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize-simplify-verify-your-trusted-computing-base)
+  - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege-sandbox-if-possible)
   - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
   - [Kill chains](#kill-chains)
   - [Security design principles](#security-design-principles)
@@ -25,8 +25,8 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
   - [Developing an attacker mindset](#developing-an-attacker-mindset)
     - [Think in graphs](#think-in-graphs)
   - [Attack trees](#attack-trees)
-  - [On, un-bypassable, tamperproof, functionally correct, fail closed](#on--un-bypassable--tamperproof--functionally-correct--fail-closed)
-    - [Example: a burglar](#example--a-burglar)
+  - [On, un-bypassable, tamperproof, functionally correct, fail closed](#on-un-bypassable-tamperproof-functionally-correct-fail-closed)
+    - [Example: a burglar](#example-a-burglar)
   - [Assumptions analysis](#assumptions-analysis)
   - [Failure analysis](#failure-analysis)
     - [Fault tree analysis](#fault-tree-analysis)
@@ -37,8 +37,8 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [Popular mechanisms](#popular-mechanisms)
   - [Cryptography](#cryptography)
   - [Economics](#economics)
-  - [Laws and regulations (deterrence by the government)](#laws-and-regulations--deterrence-by-the-government-)
-  - [Retaliation (deterrence by you or third parties)](#retaliation--deterrence-by-you-or-third-parties-)
+  - [Laws and regulations (deterrence by the government)](#laws-and-regulations-deterrence-by-the-government)
+  - [Retaliation (deterrence by you or third parties)](#retaliation-deterrence-by-you-or-third-parties)
   - [Tamper resistance](#tamper-resistance)
   - [Tamper detection](#tamper-detection)
   - [Access control](#access-control)
@@ -50,7 +50,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
     - [Two-man rule](#two-man-rule)
   - [Inference control](#inference-control)
   - [Sandboxing](#sandboxing)
-  - [Logging & auditing](#logging---auditing)
+  - [Logging & auditing](#logging-auditing)
   - [Obscurity](#obscurity)
 - [Learn about how real world systems are secured](#learn-about-how-real-world-systems-are-secured)
   - [Physical facilities](#physical-facilities)
@@ -64,7 +64,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
   - [Distributed systems](#distributed-systems)
   - [Copyright and DRM](#copyright-and-drm)
   - [Web browsers](#web-browsers)
-  - [BeyondCorp & zero trust](#beyondcorp---zero-trust)
+  - [BeyondCorp & zero trust](#beyondcorp-zero-trust)
     - [Architecture](#architecture)
     - [Summary](#summary)
     - [Authentication](#authentication-1)
@@ -89,7 +89,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
     - [Attacking](#attacking-4)
     - [Both](#both)
 - [Books](#books)
-  - [Recommended (by me)](#recommended--by-me-)
+  - [Recommended (by me)](#recommended-by-me)
   - [Not recommended](#not-recommended)
   - [Haven't read yet](#haven-t-read-yet)
     - [System engineering](#system-engineering)
@@ -214,7 +214,7 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
 - See the papers in [this folder](attack_surface)
 
-### Minimize, simplify, verify your trusted computing base (TCB)
+### Minimize, simplify, verify your trusted computing base (TCB) <a name="minimize-simplify-verify-your-trusted-computing-base" />
 
 When evaluating a design, it's useful to see how much of the system must be trusted in order for a security goal
 to be achieved. The smaller this trusted computing base is, the better.
@@ -230,7 +230,7 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 - [TSAFE: Building a Trusted Computing Base forAir Traffic Control Software](tcbs/tsafe.pdf)
 - [Ten page intro to trusted computing](tcbs/ten_page_intro_to_trusted_computing.pdf)
 
-### Separate and minimize privilege; sandbox if possible
+### Separate and minimize privilege; sandbox if possible <a name="separate-and-minimize-privilege-sandbox-if-possible" />
 
 When designing a system, a great way to mitigate the impact of a successful attack is to break the system
 down into components based upon their privilege level.
@@ -333,7 +333,7 @@ path and ensure that the cost isn't too low.
 
 - [Attack trees (from Bruce Schneier)](https://www.schneier.com/academic/archives/1999/12/attack_trees.html)
 
-### On, un-bypassable, tamperproof, functionally correct, fail closed
+### On, un-bypassable, tamperproof, functionally correct, fail closed <a name="on-un-bypassable-tamperproof-functionally-correct-fail-closed" />
 
 If a security control does not have the qualities above, then an attacker can violate a system's security properties by subverting its controls.
 
@@ -344,7 +344,7 @@ If a security control does not have the qualities above, then an attacker can vi
 - Are there any cases where the control doesn't work?
 - Does the control fail open or closed? If it fails open, can the attacker make the control fail?
 
-#### Example: a burglar
+#### Example: a burglar <a name="example-a-burglar" />
 
 Take a burglar confronting a home security system which calls the police if someone crosses the lawn at night
 
@@ -464,7 +464,7 @@ If the attacker isn't motivated by money, this doesn't work.
 - ["Economics" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch8-dec18.pdf)
 - [Security Economics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/) - here's the [transcript](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/video-lectures/lecture-23-security-economics/8PdnOZI7H5E.pdf)
 
-### Laws and regulations (deterrence by the government)
+### Laws and regulations (deterrence by the government) <a name="laws-and-regulations-deterrence-by-the-government" />
 
 Deterrence has three parts: certainty, severity, and swiftness. In other words, to deter attackers most effectively, someone should be able to catch most
 or all of them -- and do this quickly -- and then sufficiently punish them once you do catch them.
@@ -472,7 +472,7 @@ or all of them -- and do this quickly -- and then sufficiently punish them once 
 This someone could be the government, via laws and regulations against whatever you're trying to defend against. The government may not catch everyone,
 but these laws and regulations will deter most people. Copyright protection, anti-shoplifting, and anti-trespassing laws all are examples of this.
 
-### Retaliation (deterrence by you or third parties)
+### Retaliation (deterrence by you or third parties) <a name="retaliation-deterrence-by-you-or-third-parties" />
 
 The government is not the only third party who can deter attacks on you. Organizations, like NATO, can as well.
 
@@ -574,7 +574,7 @@ I haven't seen this concept outside of computer security, yet.
 - [gvisor](https://github.com/google/gvisor)
 - [sandy](https://github.com/hobochild/sandy)
 
-### Logging & auditing
+### Logging & auditing <a name="logging-auditing" />
 
 To me, logging is the act of collecting event data, and auditing is looking for malicious activity in those events. The terms are used interchangeably, however.
 
@@ -655,7 +655,7 @@ We've already learned about the first category; this section is about the second
 
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 
-### BeyondCorp & zero trust
+### BeyondCorp & zero trust <a name="beyondcorp-zero-trust" />
 
 > Most companies need to be able to answer the question, "is this client one of ours," when protecting sensitive resources.
 
@@ -726,7 +726,7 @@ For an attacker to gain access to a service under BeyondCorp, they'd need to:
 6. bypass any location based access control
 7. do all of this before either the user's or device's access is cut off (as every request is checked)
 
-#### Before/after
+#### Before/after <a name="before-after" />
 
 Before: the attacker has to execute one digital attack (gain VPN access) to gain access to services.
 
@@ -826,7 +826,7 @@ Also known as: fortifications
 
 I've tried to reference specific chapters of books in my sections above. I haven't done this for all the books I've read, however, so I thought I'd add a section listing all the books I've found on this topic here.
 
-### Recommended (by me)
+### Recommended (by me) <a name="recommended-by-me" />
 
 "Recommended" is just my subjective opinion. YMMV!
 
@@ -846,7 +846,7 @@ Again, "not recommended" is just my subjective opinion. YMMV!
 - "The Craft of System Security" (by Smith and Marchesini) - Also mostly general security content
 - "Cyber Security Engineering" (by Woody and Mead) - Wasn't very information dense or well organized
 
-### Haven't read yet
+### Haven't read yet <a name="haven-t-read-yet" />
 
 - [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
