@@ -89,8 +89,8 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
     - [Attacking](#attacking-4)
     - [Both](#both)
 - [Books](#books)
-  - [Recommended (by me)](#recommended--by-me-)
-  - [Not recommended](#not-recommended)
+  - [Recommended](#recommended)
+  - [More](#more)
   - [Haven't read yet](#haven-t-read-yet)
     - [System engineering](#system-engineering)
 - [Content wanted](#content-wanted)
@@ -824,11 +824,9 @@ Also known as: fortifications
 
 ## Books
 
-I've tried to reference specific chapters of books in my sections above. I haven't done this for all the books I've read, however, so I thought I'd add a section listing all the books I've found on this topic here.
+### Recommended
 
-### Recommended (by me)
-
-"Recommended" is just my subjective opinion. YMMV!
+"Recommended" is subjective...YMMV!
 
 - Computer Security: Art and Science (by Bishop) - I'd read this first; it teaches security engineering in the right order: policies and models, then mechanisms, then assurance.
 - Security Engineering (by Ross Anderson)
@@ -836,15 +834,14 @@ I've tried to reference specific chapters of books in my sections above. I haven
 - "Security in Computing" (by Pfleeger) - I liked the chapter on trusted operating systems in particular.
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
 - [Engineering Security](https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)
+- [Analogue Network Security](https://www.amazon.com/Analogue-Network-Security-Engineering-Thinking/dp/B07C39RDBW)
 
-### Not recommended
+### More
 
-Again, "not recommended" is just my subjective opinion. YMMV!
-
-- [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md). Wasn't information dense.
-- "Engineering Information Security" (by Jacobs) - Mostly contains general security content, not content on security engineering. Only the systems engineering chapter felt new.
-- "The Craft of System Security" (by Smith and Marchesini) - Also mostly general security content
-- "Cyber Security Engineering" (by Woody and Mead) - Wasn't very information dense or well organized
+- [Time Based Security](https://www.amazon.com/Time-Based-Security-Winn-Schwartau/dp/0962870048) - [my notes](time-based-security.md)
+- "Engineering Information Security" (by Jacobs)
+- "The Craft of System Security" (by Smith and Marchesini)
+- "Cyber Security Engineering" (by Woody and Mead)
 
 ### Haven't read yet
 
