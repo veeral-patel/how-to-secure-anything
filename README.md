@@ -8,7 +8,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 
 ## Table of contents
 
-- [What is security engineering?](#what-is-security-engineering-)
+- [What is security engineering?](#what-is-security-engineering)
 - [High level process](#high-level-process)
 - [Follow known best practices](#follow-known-best-practices)
 - [Understand your adversaries](#understand-your-adversaries)
