@@ -589,6 +589,7 @@ Obscurity, not its own, does not count as security. However, it can be added on 
 require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
+- [Techniques for defeating high-strength attackers](obscurity/techniques_for_defeating_high_strength_attackers.md)
 
 ## Learn about how real world systems are secured
 
