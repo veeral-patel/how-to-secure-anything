@@ -877,6 +877,7 @@ If you know of any good books, talks, papers, or other resources on the topics b
 - What security requirements does the DOD have for in its JEDI Cloud?
 - How do chip fabs and bio facilities prevent contamination?
 - Are there any things we can apply from safety engineering to security engineering?
+- Do unhackable systems exist? How would you build one?
 
 ## In the future
 
