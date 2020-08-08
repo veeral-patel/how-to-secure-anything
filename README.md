@@ -434,6 +434,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
 - [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
 - [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
+- [We need assurance!](https://www.acsac.org/2005/papers/Snow.pdf)
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 - See the papers in [this folder](assurance)
 
@@ -759,6 +760,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Operating System Security (by Trent Jaegar)](https://www.amazon.com/Operating-Security-Synthesis-Lectures-Information/dp/1598292129)
 - [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
 - [Original AppArmor paper](operating_systems/apparmor_original.pdf)
+- [List of security-focused operating systems](https://en.wikipedia.org/wiki/Security-focused_operating_system#BSD-based)
 
 ### Prisons
 
