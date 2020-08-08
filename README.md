@@ -761,6 +761,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
 - [Original AppArmor paper](operating_systems/apparmor_original.pdf)
 - [List of security-focused operating systems](https://en.wikipedia.org/wiki/Security-focused_operating_system#BSD-based)
+- [sel4](https://sel4.systems/) - and its [whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
 
 ### Prisons
 
