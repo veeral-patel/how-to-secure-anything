@@ -802,6 +802,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Casino Surveillance and Security: 150 Things You Should Know](https://www.amazon.com/Casino-Surveillance-Security-Things-Should/dp/188705619X)
 - [Casino Surveillance: the Eye That Never Blinks](https://www.amazon.com/Casino-Surveillance-That-Never-Blinks/dp/0966600908)
 - [150 things You Should Know About Security](https://www.amazon.com/Things-Should-Know-about-Security/dp/0128094850) - see the casino chapter
+- [Exploiting Online Games: Cheating Massively Distributed Systems](https://www.amazon.com/Exploiting-Online-Games-Massively-Distributed/dp/0132271915)
 
 #### Attacking
 
