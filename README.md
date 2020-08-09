@@ -445,6 +445,7 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [Guidelines for Formal Verification Systems](https://fas.org/irp/nsa/rainbow/tg014.htm)
 - [Constructing a high assurance mail guard](https://cryptosmith.files.wordpress.com/2014/10/mailguard.pdf)
 - [Designing The Gemsos Security Kernel For Security And Performance](http://mrheckman.com/yahoo_site_admin/assets/docs/DesigningTheGemsosSecurityKernel-OCR-120409-DRAFT.158131458.pdf)
 - [SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/Design-and-Analysis-of-a-Fault-Tolerant-Computer-for-Aircraft-Control.pdf)
