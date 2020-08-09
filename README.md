@@ -251,6 +251,7 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 
 - [Ways to minimize privileges](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/minimize-privileges.html)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
+- [Plash: tools for least privilege](http://www.plash.beasts.org/index.html)
 
 ### Secure by default
 
@@ -783,6 +784,10 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Original AppArmor paper](operating_systems/apparmor_original.pdf)
 - [List of security-focused operating systems](https://en.wikipedia.org/wiki/Security-focused_operating_system#BSD-based)
 - [sel4](https://sel4.systems/) - and its [whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
+- [Deterministically Deterring Timing Attacks in Deterland](https://arxiv.org/pdf/1504.07070.pdf)
+- [List of UNIX alternatives with desirable capabilities](https://pastebin.com/BQh3e1ug)
+- [Linux, OpenBSD, AND Talisker: A comparative complexity analysis ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a403525.pdf)
+- [The Jury Is In: Monolithic OS Design Is Flawed](https://ts.data61.csiro.au/publications/csiro_full_text/Biggs_LH_18.pdf)
 
 ### Prisons
 
