@@ -811,11 +811,16 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
 - [Original AppArmor paper](operating_systems/apparmor_original.pdf)
 - [List of security-focused operating systems](https://en.wikipedia.org/wiki/Security-focused_operating_system#BSD-based)
-- [sel4](https://sel4.systems/) - and its [whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
+- [sel4](https://sel4.systems/) - and its [whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf) and [summit](https://www.sel4-us.org/summit/)
 - [Deterministically Deterring Timing Attacks in Deterland](https://arxiv.org/pdf/1504.07070.pdf)
 - [List of UNIX alternatives with desirable capabilities](https://pastebin.com/BQh3e1ug)
 - [Linux, OpenBSD, AND Talisker: A comparative complexity analysis ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a403525.pdf)
 - [The Jury Is In: Monolithic OS Design Is Flawed](https://ts.data61.csiro.au/publications/csiro_full_text/Biggs_LH_18.pdf)
+- [Unikernels: The Next Stage of Linux’s Dominance](https://www.cs.bu.edu/~jappavoo/Resources/Papers/unikernel-hotos19.pdf)
+- [Time Protection: The Missing OS Abstraction](https://ts.data61.csiro.au/publications/csiro_full_text//Ge_YCH_19.pdf)
+- [Design of the EROS Trusted Window System](https://srl.cs.jhu.edu/courses/600.439/shap04windowsystem.pdf)
+- [Setuid Demystified](https://people.eecs.berkeley.edu/~daw/papers/setuid-usenix02.pdf)
+- [ChromiumOS design docs](https://www.chromium.org/chromium-os/chromiumos-design-docs) - here's the [security overview](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
 
 ### Prisons
 
