@@ -444,6 +444,14 @@ The goal of security engineering is to build a system that satisfies certain sec
 Assurance is how we prove that our system satisfies the properties we want it to.
 
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [Constructing a high assurance mail guard](https://cryptosmith.files.wordpress.com/2014/10/mailguard.pdf)
+- [Designing The Gemsos Security Kernel For Security And Performance](http://mrheckman.com/yahoo_site_admin/assets/docs/DesigningTheGemsosSecurityKernel-OCR-120409-DRAFT.158131458.pdf)
+- [SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/Design-and-Analysis-of-a-Fault-Tolerant-Computer-for-Aircraft-Control.pdf)
+- [Design and Verification of Secure Systems](http://www.csl.sri.com/users/rushby/papers/sosp81.pdf)
+- [Commercial Product Evaluations](http://webapp1.dlib.indiana.edu/virtual_disk_library/index.cgi/1347159/FID1930/INDEX.HTML)
+- [Hints for High-Assurance Cyber-Physical System Design](https://leepike.github.io/pubs/pike-secdev16.pdf)
+- [High-Assurance Separation Kernels: A Survey on Formal Methods](https://arxiv.org/pdf/1701.01535.pdf)
+- [Separation Virtual Machine Monitors](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.3314&rep=rep1&type=pdf#page=435)
 - [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
 - [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
 - [We need assurance!](https://www.acsac.org/2005/papers/Snow.pdf)
@@ -681,6 +689,10 @@ We've already learned about the first category; this section is about the second
 ### Web browsers
 
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+
+### Android
+
+- [Toward Engineering a Secure Android Ecosystem: A Survey of Existing Techniques](https://taesoo.kim/pubs/2016/xu:android-survey.pdf)
 
 ### BeyondCorp & zero trust
 
