@@ -442,6 +442,7 @@ determine if the username is valid or not.
 - ["Side channels" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch19-dec18.pdf)
 - [Covert vs overt vs side channels](https://security.stackexchange.com/questions/113332/covert-overt-and-side-channels) - See this [Stack Overflow answer](https://stackoverflow.com/questions/4083860/in-computer-security-what-are-covert-and-side-channels) too
 - [A Guide to Understanding Covert Channel Analysis of Trusted Systems](https://fas.org/irp/nsa/rainbow/tg030.htm#2.0)
+- [List of ways to find side channels in hardware/software](https://pastebin.com/ajqxDJ3J)
 
 ## Assurance
 
@@ -458,6 +459,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Hints for High-Assurance Cyber-Physical System Design](https://leepike.github.io/pubs/pike-secdev16.pdf)
 - [High-Assurance Separation Kernels: A Survey on Formal Methods](https://arxiv.org/pdf/1701.01535.pdf)
 - [Separation Virtual Machine Monitors](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.3314&rep=rep1&type=pdf#page=435)
+- [The Cross Domain Desktop Compositor: Using hardware-based video compositing for a multi-level secure user interface](https://people.eng.unimelb.edu.au/tobym/papers/cddc-acsac2016.pdf)
 - [CH26 Managing the Development of Secure Systems (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch26-jul24.pdf)
 - [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
 - [We need assurance!](https://www.acsac.org/2005/papers/Snow.pdf)
@@ -466,6 +468,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [High-Assurance Smart Card Operating System for Electronic Visas](https://researcher.watson.ibm.com/researcher/files/us-msteiner/secure-token.IBM%20ICAO%20RFI%20os%2005182005pak%20.pdf)
 - [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components](https://acmccs.github.io/papers/p1583-mavroudisA.pdf)
 - [Lessons learned from building a high assurance crypto gateway](https://apps.dtic.mil/dtic/tr/fulltext/u2/a570736.pdf)
+- [Formal Specification and Verification of a Microkernel](http://people.cs.ksu.edu/~danielwang/Investigation/Formal_Verification/JD10.pdf)
 - See the papers in [this folder](assurance)
 
 ## Popular mechanisms
