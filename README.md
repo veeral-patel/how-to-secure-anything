@@ -820,6 +820,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Apple
 
 - [Apple platform security](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf)
+- [There are no secure smartphones](https://www.devever.net/~hl/nosecuresmartphone) - and [HN discussion](https://news.ycombinator.com/item?id=10905643) with [nickpsecurity's comments here](https://news.ycombinator.com/item?id=10906999)
 
 ### Cloud providers
 
@@ -830,6 +831,8 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Computer networks
 
 - [Trusted Network Interpretation (272 pages)](https://fas.org/irp/nsa/rainbow/tg005.htm)
+- [Improved Port Knocking with Strong Authentication](https://www.acsac.org/2005/papers/156.pdf)
+- [Coreguard from Dover Systems](https://www.acsac.org/2005/papers/156.pdf)
 
 ### Operating systems
 
