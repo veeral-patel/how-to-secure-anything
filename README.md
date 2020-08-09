@@ -246,12 +246,15 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [SSH daemon (from Niels Provos)](http://www.citi.umich.edu/u/provos/ssh/privsep.html)
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation](https://nathandautenhahn.com/downloads/publications/asplos200-dautenhahn.pdf)
 
 ### Minimize privileges
 
 - [Ways to minimize privileges](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/minimize-privileges.html)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
 - [Plash: tools for least privilege](http://www.plash.beasts.org/index.html)
+- [SHILL: A Secure Shell Scripting Language](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-moore.pdf)
+- [Security wrappers and Bernstein chaining](http://www.catb.org/~esr/writings/taoup/html/ch06s06.html)
 
 ### Secure by default
 
@@ -546,6 +549,7 @@ Even if an analyst has a secret clearance, you may not want him to be able to ac
 - [Security in clinical information systems](multilateral/security_in_clinical_info_systems.pdf)
 - [Implementing access control to protect the confidentiality of patient information in clinical information systems in the acute hospital](multilateral/implementing_access_control_to_protect_patient_data.pdf)
 - [Privacy in clinical information systems in secondary care](multilateral/privacy_in_clinical_info_systems.pdf)
+- [THE Chinese wall security policy](https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/chinese-wall-sec-pol.pdf)
 
 #### Two-man rule
 
