@@ -214,7 +214,7 @@ See tptacek's [HN comment on this](https://news.ycombinator.com/item?id=17014818
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
 - See the papers in [this folder](attack_surface)
 
-### Minimize, simplify, verify your trusted computing base (TCB)
+### Minimize and verify your trusted computing base (TCB)
 
 When evaluating a design, it's useful to see how much of the system must be trusted in order for a security goal
 to be achieved. The smaller this trusted computing base is, the better.
@@ -249,6 +249,10 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 
 - [Ways to minimize privileges](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/minimize-privileges.html)
 - [Make least privilege a right (not a privilege)](https://www.scs.stanford.edu/~dm/home/papers/krohn:least-privilege.pdf)
+
+### Secure by default
+
+- [Weakest link security](https://www.schneier.com/blog/archives/2005/12/weakest_link_se.html) - ignore the title!
 
 ### Prevent/detect/respond framework
 
