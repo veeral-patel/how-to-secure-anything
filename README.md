@@ -16,8 +16,9 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [Security models](#security-models)
 - [Improve defenses](#improve-defenses)
   - [Minimize attack surface](#minimize-attack-surface)
-  - [Minimize, simplify, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
-  - [Separate and minimize privilege; sandbox if possible](#separate-and-minimize-privilege--sandbox-if-possible)
+  - [Minimize, verify your trusted computing base (TCB)](#minimize--simplify--verify-your-trusted-computing-base--tcb-)
+  - [Separate privileges](#separate-privileges)
+  - [Minimize privileges](#Minimize-privileges)
   - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
   - [Kill chains](#kill-chains)
   - [Security design principles](#security-design-principles)
@@ -253,6 +254,7 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 ### Secure by default
 
 - [Weakest link security](https://www.schneier.com/blog/archives/2005/12/weakest_link_se.html) - ignore the title!
+- [Secure by default – the case of TLS](https://arxiv.org/pdf/1708.07569.pdf)
 
 ### Prevent/detect/respond framework
 
