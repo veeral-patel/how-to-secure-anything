@@ -200,6 +200,8 @@ For confidentiality, for example, you can choose between:
 - [multilevel security](#multilevel), for which [Bell-Padula](https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model) can be used
 - [multilateral security](#multilateral), for which compartmentation, BMA, [Chinese wall](https://people.csail.mit.edu/alinush/6.858-fall-2014/papers/chinese-wall-sec-pol.pdf) can be used (according to Anderson's book)
 
+See also [this Wikipedia article](https://en.wikipedia.org/wiki/Computer_security_model) and [this one](https://en.wikipedia.org/wiki/Category:Computer_security_models) on computer models.
+
 ## Improve defenses
 
 Here are some useful techniques I've found for improving the security of a system.
