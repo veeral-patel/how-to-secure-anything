@@ -446,7 +446,7 @@ determine if the username is valid or not.
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
 Assurance is how we prove that our system satisfies the properties we want it to.
 
-- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [Notes on high-assurance security methods by nickpsecurity](https://gist.github.com/ryazo/3267bcd5aedeebb9224ad90183a5eb85)
 - [Guidelines for Formal Verification Systems](https://fas.org/irp/nsa/rainbow/tg014.htm)
 - [Constructing a high assurance mail guard](https://cryptosmith.files.wordpress.com/2014/10/mailguard.pdf)
 - [Designing The Gemsos Security Kernel For Security And Performance](http://mrheckman.com/yahoo_site_admin/assets/docs/DesigningTheGemsosSecurityKernel-OCR-120409-DRAFT.158131458.pdf)
@@ -460,6 +460,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [CH27 Assurance & Sustainability (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch27-jul24.pdf)
 - [We need assurance!](https://www.acsac.org/2005/papers/Snow.pdf)
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
+- [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
 - See the papers in [this folder](assurance)
 
 ## Popular mechanisms
