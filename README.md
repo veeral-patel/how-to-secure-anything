@@ -699,6 +699,11 @@ We've already learned about the first category; this section is about the second
 
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 
+### Web applications
+
+- [Towards High Assurance HTML5 Applications](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-56.pdf)
+- [Principled and Practical Web Application Security](https://cseweb.ucsd.edu/~dstefan/pubs/stefan:2015:phdthesis.pdf)
+
 ### Android
 
 - [Toward Engineering a Secure Android Ecosystem: A Survey of Existing Techniques](https://taesoo.kim/pubs/2016/xu:android-survey.pdf)
