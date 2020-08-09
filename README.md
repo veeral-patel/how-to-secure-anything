@@ -604,6 +604,8 @@ Logging is useful for deterrence (insiders especially are less likely to do bad 
 
 It's practiced in many fields from information security (think SIEMs) to healthcare (tracking who accesses someone's medical records).
 
+- [A Guide to Understanding Audit in Trusted Systems](https://fas.org/irp/nsa/rainbow/tg001.htm)
+
 ### Air-gapping
 
 - [An approach to air-gapped deployment](https://www.osti.gov/servlets/purl/1367293)
