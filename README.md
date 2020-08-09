@@ -260,6 +260,7 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 
 - [Weakest link security](https://www.schneier.com/blog/archives/2005/12/weakest_link_se.html) - ignore the title!
 - [Secure by default – the case of TLS](https://arxiv.org/pdf/1708.07569.pdf)
+- [Configure Safely and Use Safe Defaults](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/safe-configure.html)
 
 ### Prevent/detect/respond framework
 
@@ -285,8 +286,7 @@ I would go down this list and see if there's any principles which you can apply 
 - Secure the weakest link
 - Defense in depth
 - Fail securely
-- Secure by default - more on this [here](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/safe-configure.html)
-- Secure by design
+- Secure by default - discussed earlier in the repo
 - Least privilege - discussed earlier in the repo
 - Separation of privilege - discussed earlier in the repo
 - Economy of mechanism - controls should be as simple as possible
