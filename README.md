@@ -810,6 +810,8 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Cloud providers
 
 - [Google Cloud Security Whitepapers (97 page PDF)](cloud/security_whitepapers_march2018.pdf)
+- [How Do You Explain The Unreasonable Effectiveness Of Cloud Security?](http://highscalability.com/blog/2018/9/19/how-do-you-explain-the-unreasonable-effectiveness-of-cloud-s.html)
+- [Securing a community cloud](https://www.researchgate.net/profile/Fabrizio_Baiardi2/publication/224193031_Securing_a_Community_Cloud/links/57dfee9e08ae5272afd0a389/Securing-a-Community-Cloud.pdf)
 
 ### Computer networks
 
