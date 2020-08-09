@@ -524,6 +524,7 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 
 - ["Access Control" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c04.pdf)
 - [OS Security Concepts (from CS 161 from UC Berkeley)](https://inst.eecs.berkeley.edu/~cs161/fa16/slides/lec4.pdf)
+- [Understanding Discretionary Access Control In Trusted Systems](https://fas.org/irp/nsa/rainbow/tg003.htm)
 
 ### Authentication
 
