@@ -449,7 +449,7 @@ determine if the username is valid or not.
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
 Assurance is how we prove that our system satisfies the properties we want it to.
 
-- [Notes on high-assurance security methods by nickpsecurity](https://gist.github.com/ryazo/3267bcd5aedeebb9224ad90183a5eb85)
+- [Notes on high-assurance security methods by nickpsecurity](https://gist.github.com/ryazo/3267bcd5aedeebb9224ad90183a5eb85) - see also his writeup on [software distribution](https://pastebin.com/EZQWbwCB)
 - [Guidelines for Formal Verification Systems](https://fas.org/irp/nsa/rainbow/tg014.htm)
 - [Constructing a high assurance mail guard](https://cryptosmith.files.wordpress.com/2014/10/mailguard.pdf)
 - [Designing The Gemsos Security Kernel For Security And Performance](http://mrheckman.com/yahoo_site_admin/assets/docs/DesigningTheGemsosSecurityKernel-OCR-120409-DRAFT.158131458.pdf)
@@ -482,6 +482,7 @@ A lot of tools are context-specific, however. Before I start trying to secure a 
 - ["Cryptography Engineering" book](https://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications-ebook/dp/B004NSW9JU/ref=sr_1_1?crid=WBP1JC682B4V&dchild=1&keywords=cryptography+engineering&qid=1586149852&s=books&sprefix=cryptography+eng%2Cstripbooks%2C-1&sr=1-1)
 - ["Cryptography" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch5-dec18.pdf)
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
+- [Don't trust the math (Bruce Schneier)](https://pastebin.com/zz7YZZUk)
 
 To learn about later: secure enclaves
 
