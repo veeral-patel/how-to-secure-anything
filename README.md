@@ -524,7 +524,7 @@ If we can't prevent tampering, we can try to make it obvious when something has 
 
 This is one reason why bags of chips or gallons of milk, for example, are sealed.
 
-- [Optimal Document Security](https://www.amazon.com/Optical-Document-Security-Rudolf-Renesse/dp/1580532586/)
+- [Optical Document Security](https://www.amazon.com/Optical-Document-Security-Rudolf-Renesse/dp/1580532586/)
 - ["Security printing and seals" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch16-dec18.pdf)
 
 ### Access control
