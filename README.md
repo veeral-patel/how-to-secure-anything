@@ -835,6 +835,10 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Handbook on Dynamic Security and Prison Intelligence](https://www.unodc.org/documents/justice-and-prison-reform/UNODC_Handbook_on_Dynamic_Security_and_Prison_Intelligence.pdf)
 - [Correctional Facility Design and Detailing](https://www.amazon.com/Correctional-Facility-Design-Detailing-Krasnow/dp/0070361738)
 
+### Voting
+
+- [Free and Fair](https://freeandfair.us/) - see their [ElectionGuard project](https://freeandfair.us/electionguard/)
+
 ### Museums
 
 #### Defending
