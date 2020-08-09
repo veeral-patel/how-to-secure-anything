@@ -583,6 +583,18 @@ Logging is useful for deterrence (insiders especially are less likely to do bad 
 
 It's practiced in many fields from information security (think SIEMs) to healthcare (tracking who accesses someone's medical records).
 
+### Air-gapping
+
+- [An approach to air-gapped deployment](https://www.osti.gov/servlets/purl/1367293)
+- [Network air locks, not air gaps, to preserve LAN security](https://cisse.info/pdf/download.php?file=CISSE_v07_i01_p02_pre.pdf)
+- [Air gaps (post by Bruce Schneier)](https://www.schneier.com/blog/archives/2013/10/air_gaps.html)
+- [Bin Laden Maintained Computer Security with an Air Gap](https://www.schneier.com/blog/archives/2011/05/bin_laden_maint.html)
+
+#### Attacking
+
+- [W32.Stuxnet Dossier](https://nsarchive2.gwu.edu//NSAEBB/NSAEBB424/docs/Cyber-044.pdf)
+- [The air-gap jumpers (BlackHat talk)](https://i.blackhat.com/us-18/Wed-August-8/us-18-Guri-AirGap.pdf)
+
 ### Obscurity
 
 Obscurity, not its own, does not count as security. However, it can be added on top of real security measures, to make attacks on you
