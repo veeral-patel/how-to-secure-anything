@@ -826,24 +826,40 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Operating systems
 
 - [Operating System Security (by Trent Jaegar)](https://www.amazon.com/Operating-Security-Synthesis-Lectures-Information/dp/1598292129)
-- [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
-- [Original AppArmor paper](operating_systems/apparmor_original.pdf)
 - [List of security-focused operating systems](https://en.wikipedia.org/wiki/Security-focused_operating_system#BSD-based)
-- [sel4](https://sel4.systems/) - and its [whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf) and [summit](https://www.sel4-us.org/summit/)
-- [Deterministically Deterring Timing Attacks in Deterland](https://arxiv.org/pdf/1504.07070.pdf)
 - [List of UNIX alternatives with desirable capabilities](https://pastebin.com/BQh3e1ug)
 - [Linux, OpenBSD, AND Talisker: A comparative complexity analysis ](https://apps.dtic.mil/dtic/tr/fulltext/u2/a403525.pdf)
 - [The Jury Is In: Monolithic OS Design Is Flawed](https://ts.data61.csiro.au/publications/csiro_full_text/Biggs_LH_18.pdf)
 - [Unikernels: The Next Stage of Linux’s Dominance](https://www.cs.bu.edu/~jappavoo/Resources/Papers/unikernel-hotos19.pdf)
-- [Time Protection: The Missing OS Abstraction](https://ts.data61.csiro.au/publications/csiro_full_text//Ge_YCH_19.pdf)
 - [Design of the EROS Trusted Window System](https://srl.cs.jhu.edu/courses/600.439/shap04windowsystem.pdf)
 - [Setuid Demystified](https://people.eecs.berkeley.edu/~daw/papers/setuid-usenix02.pdf)
-- [ChromiumOS design docs](https://www.chromium.org/chromium-os/chromiumos-design-docs) - here's the [security overview](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
-- [Security of Google Chromebook](http://www.audentia-gestion.fr/MIT/ChromeOSSecurity.pdf)
 - [A distributed secure system](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.66.4421&rep=rep1&type=pdf)
 - [Lessons from VAX/SVS for High-Assurance VM Systems](http://www.cse.psu.edu/~trj1/papers/ieee-sp-vaxvmm.pdf)
 - [UCLA Secure UNIX](https://pdfs.semanticscholar.org/55f7/e4d8719cbdfe8cdc9fa77ed7a5f62bfba784.pdf)
 - [The Evolution of Operating Systems](http://brinch-hansen.net/papers/2001b.pdf)
+
+#### Time protection
+
+- [Time Protection: The Missing OS Abstraction](https://ts.data61.csiro.au/publications/csiro_full_text//Ge_YCH_19.pdf)
+- [Deterministically Deterring Timing Attacks in Deterland](https://arxiv.org/pdf/1504.07070.pdf)
+
+### sel4
+
+- [sel4 website](https://sel4.systems/) and [summit](https://www.sel4-us.org/summit/)
+- [sel4 whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
+
+### SELinux
+
+- [SELinux introduction](https://web.mit.edu/rhel-doc/5/RHEL-5-manual/Deployment_Guide-en-US/ch-selinux.html)
+
+### AppArmor
+
+- [Original AppArmor paper](operating_systems/apparmor_original.pdf)
+
+### Chromebook
+
+- [ChromiumOS design docs](https://www.chromium.org/chromium-os/chromiumos-design-docs) - here's the [security overview](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
+- [Security of Google Chromebook](http://www.audentia-gestion.fr/MIT/ChromeOSSecurity.pdf)
 
 ### Prisons
 
