@@ -461,6 +461,8 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [We need assurance!](https://www.acsac.org/2005/papers/Snow.pdf)
 - [The Orange Book](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/dod85.pdf)
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
+- [High-Assurance Smart Card Operating System for Electronic Visas](https://researcher.watson.ibm.com/researcher/files/us-msteiner/secure-token.IBM%20ICAO%20RFI%20os%2005182005pak%20.pdf)
+- [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components](https://acmccs.github.io/papers/p1583-mavroudisA.pdf)
 - See the papers in [this folder](assurance)
 
 ## Popular mechanisms
