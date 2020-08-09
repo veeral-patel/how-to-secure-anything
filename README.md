@@ -151,6 +151,7 @@ Also, study the history of attacks. If I was designing a prison, I'd learn about
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 - [Awesome Threat Modeling](https://github.com/hysnsec/awesome-threat-modelling)
 - [Some thoughts on threat modeling](https://www.cs.auckland.ac.nz/~pgut001/pubs/threat_modelling.pdf)
+- [A Guide to Understanding Security Modeling in Trusted Systems](https://fas.org/irp/nsa/rainbow/tg010.pdf)
 
 ## Security policies
 
@@ -534,6 +535,9 @@ The three ways to authenticate someone are:
 
 While not a standalone factor, you can consider the environment, too, such as where the user is or what time it is.
 
+- [DOD Password Management Guideline](https://fas.org/irp/nsa/rainbow/std002.htm)
+- [A Guide to Understanding Identification and Authentication in Trusted Systems](https://fas.org/irp/nsa/rainbow/tg017.htm)
+
 #### Biometrics
 
 - ["Biometrics" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch17-dec20.pdf)
@@ -895,6 +899,7 @@ Also known as: fortifications
 
 - [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
+- [Building a Secure Computer System](https://www.amazon.com/Building-Secure-Computer-System-Morrie/dp/0442230222)
 - [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
