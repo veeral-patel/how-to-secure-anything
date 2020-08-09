@@ -148,6 +148,7 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 Also, study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
 
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
+- [Agile threat modeling](https://martinfowler.com/articles/agile-threat-modelling.html) - thanks [jmarchesini](https://github.com/veeral-patel/how-to-secure-anything/issues/8) for the tip
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 - [Awesome Threat Modeling](https://github.com/hysnsec/awesome-threat-modelling)
 - [Some thoughts on threat modeling](https://www.cs.auckland.ac.nz/~pgut001/pubs/threat_modelling.pdf)
