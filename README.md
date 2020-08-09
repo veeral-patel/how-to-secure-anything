@@ -463,6 +463,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [Public Pentesting Reports](https://github.com/juliocesarfort/public-pentesting-reports)
 - [High-Assurance Smart Card Operating System for Electronic Visas](https://researcher.watson.ibm.com/researcher/files/us-msteiner/secure-token.IBM%20ICAO%20RFI%20os%2005182005pak%20.pdf)
 - [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components](https://acmccs.github.io/papers/p1583-mavroudisA.pdf)
+- [Lessons learned from building a high assurance crypto gateway](https://apps.dtic.mil/dtic/tr/fulltext/u2/a570736.pdf)
 - See the papers in [this folder](assurance)
 
 ## Popular mechanisms
@@ -636,6 +637,7 @@ require more time and a higher skill level.
 
 - [Obscurity is a valid security layer](https://danielmiessler.com/study/security-by-obscurity/) - see the [HN comments](https://news.ycombinator.com/item?id=15541792) as well
 - [Techniques for defeating high-strength attackers](obscurity/techniques_for_defeating_high_strength_attackers.md)
+- [Replacing Intel or x86 chips for security reasons](https://pastebin.com/0mQHNbRK)
 
 ## Learn about how real world systems are secured
 
@@ -702,6 +704,10 @@ We've already learned about the first category; this section is about the second
 ### Web browsers
 
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
+- [Native OKL4 Web Browser](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.378.5764&rep=rep1&type=pdf)
+- [Designing and Implementing the OP and OP2 Web Browsers](https://www.semanticscholar.org/paper/Designing-and-Implementing-the-OP-and-OP2-Web-Grier-Tang/832a911f97b500cd2df468018637e1d22c9c5572?p2df)
+- [Secure Browser Architecture Based on Hardware Virtualization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.664.9527&rep=rep1&type=pdf)
+- [Browser security: lessons from Google Chrome](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/35779.pdf)
 
 ### Web applications
 
