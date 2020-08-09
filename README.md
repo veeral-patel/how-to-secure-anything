@@ -801,6 +801,10 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 
 - [Google Cloud Security Whitepapers (97 page PDF)](cloud/security_whitepapers_march2018.pdf)
 
+### Computer networks
+
+- [Trusted Network Interpretation (275 pages)](https://fas.org/irp/nsa/rainbow/tg005.htm)
+
 ### Operating systems
 
 - [Operating System Security (by Trent Jaegar)](https://www.amazon.com/Operating-Security-Synthesis-Lectures-Information/dp/1598292129)
