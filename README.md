@@ -803,7 +803,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 
 ### Computer networks
 
-- [Trusted Network Interpretation (275 pages)](https://fas.org/irp/nsa/rainbow/tg005.htm)
+- [Trusted Network Interpretation (272 pages)](https://fas.org/irp/nsa/rainbow/tg005.htm)
 
 ### Operating systems
 
