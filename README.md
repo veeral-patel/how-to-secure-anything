@@ -821,6 +821,10 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Design of the EROS Trusted Window System](https://srl.cs.jhu.edu/courses/600.439/shap04windowsystem.pdf)
 - [Setuid Demystified](https://people.eecs.berkeley.edu/~daw/papers/setuid-usenix02.pdf)
 - [ChromiumOS design docs](https://www.chromium.org/chromium-os/chromiumos-design-docs) - here's the [security overview](https://www.chromium.org/chromium-os/chromiumos-design-docs/security-overview)
+- [A distributed secure system](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.66.4421&rep=rep1&type=pdf)
+- [Lessons from VAX/SVS for High-Assurance VM Systems](http://www.cse.psu.edu/~trj1/papers/ieee-sp-vaxvmm.pdf)
+- [UCLA Secure UNIX](https://pdfs.semanticscholar.org/55f7/e4d8719cbdfe8cdc9fa77ed7a5f62bfba784.pdf)
+- [The Evolution of Operating Systems](http://brinch-hansen.net/papers/2001b.pdf)
 
 ### Prisons
 
