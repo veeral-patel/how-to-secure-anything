@@ -159,6 +159,7 @@ Consider non-human threats, too. If you're asked to secure a painting in a museu
 
 Also, study the history of attacks. If I was designing a prison, I'd learn about all the past prison breakouts that I could.
 
+- [Adversaries: Know Thy Opponent (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch6.xhtml#ch6)
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
 - [Agile threat modeling](https://martinfowler.com/articles/agile-threat-modelling.html) - thanks [jmarchesini](https://github.com/veeral-patel/how-to-secure-anything/issues/8) for the tip
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
@@ -248,6 +249,7 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 - [Design patterns for building secure systems](https://inst.eecs.berkeley.edu/~cs161/fa16/notes/1.27.patterns.pdf) - [my notes](ucb-tcb-notes.md)
 - [TSAFE: Building a Trusted Computing Base forAir Traffic Control Software](tcbs/tsafe.pdf)
 - [Ten page intro to trusted computing](tcbs/ten_page_intro_to_trusted_computing.pdf)
+- [Reducing TCB Complexity for Security-Sensitive Applications: Three Case Studies](http://141.76.48.99/papers_ps/eurosys2006.pdf)
 
 ### Separate privileges
 
@@ -264,6 +266,9 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [OKWS paper](https://pdos.csail.mit.edu/papers/okws-usenix04.pdf)
 - [Security architecture of the Chromium browser](http://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf)
 - [Nested Kernel: An Operating System Architecture for Intra-Kernel Privilege Separation](https://nathandautenhahn.com/downloads/publications/asplos200-dautenhahn.pdf)
+- [Privilege bracketing](https://en.wikipedia.org/wiki/Privilege_bracketing) - see also [this page](https://docs.oracle.com/cd/E19109-01/tsolaris8/816-1042/6m7g4ma52/index.html)
+- [Exploit mitigation techniques in OpenBSD](http://www.openbsd.org/papers/v)
+- [Privtrans: Automatically Partitioning Programs for Privilege Separation](https://www.usenix.org/legacy/event/sec04/tech/full_papers/brumley/brumley_html/)
 
 ### Minimize privileges
 
@@ -576,6 +581,7 @@ While not a standalone factor, you can consider the environment, too, such as wh
 
 - [DOD Password Management Guideline](https://fas.org/irp/nsa/rainbow/std002.htm)
 - [A Guide to Understanding Identification and Authentication in Trusted Systems](https://fas.org/irp/nsa/rainbow/tg017.htm)
+- [Authentication (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch11.xhtml#ch11)
 
 #### Biometrics
 
@@ -584,6 +590,8 @@ While not a standalone factor, you can consider the environment, too, such as wh
 ### Authorization
 
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
+
+- [Authorization (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch12.xhtml#ch12)
 
 #### Multilevel
 
