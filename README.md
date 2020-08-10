@@ -314,6 +314,8 @@ Sources
 - [Stop buying bad security prescriptions](https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e)
 - [Design principles (from US CERT)](https://www.us-cert.gov/bsi/articles/knowledge/principles/design-principles)
 - [Principles for building secure systems](https://inst.eecs.berkeley.edu/~cs161/sp19/notes/Principles.1.19.pdf)
+- [More principles](https://tramnguyenio.files.wordpress.com/2017/03/design-principles.pdf)
+- [Even more principles (from David Wagner)](https://people.eecs.berkeley.edu/~daw/teaching/cs261-f07/slides-aug30.pdf)
 
 ## Find vulnerabilities
 
