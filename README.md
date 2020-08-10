@@ -842,6 +842,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 - [Trusted Network Interpretation (272 pages)](https://fas.org/irp/nsa/rainbow/tg005.htm)
 - [Improved Port Knocking with Strong Authentication](https://www.acsac.org/2005/papers/156.pdf)
 - [Coreguard from Dover Systems](https://www.acsac.org/2005/papers/156.pdf)
+- [Wireguard: fast, modern, secure VPN tunnel (Blackhat 2018)](https://www.wireguard.com/talks/blackhat2018-slides.pdf)
 
 ### Operating systems
 
