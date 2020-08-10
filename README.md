@@ -475,6 +475,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components](https://acmccs.github.io/papers/p1583-mavroudisA.pdf)
 - [Lessons learned from building a high assurance crypto gateway](https://apps.dtic.mil/dtic/tr/fulltext/u2/a570736.pdf)
 - [Formal Specification and Verification of a Microkernel](http://people.cs.ksu.edu/~danielwang/Investigation/Formal_Verification/JD10.pdf)
+- [Final evaluation report of SCOMP](https://apps.dtic.mil/dtic/tr/fulltext/u2/a229523.pdf)
 - See the papers in [this folder](assurance)
 
 ## Popular mechanisms
@@ -985,6 +986,9 @@ Also known as: fortifications
 
 This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
 
+- [The Protection of Information in Computer Systems](http://www.cs.virginia.edu/~evans/cs551/saltzer/)
+- [Proposed Technical Evaluation Criteria for Trusted Computer Systems](http://seclab.cs.ucdavis.edu/projects/history/papers/niba79.pdf)
+- [Thirty Years Later: Lessons from the Multics Security Evaluation](https://www.acsac.org/2002/papers/classic-multics.pdf)
 - [Dynamic protection structures](classic_papers/dynamic_protection_structures.pdf)
 - [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf)
 - [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
@@ -1006,6 +1010,9 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Secure Minicomputer Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a111566.pdf)
 - [Information Security: An Elusive Goal](http://www.pirp.harvard.edu/pubs_pdf/jelen/jelen-p85-8.pdf)
 - [Implementation Of A Secure Data Management System For The Secure Unix Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a056902.pdf)
+- [Audit and Evaluation of Computer Secuirity: System Vulnerabilities and Controls II](https://www.ncjrs.gov/pdffiles1/Digitization/76253NCJRS.pdf)
+- [Operating System Structures to Support Security and Reliable Software](http://seclab.cs.ucdavis.edu/projects/history/papers/lind76.pdf)
+- [A Provably Secure Operating System](http://seclab.cs.ucdavis.edu/projects/history/papers/neum75.pdf)
 
 ## Content wanted
 
