@@ -965,7 +965,6 @@ Also known as: fortifications
 - [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
 - [Building a Secure Computer System](https://www.amazon.com/Building-Secure-Computer-System-Morrie/dp/0442230222)
-- [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 - NIST 800-16 Vol I: System Security Engineering
 - NIST 800-16 Vol II: Developing Cyber Resilient Systems
 - [Learning from the enemy: the GUNMAN project (NSA)](https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/cryptologic-histories/Learning_from_the_Enemy.pdf)
@@ -989,6 +988,9 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Secure Computer System: Unified Exposition And Multics Interpretation](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bell76.pdf)
 - [Integrity Considerations For Secure Computer Systems](https://ban.ai/multics/doc/a039324.pdf)
 - [Protection Analysis: Final Report](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bisb78.pdf)
+- [Preliminary Notes on the Design of Secure Military Computer Systems](http://seclab.cs.ucdavis.edu/projects/history/papers/sche73.pdf)
+- [Jobstream Separator System Design](http://seclab.cs.ucdavis.edu/projects/history/papers/scha75.pdf)
+- [The Design and Specification of a Security Kernel for the PDP-11/45](http://seclab.cs.ucdavis.edu/projects/history/papers/schi75.pdf)
 - [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
 
 ## Content wanted
