@@ -485,8 +485,6 @@ A lot of tools are context-specific, however. Before I start trying to secure a 
 - ["Advanced Cryptographic Engineering" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch20-mar17.pdf)
 - [Don't trust the math (Bruce Schneier)](https://pastebin.com/zz7YZZUk)
 
-To learn about later: secure enclaves
-
 ### Economics
 
 The idea here is to make it economically, not technically, infeasible for the attacker to attack us. He can still attack us, but his expected effort will exceed his expected gain.
