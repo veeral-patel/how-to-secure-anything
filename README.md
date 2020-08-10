@@ -984,6 +984,7 @@ Also known as: fortifications
 This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
 
 - [Dynamic protection structures](ftp://bitsavers.informatik.uni-stuttgart.de/pdf/bcc/DynamicProtStructures_Nov69.pdf)
+- [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf)
 - [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
 - [Computer Security Technology Planning Study](http://seclab.cs.ucdavis.edu/projects/history/papers/ande72a.pdf)
 - [Computer Security Threat Monitoring and Surveillance](http://seclab.cs.ucdavis.edu/projects/history/papers/ande80.pdf)
