@@ -980,6 +980,16 @@ Also known as: fortifications
 - [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
 - [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
 
+## Classic papers
+
+This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
+
+- [Computer Security Technology Planning Study](http://seclab.cs.ucdavis.edu/projects/history/papers/ande72a.pdf)
+- [Computer Security Threat Monitoring and Surveillance](http://seclab.cs.ucdavis.edu/projects/history/papers/ande80.pdf)
+- [Secure Computer System: Unified Exposition And Multics Interpretation](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bell76.pdf)
+- [Integrity Considerations For Secure Computer Systems](https://ban.ai/multics/doc/a039324.pdf)
+- [Protection Analysis: Final Report](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bisb78.pdf)
+
 ## Content wanted
 
 If you know of any good books, talks, papers, or other resources on the topics below, please submit a pull request, or even easier, just [create an issue](https://github.com/veeral-patel/how-to-secure-anything/issues/new) and I'll add the resources to the repo for you.
