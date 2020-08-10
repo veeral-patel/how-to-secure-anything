@@ -981,19 +981,11 @@ Also known as: fortifications
 - [The spy in Moscow station](https://www.amazon.com/Spy-Moscow-Station-Counterspys-Deadly/dp/1250301165)
 - [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
 
-#### System engineering
-
-- [The Art of Systems Engineering](https://www.amazon.com/Art-Systems-Architecting-Engineering/dp/1420079131)
-- [Engineering Systems: Meeting Human Needs in a Complex Technological World](https://www.amazon.com/Engineering-Systems-Meeting-Complex-Technological-ebook/dp/B006QIMTKO)
-- [The Engineering Design of Systems](https://www.amazon.com/Engineering-Design-Systems-Methods-Management-ebook/dp/B01BKJIDZ8)
-- [Applied Space Systems Engineering](https://www.amazon.com/Applied-Space-Systems-Engineering-Technology/dp/0073408867)
-- [Systems Engineering Book of Knowledge (SeBOK)](<https://www.sebokwiki.org/wiki/Guide_to_the_Systems_Engineering_Body_of_Knowledge_(SEBoK)>) - here's the [pdf](https://www.sebokwiki.org/w/images/sebokwiki-farm!w/0/0a/Guide_to_the_Systems_Engineering_Body_of_Knowledge.pdf)
-
 ## Classic papers
 
 This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
 
-- [Dynamic protection structures](ftp://bitsavers.informatik.uni-stuttgart.de/pdf/bcc/DynamicProtStructures_Nov69.pdf)
+- [Dynamic protection structures](classic_papers/dynamic_protection_structures.pdf)
 - [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf)
 - [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
 - [Computer Security Technology Planning Study](http://seclab.cs.ucdavis.edu/projects/history/papers/ande72a.pdf)
@@ -1010,6 +1002,9 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
 - [Protection in Operating Systems](http://www.cs.unibo.it/~babaoglu/courses/security07-08/resources/documents/harrison-ruzzo-ullman.pdf)
 - [Subversion: The Neglected Aspect of Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/myer80.pdf)
+- [Multics Security Evaluation: Vulnerability Analysis](http://seclab.cs.ucdavis.edu/projects/history/papers/karg74.pdf)
+- [Secure Minicomputer Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a111566.pdf)
+- [Information Security: An Elusive Goal](http://www.pirp.harvard.edu/pubs_pdf/jelen/jelen-p85-8.pdf)
 
 ## Content wanted
 
