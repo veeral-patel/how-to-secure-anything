@@ -989,6 +989,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Secure Computer System: Unified Exposition And Multics Interpretation](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bell76.pdf)
 - [Integrity Considerations For Secure Computer Systems](https://ban.ai/multics/doc/a039324.pdf)
 - [Protection Analysis: Final Report](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bisb78.pdf)
+- [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
 
 ## Content wanted
 
