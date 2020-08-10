@@ -469,6 +469,7 @@ determine if the username is valid or not.
 The goal of security engineering is to build a system that satisfies certain security properties -- not just to add a lot of controls.
 Assurance is how we prove that our system satisfies the properties we want it to.
 
+- [Assuring cybersecurity: getting it right (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch21.xhtml#ch21)
 - [Notes on high-assurance security methods by nickpsecurity](https://gist.github.com/ryazo/3267bcd5aedeebb9224ad90183a5eb85) - see also his writeup on [software distribution](https://pastebin.com/EZQWbwCB)
 - [Guidelines for Formal Verification Systems](https://fas.org/irp/nsa/rainbow/tg014.htm)
 - [Constructing a high assurance mail guard](https://cryptosmith.files.wordpress.com/2014/10/mailguard.pdf)
@@ -501,6 +502,7 @@ A lot of tools are context-specific, however. Before I start trying to secure a 
 
 ### Cryptography
 
+- [Cryptography: A Sharp and Fragile Tool (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch10.xhtml#ch10)
 - [Applied Cryptography: Protocols, Algorithms and Source Code in C](https://www.amazon.com/Applied-Cryptography-Protocols-Algorithms-Source-dp-1119096723/dp/1119096723)
 - ["Cryptography Engineering" book](https://www.amazon.com/Cryptography-Engineering-Principles-Practical-Applications-ebook/dp/B004NSW9JU/ref=sr_1_1?crid=WBP1JC682B4V&dchild=1&keywords=cryptography+engineering&qid=1586149852&s=books&sprefix=cryptography+eng%2Cstripbooks%2C-1&sr=1-1)
 - ["Cryptography" (from Ross Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch5-dec18.pdf)
