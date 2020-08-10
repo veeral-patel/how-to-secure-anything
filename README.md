@@ -267,6 +267,10 @@ Even better, we can even remove SSH access entirely and set up [Prometheus](http
 - [Secure by default – the case of TLS](https://arxiv.org/pdf/1708.07569.pdf)
 - [Configure Safely and Use Safe Defaults](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/safe-configure.html)
 
+### Secure by design
+
+- [Stop trying to fix the user](https://www.schneier.com/blog/archives/2016/10/security_design.html)
+
 ### Prevent/detect/respond framework
 
 The way I see it, every defense falls into one of these categories:
@@ -320,6 +324,8 @@ The techniques below help you find vulnerabilities in a proposed design for you 
 > Theories of security derive from theories of insecurity. - Unknown
 
 > If you're a great attacker you can be "logically" a great defender. However, a great defender cannot be a great attacker, nor would I say they could be a "great" defender. - [Caleb Sima](https://twitter.com/csima), VP of Security at Databricks
+
+> Any person can invent a security system so clever that she or he can't think of how to break it - [Schneier's Law](https://www.schneier.com/blog/archives/2011/04/schneiers_law.html)
 
 More important than the attacks in subsequent sections is being able to think creatively, like an attacker. I do believe this skill is essential if you want in order to assess the security of your designs effectively.
 
