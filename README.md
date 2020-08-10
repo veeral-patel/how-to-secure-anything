@@ -997,6 +997,8 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Design for Multics Security Enhancements](http://seclab.cs.ucdavis.edu/projects/history/papers/whit74.pdf)
 - [Initial Structured Specifications for an Uncompromisable Computer Security System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a022490.pdf)
 - [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
+- [Protection in Operating Systems](http://www.cs.unibo.it/~babaoglu/courses/security07-08/resources/documents/harrison-ruzzo-ullman.pdf)
+- [Subversion: The Neglected Aspect of Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/myer80.pdf)
 
 ## Content wanted
 
