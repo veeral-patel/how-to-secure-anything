@@ -1005,6 +1005,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Multics Security Evaluation: Vulnerability Analysis](http://seclab.cs.ucdavis.edu/projects/history/papers/karg74.pdf)
 - [Secure Minicomputer Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a111566.pdf)
 - [Information Security: An Elusive Goal](http://www.pirp.harvard.edu/pubs_pdf/jelen/jelen-p85-8.pdf)
+- [Implementation Of A Secure Data Management System For The Secure Unix Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a056902.pdf)
 
 ## Content wanted
 
