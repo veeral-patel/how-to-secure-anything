@@ -464,6 +464,7 @@ Assurance is how we prove that our system satisfies the properties we want it to
 - [SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/Design-and-Analysis-of-a-Fault-Tolerant-Computer-for-Aircraft-Control.pdf)
 - [Design and Verification of Secure Systems](http://www.csl.sri.com/users/rushby/papers/sosp81.pdf)
 - [Commercial Product Evaluations](http://webapp1.dlib.indiana.edu/virtual_disk_library/index.cgi/1347159/FID1930/INDEX.HTML)
+- [Make computers keep secrets](https://dspace.mit.edu/bitstream/handle/1721.1/33481/24370594-MIT.pdf)
 - [Hints for High-Assurance Cyber-Physical System Design](https://leepike.github.io/pubs/pike-secdev16.pdf)
 - [High-Assurance Separation Kernels: A Survey on Formal Methods](https://arxiv.org/pdf/1701.01535.pdf)
 - [Separation Virtual Machine Monitors](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.363.3314&rep=rep1&type=pdf#page=435)
@@ -728,6 +729,7 @@ We've already learned about the first category; this section is about the second
 ### Web applications
 
 - [Towards High Assurance HTML5 Applications](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2014/EECS-2014-56.pdf)
+- [Privilege separation in HTML5 applications](https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final168.pdf)
 - [Principled and Practical Web Application Security](https://cseweb.ucsd.edu/~dstefan/pubs/stefan:2015:phdthesis.pdf)
 
 ### Android
@@ -1003,6 +1005,11 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Jobstream Separator System Design](http://seclab.cs.ucdavis.edu/projects/history/papers/scha75.pdf)
 - [The Design and Specification of a Security Kernel for the PDP-11/45](http://seclab.cs.ucdavis.edu/projects/history/papers/schi75.pdf)
 - [Security controls in the ADEPT-50 time-sharing system](http://www.cbi.umn.edu/securitywiki/pub/CBI_ComputerSecurity/SystemsADEPT50/p119-weissman.pdf)
+- [A postmortem for a time sharing system](https://pdfs.semanticscholar.org/1851/0df9186733bd7ece1deeaecbe6869c57e10a.pdf)
+- [Protection (by Lampson)](http://www.cap-lore.com/Software/LampsonProt.html)
+- [Protection in an information processing utility](https://66.39.25.33/graham-pipu.pdf)
+- [Protection and the Control of Information Sharing in Multics](http://cseweb.ucsd.edu/classes/wi19/cse221-a/papers/saltzer74.pdf)
+- [A Hardware Architecture for Implementing Protection Rings](http://www.princeton.edu/~rblee/ELE572Papers/Fall04Readings/ProtectionRings_Schroeder&Saltzer.pdf)
 - [Design for Multics Security Enhancements](http://seclab.cs.ucdavis.edu/projects/history/papers/whit74.pdf)
 - [Initial Structured Specifications for an Uncompromisable Computer Security System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a022490.pdf)
 - [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
@@ -1015,6 +1022,10 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Audit and Evaluation of Computer Secuirity: System Vulnerabilities and Controls II](https://www.ncjrs.gov/pdffiles1/Digitization/76253NCJRS.pdf)
 - [Operating System Structures to Support Security and Reliable Software](http://seclab.cs.ucdavis.edu/projects/history/papers/lind76.pdf)
 - [A Provably Secure Operating System](http://seclab.cs.ucdavis.edu/projects/history/papers/neum75.pdf)
+- [Relational database access controls](https://www.profsandhu.com/articles/auerbach/a94dac.pdf)
+- [Looking back at the Bell-LaPadula Model](https://www.acsac.org/2005/papers/Bell.pdf)
+- [Original Bell-LaPadula Paper](https://apps.dtic.mil/sti/pdfs/AD0770768.pdf)
+- [Encapsulation: an approach to operating system security](https://apps.dtic.mil/sti/pdfs/AD0771758.pdf)
 
 ## Content wanted
 
