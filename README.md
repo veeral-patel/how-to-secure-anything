@@ -983,6 +983,7 @@ Also known as: fortifications
 
 This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
 
+- [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
 - [Computer Security Technology Planning Study](http://seclab.cs.ucdavis.edu/projects/history/papers/ande72a.pdf)
 - [Computer Security Threat Monitoring and Surveillance](http://seclab.cs.ucdavis.edu/projects/history/papers/ande80.pdf)
 - [Secure Computer System: Unified Exposition And Multics Interpretation](https://csrc.nist.gov/csrc/media/publications/conference-paper/1998/10/08/proceedings-of-the-21st-nissc-1998/documents/early-cs-papers/bell76.pdf)
@@ -991,6 +992,9 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Preliminary Notes on the Design of Secure Military Computer Systems](http://seclab.cs.ucdavis.edu/projects/history/papers/sche73.pdf)
 - [Jobstream Separator System Design](http://seclab.cs.ucdavis.edu/projects/history/papers/scha75.pdf)
 - [The Design and Specification of a Security Kernel for the PDP-11/45](http://seclab.cs.ucdavis.edu/projects/history/papers/schi75.pdf)
+- [Security controls in the ADEPT-50 time-sharing system](http://www.cbi.umn.edu/securitywiki/pub/CBI_ComputerSecurity/SystemsADEPT50/p119-weissman.pdf)
+- [Design for Multics Security Enhancements](http://seclab.cs.ucdavis.edu/projects/history/papers/whit74.pdf)
+- [Initial Structured Specifications for an Uncompromisable Computer Security System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a022490.pdf)
 - [Reflections on Trusting Trust](https://www.cs.colorado.edu/~jrblack/class/csci6268/s14/p761-thompson.pdf) - [revisited](https://www2.dmst.aueb.gr/dds/pubs/jrnl/2003-CACM-Reflections2/html/reflections2.pdf)
 
 ## Content wanted
