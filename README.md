@@ -824,6 +824,10 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Cloud providers
 
 - [Google Cloud Security Whitepapers (97 page PDF)](cloud/security_whitepapers_march2018.pdf)
+- [Google Infrastructure Security Design Overview](https://cloud.google.com/security/infrastructure/design)
+- [NEXT 2016 Keynote: Security by Niels Provos](https://www.youtube.com/watch?v=Ba1BvXzVbsE)
+- [Google Infrastructure Security Design (Google Cloud Next '17)](https://www.youtube.com/watch?v=O-JXFQezWOc)
+- [Google Data Center Security: 6 Layers Deep](https://www.youtube.com/watch?v=kd33UVZhnAA)
 - [How Do You Explain The Unreasonable Effectiveness Of Cloud Security?](http://highscalability.com/blog/2018/9/19/how-do-you-explain-the-unreasonable-effectiveness-of-cloud-s.html)
 - [Securing a community cloud](https://www.researchgate.net/profile/Fabrizio_Baiardi2/publication/224193031_Securing_a_Community_Cloud/links/57dfee9e08ae5272afd0a389/Securing-a-Community-Cloud.pdf)
 
