@@ -975,6 +975,7 @@ Also known as: fortifications
 
 ### Haven't read yet
 
+- [Cybersecurity for Space](https://learning.oreilly.com/library/view/cybersecurity-for-space/9781484257326/html/Cover.xhtml)
 - [Engineering Security](https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)
 - [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
