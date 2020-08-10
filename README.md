@@ -965,8 +965,6 @@ Also known as: fortifications
 - Engineering Trustworthy Systems (by Sami Saydjari)
 - "Security in Computing" (by Pfleeger) - I liked the chapter on trusted operating systems in particular.
 - [Building Secure and Reliable Systems](https://www.amazon.com/Building-Secure-Reliable-Systems-Implementing/dp/1492083127)
-- [Engineering Security](https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)
-- [Analogue Network Security](https://www.amazon.com/Analogue-Network-Security-Engineering-Thinking/dp/B07C39RDBW)
 
 ### More
 
@@ -977,6 +975,7 @@ Also known as: fortifications
 
 ### Haven't read yet
 
+- [Engineering Security](https://www.cs.auckland.ac.nz/~pgut001/pubs/book.pdf)
 - [NSA STIGs](https://public.cyber.mil/stigs/)
 - [NSA/DOD Rainbow Series](https://fas.org/irp/nsa/rainbow.htm)
 - [Building a Secure Computer System](https://www.amazon.com/Building-Secure-Computer-System-Morrie/dp/0442230222)
@@ -985,6 +984,9 @@ Also known as: fortifications
 - [Learning from the enemy: the GUNMAN project (NSA)](https://www.nsa.gov/Portals/70/documents/news-features/declassified-documents/cryptologic-histories/Learning_from_the_Enemy.pdf)
 - [The spy in Moscow station](https://www.amazon.com/Spy-Moscow-Station-Counterspys-Deadly/dp/1250301165)
 - [Principled Assuredly Trustworthy Composable Architectures](http://www.csl.sri.com/users/neumann/chats4.pdf)
+- [Analogue Network Security](https://www.amazon.com/Analogue-Network-Security-Engineering-Thinking/dp/B07C39RDBW)
+- [Security from First Principles](https://learning.oreilly.com/library/view/security-from-first/9781491996911/preface04.html)
+- [Electronic Access Control](https://learning.oreilly.com/library/view/electronic-access-control/9780123820280/#toc)
 
 ## Classic papers
 
