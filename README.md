@@ -106,7 +106,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
   - [Recommended](#recommended)
   - [More](#more)
   - [Haven't read yet](#haven-t-read-yet)
-- [Classic papers](#classic-papers)
+- [Papers](#papers)
 - [Content wanted](#content-wanted)
 - [In the future](#in-the-future)
 
@@ -1053,6 +1053,13 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Encapsulation: an approach to operating system security](https://apps.dtic.mil/sti/pdfs/AD0771758.pdf)
 - [Specification of a trusted computing base](https://apps.dtic.mil/dtic/tr/fulltext/u2/a108831.pdf)
 - [Minicomputer Architectures for Effective Security Kernel Implementations](https://apps.dtic.mil/dtic/tr/fulltext/u2/a059449.pdf)
+- [Security Analysis And Enhancements Of Computer Operating Systems](http://www.cs.columbia.edu/~locasto/projects/candidacy/papers/abadi2003ac.pdf)
+- [Access Control based on Execution History](http://www.cs.columbia.edu/~locasto/projects/candidacy/papers/abadi2003ac.pdf)
+- [A Distributed Trust Model](https://d1wqtxts1xzle7.cloudfront.net/33336702/nspw1997-rahman.pdf?1396028832=&response-content-disposition=inline%3B+filename%3DA_distributed_trust_model.pdf&Expires=1597138446&Signature=YJNEg8R68k0zWOQu3cIzt7xvOHBXIvSCKR4x~XDMmoeoc8I4RAW24PYxcBU1EXtHak5manFUSKJe-8ghp23dt-n37x20TRU0Jon6Sc7eOEehjFuzJdqkZku1XGBR7MWzN5s8kbMdKManuSz4XRD9ay4P~ptL06KpactCoqqMc4XC663fSXj3CYF93ndEK9R9k6EYH4~62YSC7SRezdEB1gDPdyUlax64joBmuuH2SqYOQ2uGMOpkExz6lZNkDUjrMOHAVIe1DNjetldITrk6W1BUBipO9sVqWVsYuMS-zw5tiY3jdEaMUqR57pN6ZQY9ipRx8ux~3dq1crjHMPH7Ug__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+- [Abstraction and Refinement of Layered Security Policy](https://web2.utc.edu/~Li-Yang/cpsc4670/05-abstration-policy.pdf)
+- [Policy Management for Networked Systems and Applications](https://www.researchgate.net/profile/Seraphin_Calo/publication/221293654_Policy_management_for_networked_systems_and_applications/links/09e41510a94fc63ec1000000/Policy-management-for-networked-systems-and-applications.pdf)
+- [Containing the Hype](https://www.cs.unc.edu/~porter/pubs/APSys-CameraReady-v2.pdf)
+- [Distributed trust model](https://d1wqtxts1xzle7.cloudfront.net/33336702/nspw1997-rahman.pdf?1396028832=&response-content-disposition=inline%3B+filename%3DA_distributed_trust_model.pdf&Expires=1597138791&Signature=FVH0GVQDZshfyTHzeIFQP6nCuXp2bnZxMocVIajTTeAXvA6asDZcHr1P7ZRWEG0Vig9gy~K8MJtBEsyKvqpt7lOsnxfCnY395v1qPFh~5OdyV-t8B48ctY02y9JTxofh3ZHNdWLv5NaPkKtjkqJK8ceQPW4UO1DqHNEIFU7LmFPtT3JKSplTtA86d08VoLgxhn1G5Aq55IbW8ImVSb40hgU2XMwyLanUfPw4qUSmjyq-CBwX9XzwCwer3QOZp8o3lNDMB9nubiczUcZ6EczlcTDBDGLCa3wr2GbtQOpVg1mcZOHqgwHkow0lFEx4qTJdeObKuFTnxd62ZO1jrFp1gA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 
 ## Content wanted
 
