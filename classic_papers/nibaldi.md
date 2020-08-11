@@ -19,13 +19,9 @@
 - Levels of protection
 - Conclusion
 
-## Evaluation factors
+Evaluation factors - Policy, Mechanism, Assurance
 
-- Policy
-- Mechanism
-- Assurance
-
-### Policy
+## Policy
 
 - With no policy there's no way to determine if a system meets our requirements
 - Protection policy written as well-defined rules regarding access--by whom, to what, under what conditions, and how (subject POV)
@@ -35,6 +31,16 @@
 
 ...
 
-### Mechanism
+## Mechanism
 
-- what security features enforce our protection policy?
+## Assurance
+
+## Design
+
+## Levels of protection
+
+- Level 0 = no basis for confidence in system's protection ability
+- Level 1 = some attempts to control access
+- Level 2 = minimal requirements are satisfied, assurance comes from paying attention to protection during system design and extensive testing
+- Level 3 = additional confidence gained through methodically building TCB, modern programming techniques
+- Level 4 = formal methods used to verify TCB implementation
