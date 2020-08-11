@@ -1011,7 +1011,7 @@ Also known as: fortifications
 - [Security from First Principles](https://learning.oreilly.com/library/view/security-from-first/9781491996911/preface04.html)
 - [Electronic Access Control](https://learning.oreilly.com/library/view/electronic-access-control/9780123820280/#toc)
 
-## Classic papers
+## Papers
 
 This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/papers/).
 
@@ -1060,6 +1060,17 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Policy Management for Networked Systems and Applications](https://www.researchgate.net/profile/Seraphin_Calo/publication/221293654_Policy_management_for_networked_systems_and_applications/links/09e41510a94fc63ec1000000/Policy-management-for-networked-systems-and-applications.pdf)
 - [Containing the Hype](https://www.cs.unc.edu/~porter/pubs/APSys-CameraReady-v2.pdf)
 - [Distributed trust model](https://d1wqtxts1xzle7.cloudfront.net/33336702/nspw1997-rahman.pdf?1396028832=&response-content-disposition=inline%3B+filename%3DA_distributed_trust_model.pdf&Expires=1597138791&Signature=FVH0GVQDZshfyTHzeIFQP6nCuXp2bnZxMocVIajTTeAXvA6asDZcHr1P7ZRWEG0Vig9gy~K8MJtBEsyKvqpt7lOsnxfCnY395v1qPFh~5OdyV-t8B48ctY02y9JTxofh3ZHNdWLv5NaPkKtjkqJK8ceQPW4UO1DqHNEIFU7LmFPtT3JKSplTtA86d08VoLgxhn1G5Aq55IbW8ImVSb40hgU2XMwyLanUfPw4qUSmjyq-CBwX9XzwCwer3QOZp8o3lNDMB9nubiczUcZ6EczlcTDBDGLCa3wr2GbtQOpVg1mcZOHqgwHkow0lFEx4qTJdeObKuFTnxd62ZO1jrFp1gA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+- [Issues in Designing a Policy Language for Distributed Management of IT Infrastructures](https://www.researchgate.net/profile/Jorge_Lobo2/publication/4256684_Issues_in_Designing_a_Policy_Language_for_Distributed_Management_of_IT_Infrastructures/links/0912f50a5108db30ca000000.pdf)
+- [Planning and Integrating Deception into Computer Security Defenses](https://www.researchgate.net/profile/Eugene_Spafford/publication/267748217_Planning_and_Integrating_Deception_into_Computer_Security_Defenses/links/5463a1a80cf2c0c6aec4f5c6.pdf)
+- [Applying the TCSEC Guidelines to a Real-time Embedded System Environment](https://www.researchgate.net/profile/Jim_Alves-Foss/publication/268004856_APPLYING_THE_TCSEC_GUIDELINES_TO_A_REAL-TIME_EMBEDDED_SYSTEM_ENVIRONMENT/links/547e3f320cf2de80e7cc553e/APPLYING-THE-TCSEC-GUIDELINES-TO-A-REAL-TIME-EMBEDDED-SYSTEM-ENVIRONMENT.pdf)
+- [Safety analysis for the extended schematic protection model](<https://www.profsandhu.com/confrnc/oakland/o91safty(org).pdf)
+- [A Secure and Reliable Bootstrap Architecture](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1237&context=cis_reports)
+- [Adaptive Cyberdefense for Survival and Intrusion Tolerance](https://www.researchgate.net/profile/Richard_Schantz/publication/232623135_Adaptive_Cyberdefense_for_Survival_and_Intrusion_Tolerance/links/02e7e523ca04060212000000.pdf)
+- [Basic Concepts and Taxonomy of Dependable and Secure Computing](https://drum.lib.umd.edu/bitstream/handle/1903/6459/TR_2004-47.pdf)
+- [The Base-Rate Fallacy and the Difficulty of Intrusion Detection](https://people.scs.carleton.ca/~soma/id-2006w/readings/axelsson-base-rate.pdf)
+- [A Linear Time Algorithm for Deciding Subject Security](https://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
+- [Formal models for computer security](http://crypto.stanford.edu/~ninghui/courses/Fall03/papers/landwehr_survey.pdf)
+- [Capability myths demolished](https://srl.cs.jhu.edu/pubs/SRL2003-02.pdf)
 
 ## Content wanted
 
