@@ -37,10 +37,12 @@ Evaluation factors - Policy, Mechanism, Assurance
 
 ## Design
 
-## Levels of protection
+## 7 Levels of protection
 
 - Level 0 = no basis for confidence in system's protection ability
 - Level 1 = some attempts to control access
 - Level 2 = minimal requirements are satisfied, assurance comes from paying attention to protection during system design and extensive testing
 - Level 3 = additional confidence gained through methodically building TCB, modern programming techniques
-- Level 4 = formal methods used to verify TCB implementation
+- Level 4 = formal methods used to verify design of TCB implementation
+- Level 5 = formal methods employed to verify software implementation of the design
+- Level 6 = object code analyzed, hardware support strengthened
