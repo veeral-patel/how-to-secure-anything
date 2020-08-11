@@ -1069,8 +1069,15 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Basic Concepts and Taxonomy of Dependable and Secure Computing](https://drum.lib.umd.edu/bitstream/handle/1903/6459/TR_2004-47.pdf)
 - [The Base-Rate Fallacy and the Difficulty of Intrusion Detection](https://people.scs.carleton.ca/~soma/id-2006w/readings/axelsson-base-rate.pdf)
 - [A Linear Time Algorithm for Deciding Subject Security](https://www.cs.nmt.edu/~doshin/t/s06/cs589/pub/2.JLS-TG.pdf)
+- [Applying the take-grant protection model](classic_papers/applying_take_grant.pdf)
 - [Formal models for computer security](http://crypto.stanford.edu/~ninghui/courses/Fall03/papers/landwehr_survey.pdf)
 - [Capability myths demolished](https://srl.cs.jhu.edu/pubs/SRL2003-02.pdf)
+- [The Inevitability of Failure: The Flawed Assumption of Security in Modern Computing Environments](https://web.archive.org/web/20070621155813/http://jya.com/paperF1.htm)
+- [Lattice-based access control models](http://www.winlab.rutgers.edu/~trappe/Courses/AdvSec05/access_control_lattice.pdf)
+- [A lattice model of secure information flow](http://faculty.nps.edu/dedennin/publications/lattice76.pdf)
+- [A framework for dynamic subversion](https://calhoun.nps.edu/bitstream/handle/10945/919/03Jun_Rogers_David.pdf)
+- [NGSCB: A Trusted Open System](https://web.archive.org/web/20050304033047/https://research.microsoft.com/~yuqunc/papers/ngscb.pdf)
+- [EROS: a fast capability system](https://courses.cs.washington.edu/courses/cse551/19wi/readings/eros-sosp99.pdf)
 
 ## Content wanted
 
