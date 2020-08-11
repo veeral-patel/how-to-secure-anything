@@ -54,9 +54,21 @@ Few important areas
 
 Remember, detection mechanisms need to be protected too!
 
+### Recovery
+
+- Restore the secure state of the system in case of a fault
+  - Fault may be induced by software (malicious program) or hardware (failed component)
+- Not always possible
+  - Example: unauthorized user viewed file
+- In the security industry we have response tools, but not automated recovery tools
+
 ## Assurance
 
-## Design
+- good news: with TCB approach you only need to assure the TCB, nothing else!
+- design top down: high level design specs, lower level design specs
+- programming techniques: modularity, abstract typing, structured programming
+
+...
 
 ## 7 Levels of protection
 
@@ -67,3 +79,5 @@ Remember, detection mechanisms need to be protected too!
 - Level 4 = formal methods used to verify design of TCB implementation
 - Level 5 = formal methods employed to verify software implementation of the design
 - Level 6 = object code analyzed, hardware support strengthened
+
+...
