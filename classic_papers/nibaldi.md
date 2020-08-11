@@ -33,6 +33,9 @@ Evaluation factors - Policy, Mechanism, Assurance
 
 ## Mechanism
 
+- security features that enforce our protection policy
+- keep in mind that TCB includes both hardware, software
+
 ## Assurance
 
 ## Design
