@@ -35,6 +35,24 @@ Evaluation factors - Policy, Mechanism, Assurance
 
 - security features that enforce our protection policy
 - keep in mind that TCB includes both hardware, software
+- four categories: prevention, detection, recovery, support ops/maintenance
+
+### Prevention
+
+Few important areas
+
+- data protection - protect info + flow, authz policies
+- system integrity - protection from tampering, protect users from each other
+- denial of service mechanisms
+- authentication
+- confinement
+
+### Detection
+
+- Auditing - capture all the important actions, tie them to users
+- Surveillance - monitor your logs!
+
+Remember, detection mechanisms need to be protected too!
 
 ## Assurance
 
