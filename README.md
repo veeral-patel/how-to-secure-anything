@@ -1051,6 +1051,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Looking back at the Bell-LaPadula Model](https://www.acsac.org/2005/papers/Bell.pdf)
 - [Original Bell-LaPadula Paper](https://apps.dtic.mil/sti/pdfs/AD0770768.pdf)
 - [Encapsulation: an approach to operating system security](https://apps.dtic.mil/sti/pdfs/AD0771758.pdf)
+- [Specification of a trusted computing base](https://apps.dtic.mil/dtic/tr/fulltext/u2/a108831.pdf)
 
 ## Content wanted
 

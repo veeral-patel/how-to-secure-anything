@@ -32,3 +32,9 @@
 - Can also be written in terms of service: a protection policy prescribes the manner and conditions under which a subject is served by the system
   - Subject may be user, process, etc
   - In other words, what operations can the user do? (Eg, log in? execute a program? access a IO device?) And what are the conditions for each action?
+
+...
+
+### Mechanism
+
+- what security features enforce our protection policy?
