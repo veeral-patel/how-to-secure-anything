@@ -568,6 +568,7 @@ This is one reason why bags of chips or gallons of milk, for example, are sealed
 - [Understanding Discretionary Access Control In Trusted Systems](https://fas.org/irp/nsa/rainbow/tg003.htm)
 - [Awesome Object Capabilities and Capability-based Security](https://github.com/dckc/awesome-ocap)
 - [What are capabilities?](http://habitatchronicles.com/2017/05/what-are-capabilities/)
+- [Capability Security Model](https://wiki.c2.com/?CapabilitySecurityModel)
 
 ### Authentication
 
@@ -1078,6 +1079,9 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [A framework for dynamic subversion](https://calhoun.nps.edu/bitstream/handle/10945/919/03Jun_Rogers_David.pdf)
 - [NGSCB: A Trusted Open System](https://web.archive.org/web/20050304033047/https://research.microsoft.com/~yuqunc/papers/ngscb.pdf)
 - [EROS: a fast capability system](https://courses.cs.washington.edu/courses/cse551/19wi/readings/eros-sosp99.pdf)
+- [LOMAC: Low Water-Mark Integrity Protection for Linux](https://web.archive.org/web/20110716113909/http://www.isso.sparta.com/documents/lomac.pdf)
+- [Access Control Model For Distributed Conferencing System](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.199.1609&rep=rep1&type=pdf)
+- [A Comparison of Commercial and Military Computer Security Policies](http://theory.stanford.edu/~ninghui/courses/Fall03/papers/clark_wilson.pdf)
 
 ## Content wanted
 
