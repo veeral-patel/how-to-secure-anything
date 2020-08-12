@@ -593,6 +593,9 @@ While not a standalone factor, you can consider the environment, too, such as wh
 Without authorization, anyone who authenticates to our system would have full access to everything. We'd like to make it more difficult than that for attackers, and likely don't trust all insiders that much, either.
 
 - [Authorization (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch12.xhtml#ch12)
+- [Domain type enforcement](https://www.cs.cornell.edu/courses/cs5430/2012sp/dte.html)
+- [Type enforcement chapter (from SELinux book)](https://learning.oreilly.com/library/view/selinux/0596007167/ch07.html)
+- [Domain and type enforcement for Linux](https://www.usenix.org/legacy/publications/library/proceedings/als00/2000papers/papers/full_papers/hallyn/hallyn_html/index.html)
 
 #### Multilevel
 
@@ -1064,7 +1067,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Issues in Designing a Policy Language for Distributed Management of IT Infrastructures](https://www.researchgate.net/profile/Jorge_Lobo2/publication/4256684_Issues_in_Designing_a_Policy_Language_for_Distributed_Management_of_IT_Infrastructures/links/0912f50a5108db30ca000000.pdf)
 - [Planning and Integrating Deception into Computer Security Defenses](https://www.researchgate.net/profile/Eugene_Spafford/publication/267748217_Planning_and_Integrating_Deception_into_Computer_Security_Defenses/links/5463a1a80cf2c0c6aec4f5c6.pdf)
 - [Applying the TCSEC Guidelines to a Real-time Embedded System Environment](https://www.researchgate.net/profile/Jim_Alves-Foss/publication/268004856_APPLYING_THE_TCSEC_GUIDELINES_TO_A_REAL-TIME_EMBEDDED_SYSTEM_ENVIRONMENT/links/547e3f320cf2de80e7cc553e/APPLYING-THE-TCSEC-GUIDELINES-TO-A-REAL-TIME-EMBEDDED-SYSTEM-ENVIRONMENT.pdf)
-- [Safety analysis for the extended schematic protection model](<https://www.profsandhu.com/confrnc/oakland/o91safty(org).pdf)
+- [Safety analysis for the extended schematic protection model](<https://www.profsandhu.com/confrnc/oakland/o91safty(org).pdf>)
 - [A Secure and Reliable Bootstrap Architecture](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1237&context=cis_reports)
 - [Adaptive Cyberdefense for Survival and Intrusion Tolerance](https://www.researchgate.net/profile/Richard_Schantz/publication/232623135_Adaptive_Cyberdefense_for_Survival_and_Intrusion_Tolerance/links/02e7e523ca04060212000000.pdf)
 - [Basic Concepts and Taxonomy of Dependable and Secure Computing](https://drum.lib.umd.edu/bitstream/handle/1903/6459/TR_2004-47.pdf)
