@@ -1021,7 +1021,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 
 - [The Protection of Information in Computer Systems](http://www.cs.virginia.edu/~evans/cs551/saltzer/) - [my notes](classic_papers/saltzer_schroeder.md)
 - [Proposed Technical Evaluation Criteria for Trusted Computer Systems](http://seclab.cs.ucdavis.edu/projects/history/papers/niba79.pdf) - [my notes](classic_papers/nibaldi.md)
-- [Thirty Years Later: Lessons from the Multics Security Evaluation](https://www.acsac.org/2002/papers/classic-multics.pdf)
+- [Thirty Years Later: Lessons from the Multics Security Evaluation](https://www.acsac.org/2002/papers/classic-multics.pdf) - [my notes](classic_papers/thirty_years_later.md)
 - [Dynamic protection structures](classic_papers/dynamic_protection_structures.pdf)
 - [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf)
 - [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
