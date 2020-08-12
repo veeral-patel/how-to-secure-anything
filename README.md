@@ -725,7 +725,8 @@ We've already learned about the first category; this section is about the second
 
 - ["Banking and bookkeeping" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv2-c10.pdf)
 - [The Bank Employee's Fraud and Security Handbook: Everything You Need to Know to Detect and Prevent Loss](https://www.amazon.com/Bank-Employees-Fraud-Security-Handbook/dp/1557383480)
-- [How Coinbase Builds Secure Infrastructure To Store Bitcoin In The Cloud](https://blog.coinbase.com/how-coinbase-builds-secure-infrastructure-to-store-bitcoin-in-the-cloud-30a6504e40ba)
+- [How Coinbase Builds Secure Infrastructure To Store Bitcoin In The Cloud](https://blog.coinbase.com/how-coinbase-builds-secure-infrastructure-to-store-bitcoin-in-the-cloud-30a6504e40ba) - [my notes](banking/coinbase.md)
+- [Future Banks Live in The Cloud: Building a Usable Cloud with Uncompromising Security](https://www.youtube.com/watch?v=bhCOLJQiKmY)
 
 #### Attacking
 
