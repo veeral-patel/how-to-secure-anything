@@ -425,6 +425,7 @@ which is bottom up.
 
 - [How to avoid failures](https://www.dsiintl.com/wp-content/uploads/2017/04/HOW-TO-AVOID-FAILURES-FMEA-andor-FTA.pdf)
 - [Hazard Analysis Techniques for System Safety](https://www.amazon.com/Hazard-Analysis-Techniques-System-Safety/dp/0471720194)
+- [Intro to Systems Theoretic Process Analysis (STPA)](http://psas.scripts.mit.edu/home/wp-content/uploads/2016/01/Systems-Theoretic-Process-Analysis-STPA-John-Thomas.pdf)
 
 #### Fault tree analysis
 
