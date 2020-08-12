@@ -1023,7 +1023,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Proposed Technical Evaluation Criteria for Trusted Computer Systems](http://seclab.cs.ucdavis.edu/projects/history/papers/niba79.pdf) - [my notes](classic_papers/nibaldi.md)
 - [Thirty Years Later: Lessons from the Multics Security Evaluation](https://www.acsac.org/2002/papers/classic-multics.pdf) - [my notes](classic_papers/thirty_years_later.md)
 - [Dynamic protection structures](classic_papers/dynamic_protection_structures.pdf)
-- [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf)
+- [A note on the confinement problem](http://www.cs.umd.edu/~jkatz/TEACHING/comp_sec_F04/downloads/confinement.pdf) - [my notes](classic_papers/confinement_problem.md)
 - [Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security](http://seclab.cs.ucdavis.edu/projects/history/papers/ware70.pdf)
 - [Computer Security Technology Planning Study](http://seclab.cs.ucdavis.edu/projects/history/papers/ande72a.pdf)
 - [Computer Security Threat Monitoring and Surveillance](http://seclab.cs.ucdavis.edu/projects/history/papers/ande80.pdf)
