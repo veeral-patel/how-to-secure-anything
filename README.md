@@ -250,6 +250,7 @@ write about [here](https://github.com/veeral-patel/learn-security-engineering/bl
 - [TSAFE: Building a Trusted Computing Base forAir Traffic Control Software](tcbs/tsafe.pdf)
 - [Ten page intro to trusted computing](tcbs/ten_page_intro_to_trusted_computing.pdf)
 - [Reducing TCB Complexity for Security-Sensitive Applications: Three Case Studies](http://141.76.48.99/papers_ps/eurosys2006.pdf)
+- [The Nizza Secure-System Architecture](https://genode-labs.com/publications/nizza-2005.pdf)
 
 ### Separate privileges
 
