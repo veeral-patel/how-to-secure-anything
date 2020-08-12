@@ -444,8 +444,6 @@ a protocol, so it's worth learning how to analyze protocols for vulnerabilities.
 - ["Protocols" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch4-dec18.pdf)
 - [A logic of authentication](protocols/a_logic_of_authentication.pdf)
 - [Programming Satan's computer](protocols/programming_satans_computer.pdf)
-- [Prudent engineering practice for cryptographic protocols](protocols/prudent_engineering_practice_for_cryptographic_protocols.pdf)
-- [Robustness principles for public key protocols](protocols/robustness_principles_for_public_key_protocols.pdf)
 - [Using Encryption for Authentication in Large Networks of Computers](protocols/using_encryption_for_authentication_in_large_networks_of_computers.pdf)
 - [Three systems for cryptographic protocol analysis](protocols/three_systems_for_cryptographic_protocol_analysis.pdf)
 
