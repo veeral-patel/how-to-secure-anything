@@ -918,7 +918,6 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 
 - [Jail Design Guide (National Institute of Corrections)](prisons/jail_design_guide.pdf)
 - [Prison Architecture](https://www.amazon.com/Prison-Architecture-Leslie-Fairweather-RIBA/dp/0750642122)
-- [A Practical Guide to Understanding and Evaluating Prison Systems](prisons/understanding_and_evaluating_prison_sysytems.pdf)
 - [Technical Guidance for Prison Planning](https://content.unops.org/publications/Technical-guidance-Prison-Planning-2016_EN.pdf)
 - [Handbook on Dynamic Security and Prison Intelligence](https://www.unodc.org/documents/justice-and-prison-reform/UNODC_Handbook_on_Dynamic_Security_and_Prison_Intelligence.pdf)
 - [Correctional Facility Design and Detailing](https://www.amazon.com/Correctional-Facility-Design-Detailing-Krasnow/dp/0070361738)
