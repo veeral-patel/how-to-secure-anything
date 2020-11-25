@@ -335,6 +335,7 @@ Sources
 - [Principles for building secure systems](https://inst.eecs.berkeley.edu/~cs161/sp19/notes/Principles.1.19.pdf)
 - [More principles](https://tramnguyenio.files.wordpress.com/2017/03/design-principles.pdf)
 - [Even more principles (from David Wagner)](https://people.eecs.berkeley.edu/~daw/teaching/cs261-f07/slides-aug30.pdf)
+- [The Information Security Practice Principles](https://cacr.iu.edu/principles/ISPP-Foundational-Whitepaper-2017.pdf)
 
 ## Find vulnerabilities
 
