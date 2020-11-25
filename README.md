@@ -8,7 +8,7 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 
 ## Table of contents
 
-- [What is security engineering?](#what-is-security-engineering-)
+- [What is security engineering?](#what-is-security-engineering)
 - [High level process](#high-level-process)
 - [Follow known best practices](#follow-known-best-practices)
 - [Understand your adversaries](#understand-your-adversaries)
@@ -16,11 +16,12 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [Security models](#security-models)
 - [Improve defenses](#improve-defenses)
   - [Minimize attack surface](#minimize-attack-surface)
-  - [Minimize and verify your trusted computing base (TCB)](#minimize-and-verify-your-trusted-computing-base--tcb-)
+  - [Minimize and verify your trusted computing base (TCB)](#minimize-and-verify-your-trusted-computing-base-tcb)
   - [Separate privileges](#separate-privileges)
   - [Minimize privileges](#minimize-privileges)
   - [Secure by default](#secure-by-default)
   - [Secure by design](#secure-by-design)
+  
   - [Prevent/detect/respond framework](#prevent-detect-respond-framework)
   - [Kill chains](#kill-chains)
   - [Security design principles](#security-design-principles)
@@ -40,8 +41,8 @@ Its lessons are not just applicable to computer security. In fact, in this repo,
 - [Popular mechanisms](#popular-mechanisms)
   - [Cryptography](#cryptography)
   - [Economics](#economics)
-  - [Laws and regulations (deterrence by the government)](#laws-and-regulations--deterrence-by-the-government-)
-  - [Retaliation (deterrence by you or third parties)](#retaliation--deterrence-by-you-or-third-parties-)
+  - [Laws and regulations (deterrence by the government)](#laws-and-regulations-deterrence-by-the-government)
+  - [Retaliation (deterrence by you or third parties)](#retaliation-deterrence-by-you-or-third-parties)
   - [Tamper resistance](#tamper-resistance)
   - [Tamper detection](#tamper-detection)
   - [Access control](#access-control)
