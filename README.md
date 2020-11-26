@@ -164,6 +164,7 @@ Also, study the history of attacks. If I was designing a prison, I'd learn about
 - [Threat Modeling: Designing for Security](https://www.amazon.com/Threat-Modeling-Designing-Adam-Shostack/dp/1118809998)
 - [Awesome Threat Modeling](https://github.com/hysnsec/awesome-threat-modelling)
 - [Some thoughts on threat modeling](https://www.cs.auckland.ac.nz/~pgut001/pubs/threat_modelling.pdf)
+- [Threat modeling: 12 available methods](https://insights.sei.cmu.edu/sei_blog/2018/12/threat-modeling-12-available-methods.html)
 - [A Guide to Understanding Security Modeling in Trusted Systems](https://fas.org/irp/nsa/rainbow/tg010.pdf)
 - [Adversaries: Know Thy Opponent (from Saydjari's book)](https://learning.oreilly.com/library/view/engineering-trustworthy-systems/9781260118186/ch6.xhtml#ch6)
 - ["Who is your opponent?" (from Anderson's book)](https://www.cl.cam.ac.uk/~rja14/Papers/SEv3-ch2-dec18.pdf)
