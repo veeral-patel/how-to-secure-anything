@@ -1085,6 +1085,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [LOMAC: Low Water-Mark Integrity Protection for Linux](https://web.archive.org/web/20110716113909/http://www.isso.sparta.com/documents/lomac.pdf)
 - [Access Control Model For Distributed Conferencing System](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.199.1609&rep=rep1&type=pdf)
 - [A Comparison of Commercial and Military Computer Security Policies](http://theory.stanford.edu/~ninghui/courses/Fall03/papers/clark_wilson.pdf)
+- [Security Policies and Security Models](https://www.cs.purdue.edu/homes/ninghui/readings/AccessControl/goguen_meseguer_82.pdf)
 
 ## Content wanted
 
