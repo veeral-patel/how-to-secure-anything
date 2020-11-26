@@ -919,7 +919,7 @@ Learning lesson: shift digital attacks to physical attacks wherever possible (an
 ### Prisons
 
 - [Jail Design Guide (National Institute of Corrections)](prisons/jail_design_guide.pdf). See Chapter 8 in particular. - [notes](prisons/jail-design-guide-notes.md)
-- [Technical Guidance for Prison Planning](https://content.unops.org/publications/Technical-guidance-Prison-Planning-2016_EN.pdf)
+- [Technical Guidance for Prison Planning](https://content.unops.org/publications/Technical-guidance-Prison-Planning-2016_EN.pdf) - [notes](prisons/technical-guidance-on-prison-planning.md)
 - [Correctional Facility Design and Detailing](https://www.amazon.com/Correctional-Facility-Design-Detailing-Krasnow/dp/0070361738)
 
 ### Voting
