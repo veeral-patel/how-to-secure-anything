@@ -4,7 +4,7 @@ Security engineering is the discipline of building secure systems.
 
 Its lessons are not just applicable to computer security. In fact, in this repo, I aim to document a process for securing anything, whether it's a medieval castle, an art museum, or a computer network.
 
-> Please contribute! Create a pull request or just [create a issue](https://github.com/veeral-patel/how-to-secure-anything/issues/new) for content you'd like to add: I'll add it for you!
+> Please contribute! Create a pull request or just [create an issue](https://github.com/veeral-patel/how-to-secure-anything/issues/new) for content you'd like to add: I'll add it for you!
 
 ## Table of contents
 
@@ -202,7 +202,7 @@ If you've achieved this low escape rate by building a fully autonomous fortress 
 
 We can then turn our policy into a more detailed model. A model is a set of rules, a specification, we can follow to achieve our policy. Our policy is our "what", the model is our "how".
 
-> Each individual in the prison facility must have a ID that identifies him/her as a "prisoner" or "not a prisoner"
+> Each individual in the prison facility must have an ID that identifies him/her as a "prisoner" or "not a prisoner"
 
 > A prisoner may have the written consent of the warden to leave.
 
@@ -1053,7 +1053,7 @@ This list is from [Science of Cybersecurity](https://scienceofcybersecurity.com/
 - [Secure Minicomputer Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a111566.pdf)
 - [Information Security: An Elusive Goal](http://www.pirp.harvard.edu/pubs_pdf/jelen/jelen-p85-8.pdf)
 - [Implementation Of A Secure Data Management System For The Secure Unix Operating System](https://apps.dtic.mil/dtic/tr/fulltext/u2/a056902.pdf)
-- [Audit and Evaluation of Computer Secuirity: System Vulnerabilities and Controls II](https://www.ncjrs.gov/pdffiles1/Digitization/76253NCJRS.pdf)
+- [Audit and Evaluation of Computer Security: System Vulnerabilities and Controls II](https://www.ncjrs.gov/pdffiles1/Digitization/76253NCJRS.pdf)
 - [Operating System Structures to Support Security and Reliable Software](http://seclab.cs.ucdavis.edu/projects/history/papers/lind76.pdf)
 - [A Provably Secure Operating System](http://seclab.cs.ucdavis.edu/projects/history/papers/neum75.pdf)
 - [Relational database access controls](https://www.profsandhu.com/articles/auerbach/a94dac.pdf)
