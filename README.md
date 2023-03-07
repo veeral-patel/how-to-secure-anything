@@ -332,6 +332,7 @@ I would go down this list and see if there's any principles which you can apply 
 - Know your threat model & update it - keep your threat model up to date with threats, and your defenses too
 - Trust only trustworthy channels - see [this article](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/trustworthy-channels.html)
 - Set up a trusted path - see [this article](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/trusted-path.html)
+- Set up a central chokepoint for access control and logging (see also reference monitor)
 
 Sources
 
